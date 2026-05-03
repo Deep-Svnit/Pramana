@@ -220,8 +220,9 @@ class ColPaliVisualIndex:
         return RetrievedChunk(
             id=f"{record.document_id}:p{record.page_number}:image",
             text=(
-                f"Visual page evidence only. Source image: {record.raw_image_path}. "
-                "Do not extract numeric values unless separate textual evidence supports them."
+                f"Visual page evidence. Source image: {record.raw_image_path}. "
+                "Read visible labels and numbers from the image when answering and cite [pN:image]. "
+                "Do not infer missing values."
             ),
             document_id=record.document_id,
             page_number=record.page_number,

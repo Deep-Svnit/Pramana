@@ -11,6 +11,7 @@ from dotenv import load_dotenv
 class RAGConfig:
     storage_dir: Path = Path("storage")
     qwen_model_path: Path = Path("Qwen")
+    qwen_vl_model_path: Path = Path("Qwen_VL")
     dense_embedding_model: str = "E5_Small"
     colpali_model_name: str = "vidore/colpali-v1.2"
     device: str = "cuda"
@@ -65,6 +66,7 @@ class RAGConfig:
         return cls(
             storage_dir=Path(os.getenv("POWERMIND_STORAGE_DIR", "storage")),
             qwen_model_path=Path(os.getenv("QWEN_MODEL_PATH", "Qwen")),
+            qwen_vl_model_path=Path(os.getenv("QWEN_VL_MODEL_PATH", "Qwen_VL")),
             dense_embedding_model=os.getenv("POWERMIND_DENSE_MODEL", "E5_Small"),
             colpali_model_name=os.getenv("POWERMIND_COLPALI_MODEL", "vidore/colpali-v1.2"),
             device=os.getenv("POWERMIND_DEVICE", "cuda"),

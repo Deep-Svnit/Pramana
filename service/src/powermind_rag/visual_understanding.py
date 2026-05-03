@@ -122,7 +122,8 @@ Return markdown only, with exactly these sections:
 
 ## Visual, Chart, And Infographic Data
 - Explain charts, graphs, maps, flowcharts, icons, callouts, legends, color labels, arrows, and layout relationships.
-- Convert visible chart or infographic values into text with exact labels, numbers, units, periods, and directions.
+- Extract all text embedded inside diagrams, shapes, banners, badges, callouts, arrows, axis ticks, legends, and data labels.
+- Convert visible chart or infographic values into text with exact labels, numbers, units, periods, directions, and comparisons.
 
 ## Tables
 - Recreate every visible table as a valid markdown table.

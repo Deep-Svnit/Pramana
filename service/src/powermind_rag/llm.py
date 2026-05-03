@@ -63,6 +63,91 @@ class LocalQwen:
             raise RuntimeError(f"No completed Qwen weight files found in {self.model_path}.{hint}")
 
 
+class LocalQwenVL:
+    def __init__(self, model_path: Path, device: str):
+        self.model_path = model_path
+        self.device = device
+        self._validate_model_files()
+        try:
+            from transformers import AutoProcessor, Qwen2_5_VLForConditionalGeneration
+        except ImportError as exc:
+            raise RuntimeError(
+                "Install a recent transformers build that includes Qwen2.5-VL support."
+            ) from exc
+        self.processor = AutoProcessor.from_pretrained(str(model_path))
+        model_kwargs = {
+            "torch_dtype": "auto",
+            "device_map": "auto" if device == "cuda" else None,
+        }
+        self.model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
+            str(model_path),
+            **{k: v for k, v in model_kwargs.items() if v is not None},
+        )
+        if device == "cpu":
+            self.model.to("cpu")
+
+    def generate(self, system: str, user: str, max_new_tokens: int = 512) -> str:
+        return self.generate_with_images(system, user, [], max_new_tokens)
+
+    def generate_with_images(
+        self,
+        system: str,
+        user: str,
+        image_paths: list[Path],
+        max_new_tokens: int = 512,
+    ) -> str:
+        try:
+            from qwen_vl_utils import process_vision_info
+        except ImportError as exc:
+            raise RuntimeError("Install qwen-vl-utils to use local Qwen-VL.") from exc
+
+        content = []
+        for image_path in image_paths:
+            content.append({"type": "image", "image": str(image_path)})
+        content.append({"type": "text", "text": user})
+        messages = [
+            {"role": "system", "content": system},
+            {"role": "user", "content": content},
+        ]
+        prompt = self.processor.apply_chat_template(
+            messages,
+            tokenize=False,
+            add_generation_prompt=True,
+        )
+        image_inputs, video_inputs = process_vision_info(messages)
+        inputs = self.processor(
+            text=[prompt],
+            images=image_inputs,
+            videos=video_inputs,
+            padding=True,
+            return_tensors="pt",
+        )
+        target_device = "cuda" if self.device == "cuda" else "cpu"
+        inputs = inputs.to(target_device)
+        generated_ids = self.model.generate(**inputs, max_new_tokens=max_new_tokens)
+        trimmed = [
+            out_ids[len(in_ids) :]
+            for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
+        ]
+        output_text = self.processor.batch_decode(
+            trimmed,
+            skip_special_tokens=True,
+            clean_up_tokenization_spaces=False,
+        )
+        return output_text[0].strip()
+
+    def _validate_model_files(self) -> None:
+        if not self.model_path.exists():
+            raise RuntimeError(f"Qwen-VL model path does not exist: {self.model_path}")
+        weight_files = list(self.model_path.glob("*.safetensors")) + list(self.model_path.glob("*.bin"))
+        if not weight_files:
+            partial = list(self.model_path.glob("*.crdownload"))
+            hint = " Partial browser downloads are present." if partial else ""
+            raise RuntimeError(
+                f"No completed Qwen-VL weight files found in {self.model_path}.{hint}"
+            )
+
+
 class GroqChatLLM:
     def __init__(self, api_key: str | None, model_name: str):
         if not api_key:

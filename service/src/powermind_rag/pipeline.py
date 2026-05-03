@@ -15,6 +15,7 @@ from powermind_rag.llm import (
     GeminiChatLLM,
     GroqChatLLM,
     LocalQwen,
+    LocalQwenVL,
     NvidiaChatLLM,
     OpenRouterChatLLM,
     PropositionChunker,
@@ -32,6 +33,7 @@ from powermind_rag.visual_understanding import NvidiaVisualPageAnalyzer
 NOT_FOUND = "Not found in the document."
 FALLBACK_NOT_FOUND = "Fallback: Not found in the document."
 MAX_VISUAL_EVIDENCE_PAGES = 1
+MAX_GENERATION_CHARS_PER_CHUNK = 1400
 TIMING_KEYS = (
     "storage_load",
     "query_expansion",
@@ -193,6 +195,7 @@ class MultimodalRAGPipeline:
         text_fusion_start = perf_counter()
         text_hits = reciprocal_rank_fusion([keyword_hits, bm25_hits, dense_hits], k=self.config.rrf_k)
         timings["text_rrf"] = perf_counter() - text_fusion_start
+        text_page_hints = _ranked_text_pages(text_hits, MAX_VISUAL_EVIDENCE_PAGES)
         visual_start = perf_counter()
         if self.config.local_only or self.visual_index is None:
             visual_hits = []
@@ -220,11 +223,19 @@ class MultimodalRAGPipeline:
                 graded = _lexical_crag_grade(query, candidates)
             timings["relevance_grading"] = perf_counter() - grade_start
         supported = [chunk for chunk, score in graded if score >= self.config.relevance_threshold]
+        image_fallback = []
+        if self._can_generate_from_images():
+            image_fallback = _related_visual_evidence(candidates, [], text_page_hints)
+
         if not supported:
+            if image_fallback:
+                image_answer = self._generate_image_fallback(query, image_fallback)
+                if image_answer.strip() != NOT_FOUND:
+                    return finalize(text=image_answer, retrieved=image_fallback, is_fallback=False)
             return finalize(text=NOT_FOUND, retrieved=candidates, is_fallback=False)
 
         text_evidence = [chunk for chunk in supported if chunk.modality == "text"]
-        visual_evidence = _related_visual_evidence(candidates, text_evidence)
+        visual_evidence = _related_visual_evidence(candidates, text_evidence, text_page_hints)
         if not text_evidence and not self._can_generate_from_images():
             return finalize(text=FALLBACK_NOT_FOUND, retrieved=supported, is_fallback=True)
 
@@ -249,6 +260,10 @@ class MultimodalRAGPipeline:
             timings["generation"] = perf_counter() - generation_start
             answer = self._extractive_local_answer(query, text_evidence, exc)
         if answer.strip() == NOT_FOUND:
+            if image_fallback:
+                image_answer = self._generate_image_fallback(query, image_fallback)
+                if image_answer.strip() != NOT_FOUND:
+                    return finalize(text=image_answer, retrieved=image_fallback, is_fallback=False)
             return finalize(text=NOT_FOUND, retrieved=text_evidence, is_fallback=False)
 
         if self.config.local_only:
@@ -278,7 +293,9 @@ class MultimodalRAGPipeline:
 
     def _generate_grounded_answer(self, query: str, chunks: list[RetrievedChunk]) -> str:
         chunks = _generation_context_chunks(chunks)
-        context_lines = [f"{chunk.citation} {chunk.text}" for chunk in chunks]
+        context_lines = [
+            f"{chunk.citation} {_trim_generation_text(chunk.text)}" for chunk in chunks
+        ]
         image_paths = [
             Path(path)
             for chunk in chunks
@@ -291,8 +308,10 @@ Answer the query using ONLY the retrieved context below.
 Search the context for the exact entities, labels, and numbers requested by the query.
 Work through the chunks in order; if the answer is not found early, continue to later chunks before concluding.
 Every factual statement and every number must have a citation in the exact format [pN:cK].
-If retrieved page images are attached, you may read visible labels and numbers from those images (including charts and infographics) and cite them with [pN:image].
+If retrieved page images are attached, read ALL visible text in the image (titles, legends, callouts, labels inside shapes, axis ticks, footnotes, table cells) and cite those findings with [pN:image].
+For charts, infographics, and flowcharts, map labels to exact values, units, directions, and relationships as shown in the image.
 Do not infer missing numbers or labels. Do not use outside knowledge.
+If a value is unreadable or ambiguous, return {NOT_FOUND} rather than guessing.
 If the context does not explicitly support the answer, return exactly: {NOT_FOUND}
 
 QUERY:
@@ -307,7 +326,8 @@ RETRIEVED CONTEXT:
                 system=(
                     "You are a grounded document QA model with zero hallucination tolerance. "
                     "Use only the provided text and attached page images. "
-                    "Extract exact labels and numeric values from charts and infographics when needed. "
+                    "Read embedded image text (titles, legends, callouts, labels inside shapes, axis ticks, tables). "
+                    "Extract exact labels and numeric values from charts and infographics. "
                     "Never guess or smooth numbers."
                 ),
                 user=user,
@@ -324,8 +344,42 @@ RETRIEVED CONTEXT:
             max_new_tokens=512,
         )
 
+    def _generate_image_fallback(self, query: str, image_chunks: list[RetrievedChunk]) -> str:
+        image_paths = [
+            Path(path)
+            for chunk in image_chunks
+            for path in [chunk.metadata.get("raw_image_path")]
+            if path
+        ][:MAX_VISUAL_EVIDENCE_PAGES]
+        if not image_paths:
+            return NOT_FOUND
+        page_list = ", ".join(f"p{chunk.page_number}" for chunk in image_chunks[:len(image_paths)])
+        user = f"""
+Answer the query using ONLY the attached page images.
+The attached images are in order: {page_list}.
+Read embedded image text (titles, callouts, labels inside shapes, axis ticks, legends, and tables).
+Extract exact labels and numeric values shown in the image.
+If the answer is not explicitly visible in the images, return exactly: {NOT_FOUND}
+
+QUERY:
+{query}
+""".strip()
+        generator = self._generation_llm()
+        if hasattr(generator, "generate_with_images"):
+            return generator.generate_with_images(
+                system=(
+                    "You are a grounded document QA model with zero hallucination tolerance. "
+                    "Use only the attached page images. "
+                    "Never guess or smooth numbers."
+                ),
+                user=user,
+                image_paths=image_paths,
+                max_new_tokens=512,
+            )
+        return NOT_FOUND
+
     def _can_generate_from_images(self) -> bool:
-        return self.config.generation_provider == "nvidia"
+        return self.config.generation_provider in {"nvidia", "qwen_vl", "qwen-vl"}
 
     def _extractive_local_answer(self, query: str, chunks: list[RetrievedChunk], exc: Exception) -> str:
         excerpts = []
@@ -416,11 +470,13 @@ RETRIEVED CONTEXT:
                     model_name=self.config.nvidia_generation_model,
                     base_url=self.config.nvidia_vlm_base_url,
                 )
+            elif self.config.generation_provider in {"qwen_vl", "qwen-vl"}:
+                self.generator = LocalQwenVL(self.config.qwen_vl_model_path, device=self.device)
             elif self.config.generation_provider in {"local", "qwen"}:
                 self.generator = LocalQwen(self.config.qwen_model_path, device=self.device)
             else:
                 raise RuntimeError(
-                    "Unsupported POWERMIND_GENERATION_PROVIDER. Use 'local', 'groq', 'openrouter', or 'nvidia'."
+                    "Unsupported POWERMIND_GENERATION_PROVIDER. Use 'local', 'groq', 'openrouter', 'nvidia', or 'qwen_vl'."
                 )
         return self.generator
 
@@ -627,8 +683,9 @@ def _lexical_crag_grade(query: str, chunks: list[RetrievedChunk]) -> list[tuple[
 def _related_visual_evidence(
     candidates: list[RetrievedChunk],
     text_evidence: list[RetrievedChunk],
+    page_hints: list[tuple[str, int]] | None = None,
 ) -> list[RetrievedChunk]:
-    evidence_pages = []
+    evidence_pages = list(page_hints or [])
     for chunk in text_evidence:
         page_key = (chunk.document_id, chunk.page_number)
         if page_key not in evidence_pages:
@@ -677,3 +734,24 @@ def _generation_context_chunks(chunks: list[RetrievedChunk]) -> list[RetrievedCh
     text_chunks = [chunk for chunk in chunks if chunk.modality == "text"]
     image_chunks = [chunk for chunk in chunks if chunk.modality == "image"]
     return text_chunks[:5] + image_chunks[:MAX_VISUAL_EVIDENCE_PAGES]
+
+
+def _trim_generation_text(text: str) -> str:
+    clean = " ".join(text.split())
+    if len(clean) <= MAX_GENERATION_CHARS_PER_CHUNK:
+        return clean
+    return clean[: MAX_GENERATION_CHARS_PER_CHUNK - 3].rstrip() + "..."
+
+
+def _ranked_text_pages(
+    text_hits: list[RetrievedChunk],
+    limit: int,
+) -> list[tuple[str, int]]:
+    pages: list[tuple[str, int]] = []
+    for chunk in text_hits:
+        page_key = (chunk.document_id, chunk.page_number)
+        if page_key not in pages:
+            pages.append(page_key)
+        if len(pages) >= limit:
+            break
+    return pages
