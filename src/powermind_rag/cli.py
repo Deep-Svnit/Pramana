@@ -15,6 +15,7 @@ DEFAULT_QUESTIONS = [
     ("Q4", "What is the CEO's email address?"),
     ("Q5 Part 1", "Summarize airport performance in H1-26."),
     ("Q5 Part 2", "Break airport performance in H1-26 down into passenger and cargo changes."),
+    ("Q6", "What operational metrics are mentioned for airport performance in H1-26?"),
 ]
 
 
@@ -36,6 +37,7 @@ def main() -> None:
 
     ask = sub.add_parser("ask")
     ask.add_argument("query")
+    ask.add_argument("--show-timings", action="store_true")
 
     ask_batch = sub.add_parser("ask-batch")
     ask_batch.add_argument("--output", type=Path, default=Path("outputs/qa_results.md"))
@@ -60,6 +62,8 @@ def main() -> None:
         pipeline.load_from_storage()
         answer = pipeline.answer(args.query)
         print(answer.text)
+        if args.show_timings:
+            print(_format_timing_summary(answer.timings))
     elif args.command == "ask-batch":
         print("Loading RAG pipeline for batch questions...", flush=True)
         pipeline = MultimodalRAGPipeline(RAGConfig.from_env())
@@ -102,6 +106,7 @@ def main() -> None:
                         for chunk in answer.retrieved
                     ],
                     "verifier_report": answer.verifier_report,
+                    "timings": answer.timings,
                 }
             )
         args.output.write_text(_format_markdown(results), encoding="utf-8")
@@ -125,9 +130,37 @@ def _format_markdown(results: list[dict]) -> str:
                 "",
                 f"**Citations:** {', '.join(item['citations']) if item['citations'] else 'None'}",
                 "",
+                f"**Timing:** {_format_timing_summary(item.get('timings', {}))}",
+                "",
             ]
         )
     return "\n".join(lines)
+
+
+def _format_timing_summary(timings: dict[str, float]) -> str:
+    total = timings.get("total", 0.0)
+    if total <= 0:
+        return "Unavailable"
+    ordered = [
+        ("storage_load", "storage load"),
+        ("query_expansion", "query expansion"),
+        ("bm25_retrieval", "bm25 retrieval"),
+        ("dense_retrieval", "dense retrieval"),
+        ("keyword_retrieval", "keyword retrieval"),
+        ("text_rrf", "text fusion"),
+        ("visual_retrieval", "visual retrieval"),
+        ("final_rrf", "final fusion"),
+        ("relevance_grading", "relevance grading"),
+        ("generation", "generation"),
+        ("verification", "verification"),
+    ]
+    parts = [f"total {total * 1000:.1f} ms"]
+    for key, label in ordered:
+        value = timings.get(key, 0.0)
+        if value <= 0:
+            continue
+        parts.append(f"{label} {value * 1000:.1f} ms")
+    return "; ".join(parts)
 
 
 main()

@@ -29,6 +29,11 @@ class ColPaliVisualIndex:
             nested = getattr(self.model, "model", self.model)
             if hasattr(nested, "to"):
                 nested.to(device)
+        except Exception as exc:
+            raise RuntimeError(
+                "Failed to load the ColPali visual model. The visual index is required for the strict RAG architecture, "
+                "so fix the ColPali/byaldi/peft/transformers environment before running queries."
+            ) from exc
         self.records: list[VisualPageRecord] = []
         self.faiss: FaissStore[VisualPageRecord] | None = None
 

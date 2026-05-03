@@ -2,11 +2,11 @@ from __future__ import annotations
 
 import re
 from collections import defaultdict
+from time import perf_counter
 from pathlib import Path
 
 from powermind_rag.config import RAGConfig
 from powermind_rag.device import resolve_device
-from powermind_rag.document import document_id_for, extract_pdf_text, render_pdf_pages
 from powermind_rag.embeddings import DenseEmbedder
 from powermind_rag.llm import LocalQwen, PropositionChunker
 from powermind_rag.ocr import MistralTableOCR
@@ -20,6 +20,20 @@ from powermind_rag.visual_index import ColPaliVisualIndex, load_visual_records
 
 NOT_FOUND = "Not found in the document."
 FALLBACK_NOT_FOUND = "Fallback: Not found in the document."
+TIMING_KEYS = (
+    "storage_load",
+    "query_expansion",
+    "bm25_retrieval",
+    "dense_retrieval",
+    "keyword_retrieval",
+    "text_rrf",
+    "visual_retrieval",
+    "final_rrf",
+    "relevance_grading",
+    "generation",
+    "verification",
+    "total",
+)
 
 
 class MultimodalRAGPipeline:
@@ -44,6 +58,8 @@ class MultimodalRAGPipeline:
         context: str,
         metadata: dict | None = None,
     ) -> None:
+        from powermind_rag.document import document_id_for, extract_pdf_text, render_pdf_pages
+
         document_id = document_id_for(pdf_path)
         base_dir = self.config.storage_dir / document_id
         tables_by_page = defaultdict(str)
@@ -111,66 +127,96 @@ class MultimodalRAGPipeline:
             self._visual_index().load_records(visual_records)
 
     def answer(self, query: str) -> Answer:
+        timings = {name: 0.0 for name in TIMING_KEYS}
+        total_start = perf_counter()
+
+        def finalize(**kwargs) -> Answer:
+            timings["total"] = perf_counter() - total_start
+            return Answer(timings=dict(timings), **kwargs)
+
         if not self.text_records:
+            load_start = perf_counter()
             self.load_from_storage()
+            timings["storage_load"] = perf_counter() - load_start
+        expansion_start = perf_counter()
         expanded_query, keyword_terms = _expand_query(query)
+        timings["query_expansion"] = perf_counter() - expansion_start
         text_top_k = max(self.config.text_top_k, 30) if self.config.local_only else self.config.text_top_k
         final_top_k = max(self.config.final_top_k, 20) if self.config.local_only else self.config.final_top_k
+        bm25_start = perf_counter()
         bm25_hits = self.text_index.bm25_search(expanded_query, text_top_k)
+        timings["bm25_retrieval"] = perf_counter() - bm25_start
+        dense_start = perf_counter()
         dense_hits = self.text_index.dense_search(expanded_query, text_top_k)
+        timings["dense_retrieval"] = perf_counter() - dense_start
+        keyword_start = perf_counter()
         keyword_hits = self.text_index.keyword_search(keyword_terms, text_top_k)
+        timings["keyword_retrieval"] = perf_counter() - keyword_start
+        text_fusion_start = perf_counter()
         text_hits = reciprocal_rank_fusion([keyword_hits, bm25_hits, dense_hits], k=self.config.rrf_k)
+        timings["text_rrf"] = perf_counter() - text_fusion_start
+        visual_start = perf_counter()
         visual_hits = [] if self.config.local_only else self._visual_index().search(query, self.config.visual_top_k)
+        timings["visual_retrieval"] = perf_counter() - visual_start
+        final_fusion_start = perf_counter()
         candidates = reciprocal_rank_fusion([text_hits, visual_hits], k=self.config.rrf_k)[
             : final_top_k
         ]
+        timings["final_rrf"] = perf_counter() - final_fusion_start
 
         if self.config.local_only:
             graded = [(chunk, 1.0) for chunk in candidates]
         else:
+            grade_start = perf_counter()
             graded = self._relevance().grade(query, candidates)
+            timings["relevance_grading"] = perf_counter() - grade_start
         supported = [chunk for chunk, score in graded if score >= self.config.relevance_threshold]
         if not supported:
-            return Answer(text=NOT_FOUND, retrieved=candidates, is_fallback=False)
+            return finalize(text=NOT_FOUND, retrieved=candidates, is_fallback=False)
 
         text_evidence = [chunk for chunk in supported if chunk.modality == "text"]
         if not text_evidence:
-            return Answer(text=FALLBACK_NOT_FOUND, retrieved=supported, is_fallback=True)
+            return finalize(text=FALLBACK_NOT_FOUND, retrieved=supported, is_fallback=True)
 
         if self.config.local_only:
             deterministic = _deterministic_local_answer(query, text_evidence)
             if deterministic is not None:
-                return Answer(
+                return finalize(
                     text=deterministic,
                     retrieved=text_evidence,
                     verifier_report={"skipped": "POWERMIND_LOCAL_ONLY disables external verification."},
                 )
 
         try:
+            generation_start = perf_counter()
             answer = self._generate_grounded_answer(query, text_evidence)
+            timings["generation"] = perf_counter() - generation_start
         except Exception as exc:
             if not self.config.local_only:
                 raise
+            timings["generation"] = perf_counter() - generation_start
             answer = self._extractive_local_answer(query, text_evidence, exc)
         if answer.strip() == NOT_FOUND:
-            return Answer(text=NOT_FOUND, retrieved=text_evidence, is_fallback=False)
+            return finalize(text=NOT_FOUND, retrieved=text_evidence, is_fallback=False)
 
         if self.config.local_only:
-            return Answer(
+            return finalize(
                 text=answer,
                 retrieved=text_evidence,
                 verifier_report={"skipped": "POWERMIND_LOCAL_ONLY disables external verification."},
             )
 
+        verification_start = perf_counter()
         verifier_report = self._verifier().verify(answer, [chunk.text for chunk in text_evidence])
+        timings["verification"] = perf_counter() - verification_start
         if LettuceClaimVerifier.has_unsupported_content(verifier_report):
-            return Answer(
+            return finalize(
                 text=FALLBACK_NOT_FOUND,
                 retrieved=text_evidence,
                 is_fallback=True,
                 verifier_report=verifier_report,
             )
-        return Answer(text=answer, retrieved=text_evidence, verifier_report=verifier_report)
+        return finalize(text=answer, retrieved=text_evidence, verifier_report=verifier_report)
 
     def _generate_grounded_answer(self, query: str, chunks: list[RetrievedChunk]) -> str:
         context_lines = [f"{chunk.citation} {chunk.text}" for chunk in chunks]

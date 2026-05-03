@@ -112,6 +112,8 @@ set PYTHONDONTWRITEBYTECODE=1
 python -m powermind_rag.cli ask "What is the consolidated total income in H1-26?"
 ```
 
+Add `--show-timings` to print the component-wise response-time breakdown for the same query.
+
 ### Run The Provided Question Set
 
 ```cmd

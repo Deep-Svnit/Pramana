@@ -53,3 +53,4 @@ class Answer:
     retrieved: list[RetrievedChunk]
     is_fallback: bool = False
     verifier_report: dict[str, Any] = field(default_factory=dict)
+    timings: dict[str, float] = field(default_factory=dict)
