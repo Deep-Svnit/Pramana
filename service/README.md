@@ -3,6 +3,7 @@
 Strict implementation of the requested architecture:
 
 - Dual ingestion:
+<<<<<<< HEAD
   - Visual pages rendered to images, embedded with ColPali through `byaldi`, and stored in FAISS.
   - Text plus Mistral OCR table Markdown converted into LLM-generated atomic propositions.
 - Dual indexing:
@@ -20,6 +21,25 @@ Strict implementation of the requested architecture:
   - Local Qwen only.
   - Citations like `[p3:c12]`.
   - Unsupported answers return `Not found in the document.`
+=======
+	- Visual pages rendered to images, embedded with ColPali through `byaldi`, and stored in FAISS.
+	- Text plus Mistral OCR table Markdown converted into LLM-generated atomic propositions.
+- Dual indexing:
+	- Visual FAISS page index.
+	- Hybrid text index with BM25 plus E5 Small dense FAISS.
+- Retrieval:
+	- Visual retrieval.
+	- BM25 retrieval.
+	- Dense retrieval.
+	- Reciprocal Rank Fusion using `1 / (60 + rank)` with no normalization or weighted averaging.
+- CRAG:
+	- Relevance grader before generation.
+	- LettuceDetect after generation.
+- Generation:
+	- Local Qwen only.
+	- Citations like `[p3:c12]`.
+	- Unsupported answers return `Not found in the document.`
+>>>>>>> 67292228a7704d55a65553d6e8f1d814dd93d553
 
 ## Runtime Requirements
 
@@ -152,6 +172,7 @@ To run the testcases and generate results, use the batch runner script. By defau
 conda activate powermind_rtx5050
 set POWERMIND_LOCAL_ONLY=1
 set PYTHONDONTWRITEBYTECODE=1
+<<<<<<< HEAD
 set POWERMIND_STORAGE_DIR=.\storage
 python ..\scripts\run_batch_from_test_cases.py
 ```
@@ -164,12 +185,30 @@ The script will:
    - `qa_results.json`: Machine-readable JSON format with detailed metadata, timings, and verifier reports
 
 **To customize the number of questions per category**, edit `run_batch_from_test_cases.py` and change the `max_per_category` variable:
+=======
+set POWERMIND_STORAGE_DIR=.\service\storage
+python .\scripts\run_batch_from_test_cases.py
+```
+
+The script will:
+1. Load all questions from `service/test_cases.json` organized by category
+2. Execute 3 questions from each category (customizable in the script)
+3. Generate two output files in `service/outputs/`:
+   - `qa_results.md`: Human-readable markdown format with answers and citations
+   - `qa_results.json`: Machine-readable JSON format with detailed metadata, timings, and verifier reports
+
+**To customize the number of questions per category**, edit `scripts/run_batch_from_test_cases.py` and change the `max_per_category` variable:
+>>>>>>> 67292228a7704d55a65553d6e8f1d814dd93d553
 
 ```python
 max_per_category = 3  # Change this number
 ```
 
+<<<<<<< HEAD
 **To add more test questions**, simply add them to the appropriate section in `test_cases.json` following the same structure:
+=======
+**To add more test questions**, simply add them to the appropriate section in `service/test_cases.json` following the same structure:
+>>>>>>> 67292228a7704d55a65553d6e8f1d814dd93d553
 
 ```json
 {

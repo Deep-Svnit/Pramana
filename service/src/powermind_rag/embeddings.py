@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+<<<<<<< HEAD
 from pathlib import Path
 
 import numpy as np
@@ -7,10 +8,15 @@ from sentence_transformers import SentenceTransformer
 import torch
 import torch.nn.functional as F
 from transformers import AutoModel, AutoTokenizer
+=======
+import numpy as np
+from sentence_transformers import SentenceTransformer
+>>>>>>> 67292228a7704d55a65553d6e8f1d814dd93d553
 
 
 class DenseEmbedder:
     def __init__(self, model_name: str, device: str):
+<<<<<<< HEAD
         self.model_name = model_name
         self.device = device
         self._direct_e5 = _is_e5_model(model_name)
@@ -45,11 +51,18 @@ class DenseEmbedder:
             normalize_embeddings=True,
             show_progress_bar=False,
         )
+=======
+        self.model = SentenceTransformer(model_name, device=device)
+
+    def encode(self, texts: list[str]) -> np.ndarray:
+        vectors = self.model.encode(texts, normalize_embeddings=True, show_progress_bar=False)
+>>>>>>> 67292228a7704d55a65553d6e8f1d814dd93d553
         return np.asarray(vectors, dtype="float32")
 
     @property
     def dimension(self) -> int:
         return int(self.encode(["dimension probe"]).shape[1])
+<<<<<<< HEAD
 
     def _prepare(self, texts: list[str], prefix: str) -> list[str]:
         if not _is_e5_model(self.model_name):
@@ -92,3 +105,5 @@ def _resolve_local_model_path(model_name: str) -> Path:
     if repo_root_path.exists():
         return repo_root_path
     return path
+=======
+>>>>>>> 67292228a7704d55a65553d6e8f1d814dd93d553

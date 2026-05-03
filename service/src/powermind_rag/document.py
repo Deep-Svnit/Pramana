@@ -4,9 +4,14 @@ import re
 from dataclasses import dataclass
 from pathlib import Path
 
+<<<<<<< HEAD
 import pymupdf as fitz
 from pdf2image import convert_from_path
 from pdf2image.exceptions import PDFInfoNotInstalledError
+=======
+import fitz
+from pdf2image import convert_from_path
+>>>>>>> 67292228a7704d55a65553d6e8f1d814dd93d553
 
 
 @dataclass(frozen=True)
@@ -21,6 +26,7 @@ def document_id_for(path: Path) -> str:
 
 def render_pdf_pages(pdf_path: Path, output_dir: Path, dpi: int = 200) -> list[Path]:
     output_dir.mkdir(parents=True, exist_ok=True)
+<<<<<<< HEAD
     existing = sorted(output_dir.glob("page_*.png"))
     try:
         page_count = fitz.open(pdf_path).page_count
@@ -49,6 +55,15 @@ def render_pdf_pages(pdf_path: Path, output_dir: Path, dpi: int = 200) -> list[P
             pix.save(str(out))
             image_paths.append(out)
         return image_paths
+=======
+    images = convert_from_path(str(pdf_path), dpi=dpi)
+    image_paths: list[Path] = []
+    for index, image in enumerate(images, start=1):
+        out = output_dir / f"page_{index:04d}.png"
+        image.save(out)
+        image_paths.append(out)
+    return image_paths
+>>>>>>> 67292228a7704d55a65553d6e8f1d814dd93d553
 
 
 def extract_pdf_text(pdf_path: Path) -> list[PageText]:

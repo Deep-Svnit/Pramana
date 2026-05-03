@@ -1,5 +1,6 @@
 # PowerMind RAG Question Results
 
+<<<<<<< HEAD
 ## TEXTUAL-1
 
 **Question:** In Note 7 of the consolidated financial results, what was the exact legal body in the United States that filed the indictment against the executive director of AEL, and in which specific district court was this case filed?
@@ -604,6 +605,9 @@ The formula for Long Term Debt to Working Capital ratio is: (Non-Current Borrowi
 **Citations:** [p1:c10], [p2:c23], [p17:c59], [p3:c8], [p2:c22], [p17:c60], [p23:c73], [p9:c108], [p18:c61], [p3:c6], [p7:c25], [p1:c1], [p18:c221], [p28:c329], [p1:c14], [p25:c78], [p18:c62], [p4:c55], [p22:c71], [p19:c226]
 
 ## BATCH-61
+=======
+## Q1
+>>>>>>> 67292228a7704d55a65553d6e8f1d814dd93d553
 
 **Question:** What are the major business segments discussed in the document?
 
@@ -613,7 +617,11 @@ The formula for Long Term Debt to Working Capital ratio is: (Non-Current Borrowi
 
 **Citations:** [p3:c5], [p4:c35], [p2:c3], [p11:c44], [p10:c43], [p7:c92], [p28:c82], [p38:c106], [p6:c83], [p2:c23], [p8:c99], [p3:c27], [p6:c22], [p6:c21], [p4:c33], [p13:c48], [p8:c100], [p8:c101], [p6:c85], [p26:c79]
 
+<<<<<<< HEAD
 ## BATCH-62
+=======
+## Q2
+>>>>>>> 67292228a7704d55a65553d6e8f1d814dd93d553
 
 **Question:** What is the consolidated total income in H1-26?
 
@@ -623,7 +631,11 @@ The formula for Long Term Debt to Working Capital ratio is: (Non-Current Borrowi
 
 **Citations:** [p1:c10], [p22:c71], [p23:c73], [p2:c23], [p9:c108], [p2:c22], [p16:c204], [p2:c4], [p18:c221], [p3:c8], [p2:c2], [p17:c60], [p3:c5], [p4:c59], [p11:c135], [p10:c119], [p22:c72], [p20:c243], [p20:c69], [p17:c59]
 
+<<<<<<< HEAD
 ## BATCH-63
+=======
+## Q3
+>>>>>>> 67292228a7704d55a65553d6e8f1d814dd93d553
 
 **Question:** What drivers are mentioned for EBITDA changes in H1-26?
 
@@ -633,7 +645,11 @@ The formula for Long Term Debt to Working Capital ratio is: (Non-Current Borrowi
 
 **Citations:** [p2:c2], [p22:c71], [p23:c73], [p2:c3], [p1:c14], [p22:c269], [p20:c69], [p3:c6], [p3:c5], [p22:c72], [p1:c8], [p7:c25], [p21:c263], [p3:c8], [p13:c173], [p15:c198], [p1:c11], [p11:c44], [p2:c22], [p1:c2]
 
+<<<<<<< HEAD
 ## BATCH-64
+=======
+## Q4
+>>>>>>> 67292228a7704d55a65553d6e8f1d814dd93d553
 
 **Question:** What is the CEO's email address?
 
@@ -643,7 +659,11 @@ The formula for Long Term Debt to Working Capital ratio is: (Non-Current Borrowi
 
 **Citations:** [p26:c312], [p3:c23], [p7:c97], [p4:c31], [p20:c244], [p24:c278], [p11:c137], [p2:c19], [p2:c19], [p2:c21], [p1:c4], [p24:c289], [p32:c356], [p26:c318], [p4:c36], [p12:c164], [p1:c7], [p24:c293], [p8:c98], [p1:c2]
 
+<<<<<<< HEAD
 ## BATCH-65
+=======
+## Q5 Part 1
+>>>>>>> 67292228a7704d55a65553d6e8f1d814dd93d553
 
 **Question:** Summarize airport performance in H1-26.
 
@@ -652,3 +672,16 @@ The formula for Long Term Debt to Working Capital ratio is: (Non-Current Borrowi
 **Fallback:** False
 
 **Citations:** [p16:c57], [p17:c59], [p3:c6], [p32:c91], [p1:c14], [p18:c61], [p13:c48], [p2:c24], [p3:c8], [p25:c76], [p17:c60], [p3:c27], [p16:c58], [p6:c22], [p1:c16], [p3:c28], [p6:c85], [p28:c82], [p7:c91], [p5:c76]
+<<<<<<< HEAD
+=======
+
+## Q5 Part 2
+
+**Question:** Break airport performance in H1-26 down into passenger and cargo changes.
+
+**Answer:** Airport passenger movement increased from 45.1 million in H1-25 to 46.0 million in H1-26, up 2%. Cargo increased from 5.5 lakh MT in H1-25 to 5.7 lakh MT in H1-26, up 4% [p2:c24]. The airport volume-detail table also reports total passengers of 46.0 million and cargo of 5.7 lakh MT in H1-26 [p32:c91].
+
+**Fallback:** False
+
+**Citations:** [p16:c57], [p17:c59], [p32:c91], [p3:c6], [p13:c48], [p18:c61], [p2:c24], [p1:c14], [p17:c60], [p3:c8], [p25:c76], [p16:c58], [p3:c27], [p6:c85], [p3:c28], [p6:c22], [p1:c16], [p22:c71], [p3:c5], [p2:c2]
+>>>>>>> 67292228a7704d55a65553d6e8f1d814dd93d553

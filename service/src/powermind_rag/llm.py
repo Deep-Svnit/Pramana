@@ -1,21 +1,28 @@
 from __future__ import annotations
 
 import json
+<<<<<<< HEAD
 import re
 from urllib.error import HTTPError
 from pathlib import Path
 from typing import Protocol
 from urllib import parse, request
+=======
+from pathlib import Path
+>>>>>>> 67292228a7704d55a65553d6e8f1d814dd93d553
 
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 
+<<<<<<< HEAD
 class ChatLLM(Protocol):
     def generate(self, system: str, user: str, max_new_tokens: int = 512) -> str:
         ...
 
 
+=======
+>>>>>>> 67292228a7704d55a65553d6e8f1d814dd93d553
 class LocalQwen:
     def __init__(self, model_path: Path, device: str):
         self.model_path = model_path
@@ -61,6 +68,7 @@ class LocalQwen:
             raise RuntimeError(f"No completed Qwen weight files found in {self.model_path}.{hint}")
 
 
+<<<<<<< HEAD
 class GroqChatLLM:
     def __init__(self, api_key: str | None, model_name: str):
         if not api_key:
@@ -137,6 +145,10 @@ class FallbackChatLLM:
 
 class PropositionChunker:
     def __init__(self, llm: ChatLLM):
+=======
+class PropositionChunker:
+    def __init__(self, llm: LocalQwen):
+>>>>>>> 67292228a7704d55a65553d6e8f1d814dd93d553
         self.llm = llm
 
     def chunk(self, page_text: str, table_markdown: str, doc_type: str, section: str, context: str) -> list[str]:
@@ -155,6 +167,7 @@ Context: {context}
 SOURCE:
 {source}
 """.strip()
+<<<<<<< HEAD
         raw = ""
         for max_new_tokens in (4096, 8192):
             raw = self.llm.generate(
@@ -186,3 +199,17 @@ def _extract_json_array(text: str) -> str:
     if start >= 0 and end > start:
         return clean[start : end + 1]
     return clean
+=======
+        raw = self.llm.generate(
+            system="You produce faithful JSON only. No markdown fences.",
+            user=user,
+            max_new_tokens=1200,
+        )
+        try:
+            parsed = json.loads(raw)
+        except json.JSONDecodeError as exc:
+            raise RuntimeError(f"Proposition chunking did not return valid JSON: {raw[:500]}") from exc
+        if not isinstance(parsed, list) or not all(isinstance(item, str) for item in parsed):
+            raise RuntimeError("Proposition chunking must return a JSON array of strings.")
+        return [item.strip() for item in parsed if item.strip()]
+>>>>>>> 67292228a7704d55a65553d6e8f1d814dd93d553

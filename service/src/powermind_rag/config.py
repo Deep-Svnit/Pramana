@@ -10,7 +10,11 @@ from dotenv import load_dotenv
 class RAGConfig:
     storage_dir: Path = Path("storage")
     qwen_model_path: Path = Path("Qwen")
+<<<<<<< HEAD
     dense_embedding_model: str = "E5_Small"
+=======
+    dense_embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
+>>>>>>> 67292228a7704d55a65553d6e8f1d814dd93d553
     colpali_model_name: str = "vidore/colpali-v1.2"
     device: str = "cuda"
     cuda_arch: str = "sm_120"
@@ -22,6 +26,7 @@ class RAGConfig:
     mistral_api_key: str | None = None
     mistral_ocr_model: str = "mistral-ocr-latest"
     groq_api_key: str | None = None
+<<<<<<< HEAD
     gemini_api_key: str | None = None
     gemini_api_key_2: str | None = None
     relevance_provider: str = "gemini"
@@ -34,6 +39,9 @@ class RAGConfig:
     chunking_fallback_provider: str = "none"
     gemini_chunking_model: str = "gemini-2.5-flash"
     lettuce_model_path: str = "KRLabsOrg/lettucedect-base-modernbert-en-v1"
+=======
+    groq_relevance_model: str = "llama-3.1-8b-instant"
+>>>>>>> 67292228a7704d55a65553d6e8f1d814dd93d553
     local_only: bool = False
 
     @classmethod
@@ -44,12 +52,17 @@ class RAGConfig:
             storage_dir=Path(os.getenv("POWERMIND_STORAGE_DIR", "storage")),
             qwen_model_path=Path(os.getenv("QWEN_MODEL_PATH", "Qwen")),
             dense_embedding_model=os.getenv(
+<<<<<<< HEAD
                 "POWERMIND_DENSE_MODEL", "E5_Small"
+=======
+                "POWERMIND_DENSE_MODEL", "sentence-transformers/all-MiniLM-L6-v2"
+>>>>>>> 67292228a7704d55a65553d6e8f1d814dd93d553
             ),
             colpali_model_name=os.getenv("POWERMIND_COLPALI_MODEL", "vidore/colpali-v1.2"),
             device=os.getenv("POWERMIND_DEVICE", "cuda"),
             cuda_arch=os.getenv("POWERMIND_CUDA_ARCH", "sm_120"),
             mistral_api_key=os.getenv("MISTRAL_API_KEY"),
+<<<<<<< HEAD
             mistral_ocr_model=os.getenv("MISTRAL_OCR_MODEL", "mistral-ocr-latest"),
             groq_api_key=os.getenv("GROQ_API_KEY"),
             gemini_api_key=os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY"),
@@ -69,5 +82,9 @@ class RAGConfig:
                 "LETTUCE_MODEL_PATH",
                 "KRLabsOrg/lettucedect-base-modernbert-en-v1",
             ),
+=======
+            groq_api_key=os.getenv("GROQ_API_KEY"),
+            groq_relevance_model=os.getenv("GROQ_RELEVANCE_MODEL", "llama-3.1-8b-instant"),
+>>>>>>> 67292228a7704d55a65553d6e8f1d814dd93d553
             local_only=local_only,
         )
