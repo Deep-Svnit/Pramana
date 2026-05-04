@@ -1,7 +1,8 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
-import { ImagePlus, MoreVertical, Send } from 'lucide-react'
+import { ImagePlus, MoreVertical, Plus, Send } from 'lucide-react'
+import type { StoredChatMessage } from '@/app/page'
 
 interface Message {
   id: string
@@ -12,6 +13,9 @@ interface Message {
 
 interface ChatInterfaceProps {
   selectedSources: Array<{ id: string; name: string }>
+  initialMessages?: StoredChatMessage[]
+  onNewChat?: () => void
+  onMessagesChange?: (messages: StoredChatMessage[], titleHint: string) => void
 }
 
 const getSelectionLabel = (selectedSources: Array<{ id: string; name: string }>) => {
@@ -21,86 +25,89 @@ const getSelectionLabel = (selectedSources: Array<{ id: string; name: string }>)
   return `${selectedSources.length} files selected`
 }
 
-export default function ChatInterface({ selectedSources }: ChatInterfaceProps) {
+const greetingMessage: Message = {
+  id: '1',
+  type: 'assistant',
+  content: 'Hello! I\'m PowerMind, your RAG assistant. Upload documents first, then ask me questions about them.',
+  timestamp: new Date(),
+}
+
+const hydrateMessages = (messages: StoredChatMessage[]): Message[] =>
+  messages.map((message) => ({
+    ...message,
+    timestamp: new Date(message.timestamp),
+  }))
+
+const serializeMessages = (messages: Message[]): StoredChatMessage[] =>
+  messages.map((message) => ({
+    ...message,
+    timestamp: message.timestamp.toISOString(),
+  }))
+
+export default function ChatInterface({
+  selectedSources,
+  initialMessages = [],
+  onNewChat = () => {},
+  onMessagesChange = () => {},
+}: ChatInterfaceProps) {
   const [messages, setMessages] = useState<Message[]>([])
   const [input, setInput] = useState('')
   const [isLoading, setIsLoading] = useState(false)
   const messagesEndRef = useRef<HTMLDivElement>(null)
+  const lastSavedMessagesRef = useRef('')
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
   }
 
   useEffect(() => {
-    // Initialize greeting message on client only to avoid hydration mismatch
-    if (messages.length === 0) {
-      setMessages([
-        {
-          id: '1',
-          type: 'assistant',
-          content: 'Hello! I\'m PowerMind, your RAG assistant. Upload documents first, then ask me questions about them.',
-          timestamp: new Date(),
-        },
-      ])
-    }
-  }, [])
+    lastSavedMessagesRef.current = JSON.stringify(initialMessages)
+    setMessages(initialMessages.length > 0 ? hydrateMessages(initialMessages) : [greetingMessage])
+  }, [initialMessages])
 
   useEffect(() => {
     scrollToBottom()
   }, [messages])
 
-  const handleSendMessage = async () => {
-    if (!input.trim()) return;
+  useEffect(() => {
+    const userMessages = messages.filter((message) => message.type === 'user')
+    if (userMessages.length === 0) return
 
+    const serializedMessages = serializeMessages(messages)
+    const nextSignature = JSON.stringify(serializedMessages)
+    if (nextSignature === lastSavedMessagesRef.current) return
+
+    lastSavedMessagesRef.current = nextSignature
+    onMessagesChange(serializedMessages, userMessages[0].content)
+  }, [messages, onMessagesChange])
+
+  const handleSendMessage = async () => {
+    if (!input.trim()) return
+
+    // Add user message
     const userMessage: Message = {
       id: Date.now().toString(),
-      type: "user",
+      type: 'user',
       content: input,
       timestamp: new Date(),
-    };
+    }
 
-    setMessages((prev) => [...prev, userMessage]);
-    setIsLoading(true);
+    setMessages((prev) => [...prev, userMessage])
+    setInput('')
+    setIsLoading(true)
 
-    const currentInput = input;
-    setInput("");
-
-    try {
-      const res = await fetch("/api/chat", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ message: currentInput }),
-      });
-
-      const data = await res.json();
-
+    // Simulate API call
+    setTimeout(() => {
       const assistantMessage: Message = {
         id: (Date.now() + 1).toString(),
-        type: "assistant",
-        content: data.message,
+        type: 'assistant',
+        content: `This is a simulated response to: "${input}". In production, this would query your RAG system and retrieve relevant documents.`,
         timestamp: new Date(),
-      };
-
-      setMessages((prev) => [...prev, assistantMessage]);
-
-    } catch (error) {
-      console.error(error);
-
-      setMessages((prev) => [
-        ...prev,
-        {
-          id: (Date.now() + 1).toString(),
-          type: "assistant",
-          content: "⚠️ Backend error",
-          timestamp: new Date(),
-        },
-      ]);
-    } finally {
-      setIsLoading(false);
-    }
-  };
+      }
+      setMessages((prev) => [...prev, assistantMessage])
+      setIsLoading(false)
+    }, 1500)
+  }
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter' && !e.shiftKey) {
@@ -113,9 +120,18 @@ export default function ChatInterface({ selectedSources }: ChatInterfaceProps) {
     <div className="flex h-full flex-col bg-[#23262d] text-gray-100">
       <header className="flex items-center justify-between border-b border-[#313641] px-5 py-4">
         <h2 className="text-xl font-medium text-gray-100">Chat</h2>
-        <button className="rounded-full p-2 text-gray-300 transition hover:bg-[#2d3139] hover:text-white" aria-label="More options">
-          <MoreVertical className="h-5 w-5" />
-        </button>
+        <div className="flex items-center gap-2">
+          <button
+            onClick={onNewChat}
+            className="rounded-full p-2 text-gray-300 transition hover:bg-[#2d3139] hover:text-white"
+            aria-label="Start new chat"
+          >
+            <Plus className="h-5 w-5" />
+          </button>
+          <button className="rounded-full p-2 text-gray-300 transition hover:bg-[#2d3139] hover:text-white" aria-label="More options">
+            <MoreVertical className="h-5 w-5" />
+          </button>
+        </div>
       </header>
 
       <div className="flex-1 overflow-y-auto px-6 py-8">
@@ -140,10 +156,11 @@ export default function ChatInterface({ selectedSources }: ChatInterfaceProps) {
               className={`flex ${message.type === 'user' ? 'justify-end' : 'justify-start'}`}
             >
               <div
-                className={`max-w-2xl rounded-2xl px-4 py-3 ${message.type === 'user'
-                  ? 'bg-[#4a5dd7] text-white shadow-[0_10px_20px_rgba(74,93,215,0.25)]'
-                  : 'border border-[#313641] bg-[#23272f] text-gray-100 shadow-[0_10px_20px_rgba(0,0,0,0.12)]'
-                  }`}
+                className={`max-w-2xl rounded-2xl px-4 py-3 ${
+                  message.type === 'user'
+                    ? 'bg-[#4a5dd7] text-white shadow-[0_10px_20px_rgba(74,93,215,0.25)]'
+                    : 'border border-[#313641] bg-[#23272f] text-gray-100 shadow-[0_10px_20px_rgba(0,0,0,0.12)]'
+                }`}
               >
                 <p className="whitespace-pre-wrap text-sm leading-relaxed">{message.content}</p>
                 <span className="mt-2 block text-xs opacity-70">{message.timestamp.toLocaleTimeString()}</span>
@@ -167,8 +184,8 @@ export default function ChatInterface({ selectedSources }: ChatInterfaceProps) {
         </div>
       </div>
 
-      <div className="border-t border-[#313641] bg-[#23262d] px-5 py-5">
-        <div className="mx-auto max-w-4xl">
+      <div className="border-t border-[#313641] bg-[#23262d] px-5 pb-3 pt-8">
+        <div className="mx-auto max-w-3xl">
           <div className="flex gap-3 rounded-3xl border border-[#353a45] bg-[#1d2127] px-4 py-4 shadow-[0_12px_28px_rgba(0,0,0,0.18)]">
             <textarea
               value={input}

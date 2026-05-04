@@ -1,12 +1,8 @@
-node_modules/
-frontend2/node_modules/
-
 # Dependencies
 node_modules/
 /.pnp
 .pnp.js
-.env
-*.log
+
 # Testing
 /coverage
 
@@ -20,9 +16,6 @@ node_modules/
 # Misc
 .DS_Store
 *.pem
-
-*.pdf
-dist/
 
 # Debug
 npm-debug.log*

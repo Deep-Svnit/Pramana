@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import ChatInterface from '@/components/ChatInterface'
 import SourcesPanel from '@/components/SourcesPanel'
 
@@ -11,6 +11,22 @@ export interface UploadedSource {
   status: 'completed' | 'uploading' | 'failed'
   uploadedAt: string
   previewUrl?: string
+}
+
+export interface StoredChatMessage {
+  id: string
+  type: 'user' | 'assistant'
+  content: string
+  timestamp: string
+}
+
+export interface ChatHistoryItem {
+  id: string
+  title: string
+  preview: string
+  createdAt: string
+  updatedAt: string
+  messages: StoredChatMessage[]
 }
 
 const defaultSources: UploadedSource[] = [
@@ -24,10 +40,18 @@ const defaultSources: UploadedSource[] = [
   },
 ]
 
+const CHAT_HISTORY_STORAGE_KEY = 'powermind-chat-history'
+const emptyChatMessages: StoredChatMessage[] = []
+
 export default function Home() {
   const [sources, setSources] = useState<UploadedSource[]>(defaultSources)
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedSourceIds, setSelectedSourceIds] = useState<string[]>([defaultSources[0].id])
+  const [chatHistory, setChatHistory] = useState<ChatHistoryItem[]>([])
+  const [activeChatId, setActiveChatId] = useState<string | null>(null)
+  const [chatDraftKey, setChatDraftKey] = useState(0)
+  const [sourcesWidth, setSourcesWidth] = useState(380)
+  const [isResizingSources, setIsResizingSources] = useState(false)
   const [previewSource, setPreviewSource] = useState<UploadedSource | null>(null)
   const [previewWidth, setPreviewWidth] = useState(480)
   const [isResizingPreview, setIsResizingPreview] = useState(false)
@@ -44,6 +68,97 @@ export default function Home() {
     return sources.filter((source) => source.name.toLowerCase().includes(term))
   }, [searchTerm, sources]
 )
+
+  const activeChat = useMemo(
+    () => chatHistory.find((chat) => chat.id === activeChatId) ?? null,
+    [activeChatId, chatHistory]
+  )
+
+  useEffect(() => {
+    try {
+      const storedHistory = window.localStorage.getItem(CHAT_HISTORY_STORAGE_KEY)
+      if (!storedHistory) return
+
+      const parsedHistory = JSON.parse(storedHistory) as ChatHistoryItem[]
+      setChatHistory(parsedHistory)
+      setActiveChatId(parsedHistory[0]?.id ?? null)
+    } catch {
+      setChatHistory([])
+    }
+  }, [])
+
+  useEffect(() => {
+    window.localStorage.setItem(CHAT_HISTORY_STORAGE_KEY, JSON.stringify(chatHistory))
+  }, [chatHistory])
+
+  const handleChatMessagesChange = useCallback((messages: StoredChatMessage[], titleHint: string) => {
+    const userMessages = messages.filter((message) => message.type === 'user')
+    if (userMessages.length === 0) return
+
+    const now = new Date().toISOString()
+    const nextChatId = activeChatId ?? `chat-${Date.now()}`
+    const title = titleHint.trim().slice(0, 60) || 'New chat'
+    const preview = [...messages].reverse().find((message) => message.type === 'assistant')?.content || title
+
+    setChatHistory((currentHistory) => {
+      const nextItem: ChatHistoryItem = {
+        id: nextChatId,
+        title,
+        preview: preview.slice(0, 90),
+        createdAt: currentHistory.find((chat) => chat.id === nextChatId)?.createdAt ?? now,
+        updatedAt: now,
+        messages,
+      }
+
+      const withoutCurrent = currentHistory.filter((chat) => chat.id !== nextChatId)
+      return [nextItem, ...withoutCurrent]
+    })
+
+    if (!activeChatId) {
+      setActiveChatId(nextChatId)
+    }
+  }, [activeChatId])
+
+  const startNewChat = () => {
+    setActiveChatId(null)
+    setChatDraftKey((currentKey) => currentKey + 1)
+  }
+
+  const selectChat = (chatId: string) => {
+    setActiveChatId(chatId)
+    setChatDraftKey((currentKey) => currentKey + 1)
+  }
+
+  const deleteChat = (chatId: string) => {
+    setChatHistory((currentHistory) => currentHistory.filter((chat) => chat.id !== chatId))
+    if (activeChatId === chatId) {
+      startNewChat()
+    }
+  }
+
+  useEffect(() => {
+    if (!isResizingSources) return
+
+    const handleMouseMove = (event: MouseEvent) => {
+      setSourcesWidth(Math.min(620, Math.max(300, event.clientX)))
+    }
+
+    const handleMouseUp = () => {
+      setIsResizingSources(false)
+    }
+
+    document.body.style.cursor = 'col-resize'
+    document.body.style.userSelect = 'none'
+    window.addEventListener('mousemove', handleMouseMove)
+    window.addEventListener('mouseup', handleMouseUp)
+
+    return () => {
+      document.body.style.cursor = ''
+      document.body.style.userSelect = ''
+      window.removeEventListener('mousemove', handleMouseMove)
+      window.removeEventListener('mouseup', handleMouseUp)
+    }
+  }, [isResizingSources])
 
   useEffect(() => {
     if (!isResizingPreview) return
@@ -82,10 +197,23 @@ export default function Home() {
         onSearchTermChange={setSearchTerm}
         onSelectedSourceIdsChange={setSelectedSourceIds}
         onPreviewSourceChange={setPreviewSource}
+        chatHistory={chatHistory}
+        activeChatId={activeChatId}
+        onNewChat={startNewChat}
+        onSelectChat={selectChat}
+        onDeleteChat={deleteChat}
+        width={sourcesWidth}
+        onResizeStart={() => setIsResizingSources(true)}
       />
       <div className="flex min-w-0 flex-1">
         <div className="min-w-0 flex-1">
-          <ChatInterface selectedSources={selectedSources} />
+          <ChatInterface
+            key={chatDraftKey}
+            selectedSources={selectedSources}
+            initialMessages={activeChat?.messages ?? emptyChatMessages}
+            onNewChat={startNewChat}
+            onMessagesChange={handleChatMessagesChange}
+          />
         </div>
 
         {previewSource && (

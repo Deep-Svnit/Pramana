@@ -1,0 +1,254 @@
+=================================
+=== PAGE 1 START ===
+1. TEXT CONTENT: [p1]
+
+adani (logo — top left)
+
+Media Release
+Adani Enterprises Ltd announces
+H1 FY26 results
+Consolidated EBITDA at Rs. 7,688 cr
+Consolidated PBT at Rs. 2,281 cr
+AEL Board approves Rights Issue of Rs.25,000 cr
+
+Editor's Synopsis
+Consolidated financial highlights H1 FY26 (YoY)
+
+Revenue at Rs. 44,281 cr
+EBITDA at Rs. 7,688 cr
+PBT at Rs. 2,281 cr excluding exceptional gain of Rs. Rs. 3,583 cr
+AAHL Airports EBITDA increased by 51% YoY to Rs. 2,157 cr; with Airports business now tracking at quarterly run-rate of Rs. 1,000+ crore
+
+Investment highlights
+Asset Completed
+
+Greenfield Navi Mumbai International Airport inaugurated on 08th October 2025, set to commence operations from Q3 FY26
+Received PCOD for Nanasa-Pidgaon project; AEL now has 7 operational road assets
+
+New Investments
+
+Received LoA for three projects in Roads and two projects in Water business with cumulative order book of Rs. 19,982 cr
+AdaniConnex partners with Google to develop India's largest AI Data Center campus in Visakhapatnam
+
+Capital management
+
+AEL Board approves partly paid-up Rights Issue of Rs.25,000 cr for strengthening its balance sheet further to support next phase of incubation
+
+
+Ahmedabad, November 04, 2025: Adani Enterprises Ltd (AEL), the flagship company of the Adani Group, announced its results today for the quarter and half year ended September 30, 2025.
+AEL has validated its core strength of timely execution of large-scale projects during the quarter. The inauguration of greenfield Navi Mumbai airport and completion of its 7th road project reflects AEL's fundamental focus on incubation at scale and execution. Each of these new milestones strengthens our diversified model and reaffirms our commitment to deliver infrastructure of national importance. The emerging core infra businesses have recorded half-yearly EBITDA of Rs. 5,470 crore with an increase of 5% on year-on-year basis and now contributes 71% to total EBITDA.
+
+FOOTNOTES / REFERENCES: [p1]
+Adani Enterprises Ltd (CIN No: L51100GJ1993PLC019067)
+Registered Office: "Adani Corporate House", Shantigram, Near Vaishno Devi Circle, S.G. Highway, Khodiyar, Ahmedabad 382 421
+Phone: 079-26565555 ; Fax: 079-26565500 ; Email: info@adani.com ; Website: www.adanienterprises.com
+
+IMAGES / INFOGRAPHICS: [p1]
+[A. RAW VISUAL METADATA]
+
+Type: Logo
+Title: Not found in the Documents
+Labels: "adani" (text within logo)
+Legends: Not found in the Documents
+Axes: Not found in the Documents
+Units: Not found in the Documents
+
+[B. EXACT DATA EXTRACTION]
+
+Text visible: "adani"
+Color: Pink/magenta for "a", dark navy/black for "dani"
+
+[C. STRUCTURAL DESCRIPTION]
+The Adani logo appears at the top-left of the page. It consists of a stylized lowercase wordmark "adani" where the letter "a" is rendered in a distinct pink/magenta color and the remaining letters "dani" are in dark navy or black.
+[D. SEMANTIC DESCRIPTION]
+The image is a corporate brand logo for the Adani Group, used to identify the document as an official Adani Enterprises Ltd publication. No quantitative data or relationships are conveyed.
+[E. MACHINE-READABLE SUMMARY]
+Entity | Value | Unit | Context
+Logo Text | "adani" | N/A | Corporate brand identifier, top-left of page
+=================================
+=== PAGE 1 END ===
+
+=================================
+=== PAGE 2 START ===
+1. TEXT CONTENT: [p2]
+
+adani (logo — top left)
+
+"With disciplined execution and strategic diversification, Adani Enterprises Ltd continues to strengthen its position as India's leading incubator of transformative infrastructure and energy businesses," said Mr Gautam Adani, Chairman of the Adani Group. "The inauguration of the Navi Mumbai International Airport marks a defining moment in India's infrastructure story and reinforces AEL's role as a national growth catalyst. Our strong performance across airports, data centers and roads underscore the momentum of our core infrastructure portfolio. With partnerships such as the one with Google for India's largest AI data center and rapid progress in our green energy ecosystem, AEL is accelerating India's transition toward a sustainable, technology-driven future. We remain committed to building globally competitive businesses that create enduring value for our stakeholders and strengthen the foundation of a self-reliant India."
+
+2. TABLES: [p2]
+Consolidated Financial Highlights
+(Rs. in crore)
+[TABLE]
+ParticularsQ2 FY25Q2 FY26% change Y-o-YH1 FY25H1 FY26% change Y-o-YTotal Income23,19621,844(6%)49,26344,281(10%)EBITDA4,3543,902(10%)8,6547,688(11%)Exceptional Gain-3,583--3,583-Profit Before Tax2,4094,39883%4,6445,86426%Profit After Tax¹1,7423,19984%3,1963,93323%[/TABLE]
+Note: 1. PAT attributable to owners
+
+Incubating Businesses Financial Highlights
+[TABLE]
+ParticularsQ2 FY25Q2 FY26% change Y-o-YH1 FY25H1 FY26% change Y-o-YANIL EcosystemTotal Income3,1153,1993%7,6347,233(5%)EBITDA1,1211,1725%2,7632,384(14%)PBT916876(4%)2,3411,836(22%)AirportsTotal Income2,2763,16739%4,4535,88232%EBITDA7441,06243%1,4262,15751%PBT(148)99-(237)303-[/TABLE]
+
+Operational Highlights
+[TABLE]
+VolumeQ2 FY25Q2 FY26% change Y-o-YH1 FY25H1 FY26% change Y-o-YANIL EcosystemModule Sales (MW)100110939%238024433%WTG (Sets)152887%566313%AirportsPax movement (Mn)22.322.61%45.146.02%ATMs ('000)153.3148.2(3%)305.4301.7(1%)Cargo (Lacs MT)2.82.93%5.55.74%RoadsConstruction (L-KM)180.4456.1153%910.4949.34%Mining ServicesDispatch (MMT)8.210.527%17.522.629%IRMVolume (MMT)13.711.3(17%)29.124.1(17%)[/TABLE]
+
+FOOTNOTES / REFERENCES: [p2]
+Adani Enterprises Ltd (CIN No: L51100GJ1993PLC019067)
+Registered Office: "Adani Corporate House", Shantigram, Near Vaishno Devi Circle, S.G. Highway, Khodiyar, Ahmedabad 382 421
+Phone: 079-26565555 ; Fax: 079-26565500 ; Email: info@adani.com ; Website: www.adanienterprises.com
+
+IMAGES / INFOGRAPHICS: [p2]
+[A. RAW VISUAL METADATA]
+
+Type: Logo
+Title: Not found in the Documents
+Labels: "adani"
+Legends: Not found in the Documents
+Axes: Not found in the Documents
+Units: Not found in the Documents
+
+[B. EXACT DATA EXTRACTION]
+
+Text visible: "adani"
+Color: Pink/magenta "a", dark navy/black "dani"
+
+[C. STRUCTURAL DESCRIPTION]
+Same corporate logo as Page 1, positioned at top-left of the page.
+[D. SEMANTIC DESCRIPTION]
+Corporate brand logo identifying the document as an official Adani Enterprises publication. No quantitative data conveyed.
+[E. MACHINE-READABLE SUMMARY]
+Entity | Value | Unit | Context
+Logo Text | "adani" | N/A | Corporate brand identifier, top-left of page
+=================================
+=== PAGE 2 END ===
+
+=================================
+=== PAGE 3 START ===
+1. TEXT CONTENT: [p3]
+
+adani (logo — top left)
+
+Business Updates
+
+Adani New Industries (ANIL - Green Hydrogen Ecosystem)
+
+Module sales continue to track to 1 GW per quarter, domestic sale increased by 43% during H1 FY26 on YoY basis
+Construction for additional 6 GW cell and module lines progressing as per schedule
+ANIL Wind division honored with "Gold Award" at Apex India Safety Award 2025
+
+
+AdaniConnex Pvt Ltd (ACX - Data Center)
+
+Partners with Google to develop India's largest AI Data Center campus in Visakhapatnam, Andhra Pradesh
+Hyderabad data center phase II MEP works ~96% completed
+Pune data center phase I & II works crosses ~90%
+
+MEP: Mechanical, Electrical & Plumbing
+
+Adani Water Ltd (AWL - Water)
+
+Letter of Award received for two new projects;
+
+Build and manage Brahmani Barrage across Brahmani River
+Build and manage Mor Sagar Artificial Reservoir
+
+
+
+
+Adani Airports Holdings Ltd (AAHL - Airports)
+
+Greenfield Navi Mumbai International Airport inaugurated on 08th October 2025, a major landmark in India's aviation journey; set to commence operations from Q3 FY26
+During the quarter 7 new routes, 8 new flights and 1 new airline added
+Mumbai Airport received the "Best Airport for Digitization" award at the India Cargo Award 2025
+
+
+Adani Road Transport Ltd (ARTL - Roads)
+
+Provisional COD received for HAM project "Nanasa-Pidgaon" in the state of Madhya Pradesh; making it 7th operational project
+Letter of Award received for three new projects;
+
+Ropeway project between Sonprayag and Kedarnath of 12.9 KM length
+Two HAM Road projects connecting Munger-Sultanganj and Sultanganj-Sabour Road
+
+
+
+
+ESG Highlights
+
+AEL has been recognized as the 'Great Indian ESG Organization of the Year 2025' at the Transformance ESG Awards for its unwavering commitment to sustainability
+ANIL honored with the 'Outstanding Contribution to Circular Economy' Award by Indian Chamber of Commerce for spearheading India's first off-grid Green Hydrogen pilot project
+Adani Natural Resources won the prestigious 'Leadership in Climate Action' Award by Indian Chamber of Commerce for its pioneering hydrogen truck initiative, advancing sustainable mining logistics
+
+
+FOOTNOTES / REFERENCES: [p3]
+Adani Enterprises Ltd (CIN No: L51100GJ1993PLC019067)
+Registered Office: "Adani Corporate House", Shantigram, Near Vaishno Devi Circle, S.G. Highway, Khodiyar, Ahmedabad 382 421
+Phone: 079-26565555 ; Fax: 079-26565500 ; Email: info@adani.com ; Website: www.adanienterprises.com
+
+IMAGES / INFOGRAPHICS: [p3]
+[A. RAW VISUAL METADATA]
+
+Type: Logo
+Title: Not found in the Documents
+Labels: "adani"
+Legends: Not found in the Documents
+Axes: Not found in the Documents
+Units: Not found in the Documents
+
+[B. EXACT DATA EXTRACTION]
+
+Text visible: "adani"
+Color: Pink/magenta "a", dark navy/black "dani"
+
+[C. STRUCTURAL DESCRIPTION]
+Same corporate logo as Pages 1 and 2, positioned at top-left of the page.
+[D. SEMANTIC DESCRIPTION]
+Corporate brand logo identifying the document as an official Adani Enterprises publication. No quantitative data conveyed.
+[E. MACHINE-READABLE SUMMARY]
+Entity | Value | Unit | Context
+Logo Text | "adani" | N/A | Corporate brand identifier, top-left of page
+=================================
+=== PAGE 3 END ===
+
+=================================
+=== PAGE 4 START ===
+1. TEXT CONTENT: [p4]
+
+adani (logo — top left)
+
+About Adani Enterprises Ltd
+Adani Enterprises Limited (AEL) is the flagship company of Adani Group, one of India's largest business organisations. Over the years, Adani Enterprises has focused on building emerging infrastructure businesses, contributing to nation-building and divesting them into separate listed entities. Having successfully built sizeable and scalable businesses like Adani Ports & SEZ, Adani Energy Solutions, Adani Power, Adani Green Energy, Adani Total Gas and Adani Wilmar, the company has contributed to make India self-reliant with our robust businesses. This has also led to significant returns to our shareholders for three decades.
+The next generation of its strategic business investments are centered around green hydrogen ecosystem, airport management, data center, roads and primary industries like copper and petrochem - all of which have significant scope for value unlocking.
+For more information, please visit www.adanienterprises.com
+For more information please contact:
+[TABLE]
+Mitul ThakkarManan VakhariaAdani GroupAdani Enterprises LtdCorporate CommunicationsInvestor RelationsTel: +91-79-25550539Tel: +91-79-25556140mitul.thakkar@adani.commananj.vakharia@adani.com[/TABLE]
+
+FOOTNOTES / REFERENCES: [p4]
+Adani Enterprises Ltd (CIN No: L51100GJ1993PLC019067)
+Registered Office: "Adani Corporate House", Shantigram, Near Vaishno Devi Circle, S.G. Highway, Khodiyar, Ahmedabad 382 421
+Phone: 079-26565555 ; Fax: 079-26565500 ; Email: info@adani.com ; Website: www.adanienterprises.com
+
+IMAGES / INFOGRAPHICS: [p4]
+[A. RAW VISUAL METADATA]
+
+Type: Logo
+Title: Not found in the Documents
+Labels: "adani"
+Legends: Not found in the Documents
+Axes: Not found in the Documents
+Units: Not found in the Documents
+
+[B. EXACT DATA EXTRACTION]
+
+Text visible: "adani"
+Color: Pink/magenta "a", dark navy/black "dani"
+
+[C. STRUCTURAL DESCRIPTION]
+Same corporate logo as all preceding pages, positioned at top-left of the page.
+[D. SEMANTIC DESCRIPTION]
+Corporate brand logo identifying the document as an official Adani Enterprises publication. No quantitative data conveyed.
+[E. MACHINE-READABLE SUMMARY]
+Entity | Value | Unit | Context
+Logo Text | "adani" | N/A | Corporate brand identifier, top-left of page
+=================================
+=== PAGE 4 END ===

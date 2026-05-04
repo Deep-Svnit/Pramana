@@ -1,55 +1,15 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from 'next/server'
+import { readFile } from 'fs/promises'
+import path from 'path'
 
-const BACKEND_URL = "http://localhost:8001";
+export async function GET() {
+  const filePath = path.join(process.cwd(), 'AEL_Earnings_Presentation_Q2-FY26_copy.pdf')
+  const fileBuffer = await readFile(filePath)
 
-let sessionId: string | null = null;
-
-export async function POST(req: NextRequest) {
-  try {
-    const { message } = await req.json();
-
-    // 🔥 Create session if not exists
-    if (!sessionId) {
-      const sessionRes = await fetch(`${BACKEND_URL}/chat/sessions`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ title: "New Chat" }),
-      });
-
-      const sessionData = await sessionRes.json();
-      sessionId = sessionData.id;
-    }
-
-    // 🔥 Send message to FastAPI
-    const res = await fetch(
-      `${BACKEND_URL}/chat/sessions/${sessionId}/messages`,
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          content: message,
-        }),
-      }
-    );
-
-    const data = await res.json();
-
-    return NextResponse.json({
-      message: data.assistant_message.content,
-      sources: data.assistant_message.meta?.sources || [],
-      timestamp: new Date().toISOString(),
-    });
-
-  } catch (error) {
-    console.error("Preview API error:", error);
-
-    return NextResponse.json(
-      { error: "Backend failed" },
-      { status: 500 }
-    );
-  }
+  return new NextResponse(fileBuffer, {
+    headers: {
+      'Content-Type': 'application/pdf',
+      'Content-Disposition': 'inline; filename="AEL_Earnings_Presentation_Q2-FY26_copy.pdf"',
+    },
+  })
 }

@@ -33,7 +33,8 @@ from powermind_rag.visual_understanding import NvidiaVisualPageAnalyzer
 NOT_FOUND = "Not found in the document."
 FALLBACK_NOT_FOUND = "Fallback: Not found in the document."
 MAX_VISUAL_EVIDENCE_PAGES = 1
-MAX_GENERATION_CHARS_PER_CHUNK = 1400
+MAX_IMAGE_GENERATION_CHARS_PER_CHUNK = 1400
+MAX_TEXT_GENERATION_CHARS_PER_CHUNK = 4000
 TIMING_KEYS = (
     "storage_load",
     "query_expansion",
@@ -59,6 +60,7 @@ class MultimodalRAGPipeline:
         self.visual_index: ColPaliVisualIndex | None = None
         self.text_records: list[TextChunkRecord] = []
         self.generator: ChatLLM | None = None
+        self.image_generator: ChatLLM | None = None
         self.relevance_grader: RelevanceGrader | None = None
         self.verifier: LettuceClaimVerifier | None = None
         self.visual_page_analyzer: NvidiaVisualPageAnalyzer | None = None
@@ -225,7 +227,12 @@ class MultimodalRAGPipeline:
         supported = [chunk for chunk, score in graded if score >= self.config.relevance_threshold]
         image_fallback = []
         if self._can_generate_from_images():
-            image_fallback = _related_visual_evidence(candidates, [], text_page_hints)
+            image_fallback = _related_visual_evidence(
+                candidates,
+                [],
+                text_page_hints,
+                self.config.storage_dir,
+            )
 
         if not supported:
             if image_fallback:
@@ -235,7 +242,12 @@ class MultimodalRAGPipeline:
             return finalize(text=NOT_FOUND, retrieved=candidates, is_fallback=False)
 
         text_evidence = [chunk for chunk in supported if chunk.modality == "text"]
-        visual_evidence = _related_visual_evidence(candidates, text_evidence, text_page_hints)
+        visual_evidence = _related_visual_evidence(
+            candidates,
+            text_evidence,
+            text_page_hints,
+            self.config.storage_dir,
+        )
         if not text_evidence and not self._can_generate_from_images():
             return finalize(text=FALLBACK_NOT_FOUND, retrieved=supported, is_fallback=True)
 
@@ -293,15 +305,18 @@ class MultimodalRAGPipeline:
 
     def _generate_grounded_answer(self, query: str, chunks: list[RetrievedChunk]) -> str:
         chunks = _generation_context_chunks(chunks)
-        context_lines = [
-            f"{chunk.citation} {_trim_generation_text(chunk.text)}" for chunk in chunks
-        ]
         image_paths = [
             Path(path)
             for chunk in chunks
             if chunk.modality == "image"
             for path in [chunk.metadata.get("raw_image_path")]
             if path
+        ]
+        trim_limit = (
+            MAX_IMAGE_GENERATION_CHARS_PER_CHUNK if image_paths else MAX_TEXT_GENERATION_CHARS_PER_CHUNK
+        )
+        context_lines = [
+            f"{chunk.citation} {_trim_generation_text(chunk.text, trim_limit)}" for chunk in chunks
         ]
         user = f"""
 Answer the query using ONLY the retrieved context below.
@@ -320,8 +335,8 @@ QUERY:
 RETRIEVED CONTEXT:
 {chr(10).join(context_lines)}
 """.strip()
-        generator = self._generation_llm()
-        if image_paths and hasattr(generator, "generate_with_images"):
+        if image_paths:
+            generator = self._image_llm()
             return generator.generate_with_images(
                 system=(
                     "You are a grounded document QA model with zero hallucination tolerance. "
@@ -334,6 +349,7 @@ RETRIEVED CONTEXT:
                 image_paths=image_paths[:MAX_VISUAL_EVIDENCE_PAGES],
                 max_new_tokens=512,
             )
+        generator = self._generation_llm()
         return generator.generate(
             system=(
                 "You are a grounded document QA model with zero hallucination tolerance. "
@@ -364,9 +380,8 @@ If the answer is not explicitly visible in the images, return exactly: {NOT_FOUN
 QUERY:
 {query}
 """.strip()
-        generator = self._generation_llm()
-        if hasattr(generator, "generate_with_images"):
-            return generator.generate_with_images(
+        generator = self._image_llm()
+        return generator.generate_with_images(
                 system=(
                     "You are a grounded document QA model with zero hallucination tolerance. "
                     "Use only the attached page images. "
@@ -375,11 +390,10 @@ QUERY:
                 user=user,
                 image_paths=image_paths,
                 max_new_tokens=512,
-            )
-        return NOT_FOUND
+        )
 
     def _can_generate_from_images(self) -> bool:
-        return self.config.generation_provider in {"nvidia", "qwen_vl", "qwen-vl"}
+        return self.config.image_generation_provider in {"nvidia", "qwen_vl", "qwen-vl"}
 
     def _extractive_local_answer(self, query: str, chunks: list[RetrievedChunk], exc: Exception) -> str:
         excerpts = []
@@ -479,6 +493,22 @@ QUERY:
                     "Unsupported POWERMIND_GENERATION_PROVIDER. Use 'local', 'groq', 'openrouter', 'nvidia', or 'qwen_vl'."
                 )
         return self.generator
+
+    def _image_llm(self) -> ChatLLM:
+        if self.image_generator is None:
+            if self.config.image_generation_provider == "nvidia":
+                self.image_generator = NvidiaChatLLM(
+                    api_key=self.config.nvidia_api_key,
+                    model_name=self.config.nvidia_generation_model,
+                    base_url=self.config.nvidia_vlm_base_url,
+                )
+            elif self.config.image_generation_provider in {"qwen_vl", "qwen-vl"}:
+                self.image_generator = LocalQwenVL(self.config.qwen_vl_model_path, device=self.device)
+            else:
+                raise RuntimeError(
+                    "Unsupported POWERMIND_IMAGE_PROVIDER. Use 'nvidia' or 'qwen_vl'."
+                )
+        return self.image_generator
 
     def _chunking_llm(self) -> ChatLLM:
         if self.config.chunking_provider == "groq":
@@ -684,7 +714,9 @@ def _related_visual_evidence(
     candidates: list[RetrievedChunk],
     text_evidence: list[RetrievedChunk],
     page_hints: list[tuple[str, int]] | None = None,
+    storage_dir: Path | None = None,
 ) -> list[RetrievedChunk]:
+    storage_dir = storage_dir or Path("storage")
     evidence_pages = list(page_hints or [])
     for chunk in text_evidence:
         page_key = (chunk.document_id, chunk.page_number)
@@ -706,9 +738,7 @@ def _related_visual_evidence(
         if key in visual_by_page:
             selected.append(visual_by_page[key])
             continue
-        image_path = Path("service") / "storage" / document_id / "pages" / f"page_{page_number:04d}.png"
-        if not image_path.exists():
-            image_path = Path("storage") / document_id / "pages" / f"page_{page_number:04d}.png"
+        image_path = storage_dir / document_id / "pages" / f"page_{page_number:04d}.png"
         if not image_path.exists():
             continue
         selected.append(
@@ -736,11 +766,11 @@ def _generation_context_chunks(chunks: list[RetrievedChunk]) -> list[RetrievedCh
     return text_chunks[:5] + image_chunks[:MAX_VISUAL_EVIDENCE_PAGES]
 
 
-def _trim_generation_text(text: str) -> str:
+def _trim_generation_text(text: str, limit: int) -> str:
     clean = " ".join(text.split())
-    if len(clean) <= MAX_GENERATION_CHARS_PER_CHUNK:
+    if len(clean) <= limit:
         return clean
-    return clean[: MAX_GENERATION_CHARS_PER_CHUNK - 3].rstrip() + "..."
+    return clean[: limit - 3].rstrip() + "..."
 
 
 def _ranked_text_pages(

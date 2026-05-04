@@ -1,8 +1,8 @@
 'use client'
 
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { Check, ChevronDown, FilePlus2, FileText, Search, Square, Trash2 } from 'lucide-react'
-import type { UploadedSource } from '@/app/page'
+import { Check, ChevronDown, FilePlus2, FileText, MessageSquare, Plus, Search, Square, Trash2 } from 'lucide-react'
+import type { ChatHistoryItem, UploadedSource } from '@/app/page'
 
 interface SourcesPanelProps {
   sources: UploadedSource[]
@@ -12,6 +12,13 @@ interface SourcesPanelProps {
   onSearchTermChange: (value: string) => void
   onSelectedSourceIdsChange: (ids: string[]) => void
   onPreviewSourceChange: (source: UploadedSource) => void
+  chatHistory: ChatHistoryItem[]
+  activeChatId: string | null
+  onNewChat: () => void
+  onSelectChat: (chatId: string) => void
+  onDeleteChat: (chatId: string) => void
+  width: number
+  onResizeStart: () => void
 }
 
 const formatFileSize = (bytes: number): string => {
@@ -30,6 +37,13 @@ export default function SourcesPanel({
   onSearchTermChange,
   onSelectedSourceIdsChange,
   onPreviewSourceChange,
+  chatHistory,
+  activeChatId,
+  onNewChat,
+  onSelectChat,
+  onDeleteChat,
+  width,
+  onResizeStart,
 }: SourcesPanelProps) {
   const inputRef = useRef<HTMLInputElement>(null)
   const [selectedSourceIds, setSelectedSourceIds] = useState<string[]>(() =>
@@ -109,8 +123,26 @@ export default function SourcesPanel({
     onPreviewSourceChange(source)
   }
 
+  const formatChatTime = (value: string) => {
+    return new Date(value).toLocaleString([], {
+      month: 'short',
+      day: 'numeric',
+      hour: 'numeric',
+      minute: '2-digit',
+    })
+  }
+
   return (
-    <aside className="flex w-[380px] flex-col border-r border-[#2e323b] bg-[#22252c] text-gray-100 shadow-[inset_-1px_0_0_rgba(255,255,255,0.03)]">
+    <aside
+      className="relative flex shrink-0 flex-col border-r border-[#2e323b] bg-[#22252c] text-gray-100 shadow-[inset_-1px_0_0_rgba(255,255,255,0.03)]"
+      style={{ width: `${width}px` }}
+    >
+      <button
+        type="button"
+        aria-label="Resize sources panel"
+        onMouseDown={onResizeStart}
+        className="absolute right-0 top-0 z-20 h-full w-1 cursor-col-resize bg-transparent transition-colors hover:bg-[#5a67ff]"
+      />
       <div className="flex items-center justify-between border-b border-[#313641] px-5 py-4">
         <h2 className="text-xl font-medium text-gray-100">Sources</h2>
         <button className="rounded-md p-1 text-gray-300 hover:bg-[#2d3139] hover:text-white" aria-label="Collapse sources panel">
@@ -180,26 +212,26 @@ export default function SourcesPanel({
                   <div className="mt-1 flex h-9 w-9 items-center justify-center rounded-lg bg-[#2e333c]">
                     <FileText className="h-4 w-4 text-gray-300" />
                   </div>
-                  <div className="min-w-0 flex-1">
-                    <div className="flex items-center justify-between gap-3">
+                  <div className="min-w-0 flex-1 overflow-hidden">
+                    <div className="flex min-w-0 items-center justify-between gap-3">
                       <p className="truncate text-sm font-medium text-gray-100">{source.name}</p>
                     </div>
-                    <p className="mt-1 text-xs text-gray-400">
+                    <p className="mt-1 break-words text-xs text-gray-400">
                       {formatFileSize(source.size)} · {source.uploadedAt}
                     </p>
                     <p className="mt-2 text-xs text-gray-300">
                       {source.status === 'completed' ? 'Saved source' : 'Uploading source'}
                     </p>
-                    <div className="mt-3 flex items-center gap-2">
+                    <div className="mt-3 flex flex-wrap items-center gap-2">
                       <button
                         onClick={() => openPreview(source)}
-                        className="rounded-full border border-[#3a3f49] bg-[#2a2f37] px-3 py-1.5 text-xs font-medium text-gray-100 transition hover:bg-[#333944]"
+                        className="min-w-0 rounded-full border border-[#3a3f49] bg-[#2a2f37] px-3 py-1.5 text-xs font-medium text-gray-100 transition hover:bg-[#333944]"
                       >
                         Preview
                       </button>
                       <button
                         onClick={() => removeSource(source.id)}
-                        className="rounded-full border border-[#3a3f49] bg-[#2a2f37] px-3 py-1.5 text-xs font-medium text-gray-100 transition hover:bg-[#333944] hover:text-red-200"
+                        className="min-w-0 rounded-full border border-[#3a3f49] bg-[#2a2f37] px-3 py-1.5 text-xs font-medium text-gray-100 transition hover:bg-[#333944] hover:text-red-200"
                         aria-label={`Remove ${source.name}`}
                       >
                         <span className="inline-flex items-center gap-1">
@@ -222,6 +254,71 @@ export default function SourcesPanel({
             </p>
           </div>
         )}
+
+        <div className="mt-6 border-t border-[#313641] pt-5">
+          <div className="mb-3 flex items-center justify-between">
+            <h3 className="text-base font-semibold text-gray-100">Chat history</h3>
+            <button
+              onClick={onNewChat}
+              className="rounded-full border border-[#3a3f49] bg-[#2a2f37] p-2 text-gray-200 transition hover:bg-[#333944]"
+              aria-label="Start new chat"
+            >
+              <Plus className="h-4 w-4" />
+            </button>
+          </div>
+
+          {chatHistory.length > 0 ? (
+            <div className="space-y-2">
+              {chatHistory.map((chat) => (
+                <button
+                  key={chat.id}
+                  onClick={() => onSelectChat(chat.id)}
+                  className={`group flex w-full items-start gap-3 rounded-2xl border p-3 text-left transition-colors ${
+                    activeChatId === chat.id
+                      ? 'border-[#5563ff] bg-[#292e38] shadow-[0_0_0_1px_rgba(85,99,255,0.35)]'
+                      : 'border-[#313641] bg-[#23272f] hover:border-[#424957] hover:bg-[#292e38]'
+                  }`}
+                >
+                  <div className="mt-1 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[#2e333c]">
+                    <MessageSquare className="h-4 w-4 text-gray-300" />
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-start gap-2">
+                      <p className="truncate text-sm font-medium text-gray-100">{chat.title}</p>
+                      <span className="ml-auto shrink-0 text-[11px] text-gray-500">{formatChatTime(chat.updatedAt)}</span>
+                    </div>
+                    <p className="mt-1 line-clamp-2 text-xs leading-5 text-gray-400">{chat.preview}</p>
+                  </div>
+                  <span
+                    role="button"
+                    tabIndex={0}
+                    onClick={(event) => {
+                      event.stopPropagation()
+                      onDeleteChat(chat.id)
+                    }}
+                    onKeyDown={(event) => {
+                      if (event.key === 'Enter' || event.key === ' ') {
+                        event.preventDefault()
+                        event.stopPropagation()
+                        onDeleteChat(chat.id)
+                      }
+                    }}
+                    className="rounded-md p-1 text-gray-500 opacity-0 transition hover:bg-[#363b45] hover:text-red-200 group-hover:opacity-100"
+                    aria-label={`Delete ${chat.title}`}
+                  >
+                    <Trash2 className="h-4 w-4" />
+                  </span>
+                </button>
+              ))}
+            </div>
+          ) : (
+            <div className="rounded-2xl border border-dashed border-[#3a3f49] bg-[#20242b] px-4 py-5 text-center">
+              <MessageSquare className="mx-auto h-8 w-8 text-gray-500" />
+              <p className="mt-3 text-sm font-medium text-gray-300">No chats yet</p>
+              <p className="mt-1 text-xs leading-5 text-gray-500">Your questions will appear here once you start chatting.</p>
+            </div>
+          )}
+        </div>
       </div>
 
     </aside>

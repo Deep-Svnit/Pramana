@@ -1,0 +1,18 @@
+{
+  "exported_at": "2026-05-04T01:29:47.586838+00:00",
+  "index": "powermind-rag-final",
+  "namespace": "default",
+  "vectors_file": "D:\\PowerMind\\backend\\pinecone_exports\\vectors.jsonl",
+  "vector_count": 666,
+  "listed_id_count": 666,
+  "dimensions": [
+    384
+  ],
+  "index_stats": {
+    "total_vector_count": 666,
+    "dimension": 384,
+    "namespaces": {
+      "default": 666
+    }
+  }
+}

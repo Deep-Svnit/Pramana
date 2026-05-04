@@ -74,12 +74,16 @@ class HistoryResponse(BaseModel):
 class IngestedFileResponse(BaseModel):
     id: str
     original_filename: str
+    doc_type: str = "document"
+    section: str = "general"
+    context: str = ""
     document_id: str | None
     status: str
     error: str | None
     created_at: datetime
 
     model_config = {"from_attributes": True}
+
 
 
 class IngestListResponse(BaseModel):

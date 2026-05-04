@@ -6,6 +6,16 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
+REPO_ROOT = Path(__file__).resolve().parents[3]
+
+
+def _resolve_path(value: str | None, default: str) -> Path:
+    raw = value or default
+    path = Path(raw).expanduser()
+    if path.is_absolute():
+        return path
+    return (REPO_ROOT / path).resolve()
+
 
 @dataclass(frozen=True)
 class RAGConfig:
@@ -30,6 +40,7 @@ class RAGConfig:
     groq_relevance_model: str = "llama-3.1-8b-instant"
     gemini_relevance_model: str = "gemini-2.5-flash"
     generation_provider: str = "local"
+    image_generation_provider: str = "nvidia"
     groq_generation_model: str = "llama-3.3-70b-versatile"
     openrouter_api_key: str | None = None
     openrouter_generation_model: str = "liquid/lfm-2.5-1.2b-instruct:free"
@@ -63,10 +74,15 @@ class RAGConfig:
             "yes",
             "on",
         }
+        generation_provider = os.getenv("POWERMIND_GENERATION_PROVIDER", "local").strip().lower()
+        image_generation_provider = os.getenv(
+            "POWERMIND_IMAGE_PROVIDER",
+            generation_provider,
+        ).strip().lower()
         return cls(
-            storage_dir=Path(os.getenv("POWERMIND_STORAGE_DIR", "storage")),
-            qwen_model_path=Path(os.getenv("QWEN_MODEL_PATH", "Qwen")),
-            qwen_vl_model_path=Path(os.getenv("QWEN_VL_MODEL_PATH", "Qwen_VL")),
+            storage_dir=_resolve_path(os.getenv("POWERMIND_STORAGE_DIR"), "storage"),
+            qwen_model_path=_resolve_path(os.getenv("QWEN_MODEL_PATH"), "Qwen"),
+            qwen_vl_model_path=_resolve_path(os.getenv("QWEN_VL_MODEL_PATH"), "Qwen_VL"),
             dense_embedding_model=os.getenv("POWERMIND_DENSE_MODEL", "E5_Small"),
             colpali_model_name=os.getenv("POWERMIND_COLPALI_MODEL", "vidore/colpali-v1.2"),
             device=os.getenv("POWERMIND_DEVICE", "cuda"),
@@ -79,7 +95,8 @@ class RAGConfig:
             relevance_provider=os.getenv("POWERMIND_RELEVANCE_PROVIDER", "gemini").strip().lower(),
             groq_relevance_model=os.getenv("GROQ_RELEVANCE_MODEL", "llama-3.1-8b-instant"),
             gemini_relevance_model=os.getenv("GEMINI_RELEVANCE_MODEL", "gemini-2.5-flash"),
-            generation_provider=os.getenv("POWERMIND_GENERATION_PROVIDER", "local").strip().lower(),
+            generation_provider=generation_provider,
+            image_generation_provider=image_generation_provider,
             groq_generation_model=os.getenv("GROQ_GENERATION_MODEL", "llama-3.3-70b-versatile"),
             openrouter_api_key=os.getenv("OPEN_ROUTER_API_KEY") or os.getenv("OPENROUTER_API_KEY"),
             openrouter_generation_model=os.getenv(

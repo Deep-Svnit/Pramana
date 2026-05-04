@@ -1,0 +1,1460 @@
+[
+  {
+    "text": "TEXT CONTENT:\n\n\nAdani Enterprises Limited\nEarnings Presentation\nQ2 FY26\nadani | Growth With Goodness\n\n\nTABLES:\nNot found in the Documents\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A.",
+    "file": "first.txt",
+    "page": 1,
+    "type": "text"
+  },
+  {
+    "text": "RAW VISUAL METADATA]\n\nType: Cover page / photo collage infographic\nTitle: Adani Enterprises Limited \u2013 Earnings Presentation Q2 FY26\nLabels: adani (logo), Growth With Goodness\nLegends: Not found in the Documents\nAxes: Not found in the Documents\nUnits: Not found in the Documents\n\n[B.",
+    "file": "first.txt",
+    "page": 1,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\n\nNo numerical data visible\nText: \"Adani Enterprises Limited\", \"Earnings Presentation\", \"Q2 FY26\", \"adani\", \"Growth With Goodness\"\n\n[C.",
+    "file": "first.txt",
+    "page": 1,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\n\nLayout: Cover slide with hexagonal image collage on the left side and company/presentation title text on the right side\nElements: Multiple hexagonal-shaped photographs arranged in a honeycomb pattern; photographs depict solar panel manufacturing, airport interiors, wind turbines, road/expressway infrastructure, coal/mining yards, industrial buildings, solar rooftop installations, copper/metal stacks\nThe Adani 'a' logo hexagon is centrally placed in the collage\nRight side: \"Adani Enterprises Limited\" in bold dark blue, \"Earnings Presentation\" in bold, \"Q2 FY26\" below; adani logo with vertical separator and \"Growth With Goodness\" tagline\n\n[D.",
+    "file": "first.txt",
+    "page": 1,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nThe cover page visually represents the diverse business portfolio of Adani Enterprises Limited \u2014 covering energy, airports, roads, mining, metals, and industrial infrastructure\nThe Q2 FY26 label indicates this is the earnings presentation for the second quarter of Financial Year 2026\n\"Growth With Goodness\" is the company tagline\n\n[E.",
+    "file": "first.txt",
+    "page": 1,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nDocument Type | Earnings Presentation\nCompany | Adani Enterprises Limited\nPeriod | Q2 FY26\nTagline | Growth With Goodness\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\nNot found in the Documents\n\n=== PAGE 1 END ===",
+    "file": "first.txt",
+    "page": 1,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nSTRICTLY CONFIDENTIAL\nAdani Enterprises Limited (\"AEL\"): Consolidated Financial Highlights H1-26\nResults at glance\n\u20b9 crore\nEBITDA impacted primarily on account of decrease in trade volume and price volatility in IRM and Commercial Mining\nIncubating businesses EBITDA continues growth momentum led by Airports\nLarge Infra assets comprising Navi Mumbai Airport, Copper Plant and Ganga Expressway to unlock EBITDA from Q4 FY26\nIncubating Business \u2013 [Energy & Utility \u2013 ANIL Ecosystem, Adani Connex Data Center, Transport & Logistics \u2013 Adani Airports Holdings Ltd, Adani Road Transport Ltd]\nEstablished Business \u2013 [Primary Industries \u2013 Mining services, IRM, Mining, Metals and Industrials]\n\nExcluding exceptional pre-tax gain of Rs.",
+    "file": "first.txt",
+    "page": 2,
+    "type": "text"
+  },
+  {
+    "text": "3,583 cr\n\n\n\nTABLES:\nNot found in the Documents (data presented in bar chart format)\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A.",
+    "file": "first.txt",
+    "page": 2,
+    "type": "text"
+  },
+  {
+    "text": "RAW VISUAL METADATA]\n\nType: Grouped Bar Chart (3 sets)\nTitle: Results at glance\nLabels: Total Income, EBITDA, PBT; H1-25, H1-26; Established Businesses, Incubating Businesses (core infra)\nLegends: Established Businesses (dark blue/navy fill), Incubating Businesses (core infra) (light grey fill)\nAxes: Y-axis = \u20b9 crore values; X-axis = periods (H1-25, H1-26)\nUnits: \u20b9 crore\n\n[B.",
+    "file": "first.txt",
+    "page": 2,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\nTotal Income:\n\nH1-25: Established = 31,976 | Incubating = 17,287 | Total = 49,263\nH1-26: Established = 27,109 | Incubating = 17,172 | Total = 44,281\n\nEBITDA:\n\nH1-25: Established = 3,421 | Incubating = 5,233 | Total = 8,654\nH1-26: Established = 2,218 | Incubating = 5,470 | Total = 7,688\nYoY change indicator: 5% (upward arrow on Incubating segment)\n\nPBT:\n\nH1-25: Established = 1,766 | Incubating = 2,878 | Total = 4,644\nH1-26: Established = (349) [negative] | Incubating = 2,630 | Total = 2,281 #\n\nExcluding exceptional pre-tax gain of Rs.",
+    "file": "first.txt",
+    "page": 2,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\n\nThree side-by-side stacked bar charts showing Total Income, EBITDA, and PBT\nEach chart has two bars: H1-25 (left) and H1-26 (right)\nEach bar is stacked: bottom portion = Established Businesses (dark navy), top portion = Incubating Businesses (light grey)\nTotal values labeled on top of each stacked bar\nSegment values labeled within each segment\nEBITDA chart shows a small triangle/arrow indicating 5% growth in the Incubating segment for H1-26 vs H1-25\nPBT chart shows (349) for Established Businesses in H1-26, indicating a loss/negative value; a \"#\" superscript on 2,281 denotes exclusion of exceptional pre-tax gain\n\n[D.",
+    "file": "first.txt",
+    "page": 2,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nTotal Income declined from \u20b949,263 cr (H1-25) to \u20b944,281 cr (H1-26), driven primarily by decline in Established Businesses (31,976 \u2192 27,109) while Incubating remained relatively stable (17,287 \u2192 17,172)\nEBITDA declined from \u20b98,654 cr to \u20b97,688 cr; Established segment fell from 3,421 to 2,218 while Incubating grew from 5,233 to 5,470 (5% growth noted)\nPBT declined significantly from \u20b94,644 cr to \u20b92,281 cr (excluding exceptional pre-tax gain of Rs.",
+    "file": "first.txt",
+    "page": 2,
+    "type": "text"
+  },
+  {
+    "text": "3,583 cr); Established segment PBT turned negative at (349) cr, while Incubating declined from 2,878 to 2,630\nThe EBITDA impact is attributed to decrease in trade volume and price volatility in IRM and Commercial Mining\nIncubating businesses show resilient EBITDA growth momentum\n\n[E.",
+    "file": "first.txt",
+    "page": 2,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nMetric | Segment | H1-25 (\u20b9 cr) | H1-26 (\u20b9 cr) | Change\nTotal Income | Established | 31,976 | 27,109 | Decline\nTotal Income | Incubating | 17,287 | 17,172 | Decline\nTotal Income | Combined | 49,263 | 44,281 | Decline\nEBITDA | Established | 3,421 | 2,218 | Decline\nEBITDA | Incubating | 5,233 | 5,470 | +5% Growth\nEBITDA | Combined | 8,654 | 7,688 | Decline\nPBT | Established | 1,766 | (349) | Negative\nPBT | Incubating | 2,878 | 2,630 | Decline\nPBT | Combined | 4,644 | 2,281# | Decline\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\n\n\n\nExcluding exceptional pre-tax gain of Rs.",
+    "file": "first.txt",
+    "page": 2,
+    "type": "text"
+  },
+  {
+    "text": "3,583 cr\n\nIncubating Business \u2013 [Energy & Utility \u2013 ANIL Ecosystem, Adani Connex Data Center, Transport & Logistics \u2013 Adani Airports Holdings Ltd, Adani Road Transport Ltd]\nEstablished Business \u2013 [Primary Industries \u2013 Mining services, IRM, Mining, Metals and Industrials]\n\n=== PAGE 2 END ===",
+    "file": "first.txt",
+    "page": 2,
+    "type": "text"
+  },
+  {
+    "text": "Table data: Segment | Metric | FY25 | H1-26 (YoY change) ANIL Green H2 Ecosystem | Total Income | 14,236 | 7,233 (5%) \u25bc ANIL Green H2 Ecosystem | EBITDA | 4,776 | 2,384 (14%) \u25bc AAHL Airports | Total Income | 10,224 | 5,882 32% \u25b2 AAHL Airports | EBITDA | 3,480 | 2,157 51% \u25b2 ARTL Roads | Total Income | 10,086 | 4,056 (22%) \u25bc ARTL Roads | EBITDA | 1,769 | 930 (11%) \u25bc",
+    "file": "first.txt",
+    "page": 3,
+    "type": "table",
+    "table_id": 0
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nSTRICTLY CONFIDENTIAL\nAdani Enterprises Limited (\"AEL\"): Incubating Businesses\nIncubating Businesses at glance\n\u20b9 crore\nANIL \u2013 Green H2 Ecosystem\nAAHL \u2013 Airports\nARTL \u2013 Roads\nAAHL Airports H1-26 EBITDA increased by 51% to Rs. 2,157 cr at quarterly run-rate of Rs.",
+    "file": "first.txt",
+    "page": 3,
+    "type": "text"
+  },
+  {
+    "text": "1,000+ crore from seven operational airports\nLarge Infra assets comprising Navi Mumbai Airport, Copper Plant and Ganga Expressway to unlock EBITDA from Q4 FY26\nIncubating Business \u2013 [Energy & Utility \u2013 ANIL Ecosystem, Adani Connex Data Center, Transport & Logistics \u2013 Adani Airports Holdings Ltd, Adani Road Transport Ltd.]\n\n\nTABLES:\n\n\n\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A.",
+    "file": "first.txt",
+    "page": 3,
+    "type": "text"
+  },
+  {
+    "text": "RAW VISUAL METADATA]\n\nType: Structured data card / infographic table\nTitle: Incubating Businesses at glance\nLabels: ANIL Green H2 Ecosystem, AAHL Airports, ARTL Roads; Total Income, EBITDA; FY25, H1-26 (YoY change)\nLegends: Upward triangle (\u25b2) = growth; Downward triangle (\u25bc) = decline\nAxes: Not applicable\nUnits: \u20b9 crore\n\n[B.",
+    "file": "first.txt",
+    "page": 3,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\nANIL Green H2 Ecosystem:\n\nTotal Income FY25: 14,236 | H1-26: 7,233 | YoY: (5%) \u25bc\nEBITDA FY25: 4,776 | H1-26: 2,384 | YoY: (14%) \u25bc\n\nAAHL Airports:\n\nTotal Income FY25: 10,224 | H1-26: 5,882 | YoY: 32% \u25b2\nEBITDA FY25: 3,480 | H1-26: 2,157 | YoY: 51% \u25b2\n\nARTL Roads:\n\nTotal Income FY25: 10,086 | H1-26: 4,056 | YoY: (22%) \u25bc\nEBITDA FY25: 1,769 | H1-26: 930 | YoY: (11%) \u25bc\n\n[C.",
+    "file": "first.txt",
+    "page": 3,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\n\nThree side-by-side cards, each representing one incubating business segment (ANIL, AAHL, ARTL)\nEach card has an icon at the top (sun/solar for ANIL, airplane for AAHL, road/highway for ARTL)\nEach card contains a 2x2 grid showing Total Income and EBITDA for FY25 and H1-26\nH1-26 column shows YoY percentage change with upward/downward arrows\nBottom banner: \"Large Infra assets comprising Navi Mumbai Airport, Copper Plant and Ganga Expressway to unlock EBITDA from Q4 FY26\"\nBottom bullet: \"AAHL Airports H1-26 EBITDA increased by 51% to Rs.",
+    "file": "first.txt",
+    "page": 3,
+    "type": "text"
+  },
+  {
+    "text": "2,157 cr at quarterly run-rate of Rs. 1,000+ crore from seven operational airports\"\n\n[D. SEMANTIC DESCRIPTION]\n\nANIL (Green H2 Ecosystem): Both Total Income and EBITDA declined in H1-26 vs corresponding H1-25 period (H1-26 represents half of FY25); Income down 5%, EBITDA down 14%\nAAHL (Airports): Strong growth \u2014 Total Income up 32%, EBITDA up 51% in H1-26 vs H1-25; run-rate of Rs.",
+    "file": "first.txt",
+    "page": 3,
+    "type": "text"
+  },
+  {
+    "text": "1,000+ cr per quarter from seven operational airports\nARTL (Roads): Both Income and EBITDA declined \u2014 Income down 22%, EBITDA down 11%\nLarge infra assets (Navi Mumbai Airport, Copper Plant, Ganga Expressway) expected to contribute EBITDA from Q4 FY26\n\n[E.",
+    "file": "first.txt",
+    "page": 3,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nSegment | Metric | FY25 (\u20b9 cr) | H1-26 (\u20b9 cr) | YoY Change\nANIL Green H2 | Total Income | 14,236 | 7,233 | (5%) \u25bc\nANIL Green H2 | EBITDA | 4,776 | 2,384 | (14%) \u25bc\nAAHL Airports | Total Income | 10,224 | 5,882 | +32% \u25b2\nAAHL Airports | EBITDA | 3,480 | 2,157 | +51% \u25b2\nARTL Roads | Total Income | 10,086 | 4,056 | (22%) \u25bc\nARTL Roads | EBITDA | 1,769 | 930 | (11%) \u25bc\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\n\n\nIncubating Business \u2013 [Energy & Utility \u2013 ANIL Ecosystem, Adani Connex Data Center, Transport & Logistics \u2013 Adani Airports Holdings Ltd, Adani Road Transport Ltd.]\n\n=== PAGE 3 END ===",
+    "file": "first.txt",
+    "page": 3,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\nContents\n01 Adani Portfolio Overview\n02 AEL \u2013 Largest Listed Incubator\n03 Business & Operational Highlights\n04 Financial Highlights\n05 Debt Profile\n06 ESG Highlights\nAppendix\nTABLES:\nNot found in the Documents\nIMAGES / INFOGRAPHICS / CHARTS:\nNot found in the Documents\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\nNot found in the Documents\n\n=== PAGE 4 END ===",
+    "file": "first.txt",
+    "page": 4,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nSTRICTLY CONFIDENTIAL\n01\nAdani Portfolio Overview\n\n\nTABLES:\nNot found in the Documents\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A. RAW VISUAL METADATA]\n\nType: Section divider slide\nTitle: Adani Portfolio Overview\nLabels: \"01\"\nLegends: Not found in the Documents\nAxes: Not found in the Documents\nUnits: Not found in the Documents\n\n[B.",
+    "file": "first.txt",
+    "page": 5,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\n\nSection number: 01\nSection title: Adani Portfolio Overview\n\n[C. STRUCTURAL DESCRIPTION]\n\nPlain white/light background\nLarge light-grey number \"01\" on the lower left\nBold dark blue text \"Adani Portfolio Overview\" below the number\nAdani logo top-right corner\n\n[D.",
+    "file": "first.txt",
+    "page": 5,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nThis is a section title slide indicating the start of Section 01: Adani Portfolio Overview\n\n[E. MACHINE-READABLE SUMMARY]\nSection Number | 01\nSection Title | Adani Portfolio Overview\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\nNot found in the Documents\n\n=== PAGE 5 END ===",
+    "file": "first.txt",
+    "page": 5,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAdani Portfolio: A World Class Infrastructure & Utility Portfolio\nA multi-decade story of high growth centered around infrastructure & utility core\n(%): Adani Family equity stake in Adani Portfolio companies\n(%): AEL equity stake in its subsidiaries\n(%): Ambuja equity stake in its subsidiaries\nListed cos | Direct Consumer\n\nFootnotes:\n\nATGL: Adani Total Gas Ltd, JV with Total Energies\nNQXT: North Queensland Export Terminal.",
+    "file": "first.txt",
+    "page": 6,
+    "type": "text"
+  },
+  {
+    "text": "On 17th Apr'25, Board of Directors have approved the acquisition of NQXT by APSEZ, transaction will be concluded post pending regulatory approval.\nAmbuja Cement's shareholding does not include Global Depository Receipt of 0.04% but includes AEL shareholding of 0.35% received as part of the consideration against transfer of Adani Cementation Limited as per NCLT order dated 18th July'25\nCement includes 67.64% (67.68% on Voting Rights basis) stake in Ambuja Cements Ltd.",
+    "file": "first.txt",
+    "page": 6,
+    "type": "text"
+  },
+  {
+    "text": "as on 30th Sep'25 which in turn owns 50.05% in ACC Limited. Adani directly owns 6.64% stake in ACC Limited.\nData center, JV with EdgeConnex\nPromoter holding in NDTV has increased to 69.02% post completion of right issue in the month of Oct'25\nAWL Agri Business Ltd.",
+    "file": "first.txt",
+    "page": 6,
+    "type": "text"
+  },
+  {
+    "text": ": AEL to exit Wilmar JV, agreement signed for residual 20% stake dilution.\nIncludes the manufacturing of Defense and Aerospace Equipment\nAEL: Adani Enterprises Limited | APSEZ: Adani Ports and Special Economic Zone Limited | AESL: Adani Energy Solutions Limited | T&D: Transmission & Distribution | APL: Adani Power Limited | AGEL: Adani Green Energy Limited | AAHL: Adani Airport Holdings Limited | ARTL: Adani Roads Transport Limited | ANIL: Adani New Industries Limited | IPP: Independent Power Producer | NDTV: New Delhi Television Ltd | PVC: Polyvinyl Chloride | GCC: Global Capability Centre\nPromoter's holdings are as on 30th September, 2025.\nTABLES:\nNot found in the Documents\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A.",
+    "file": "first.txt",
+    "page": 6,
+    "type": "text"
+  },
+  {
+    "text": "RAW VISUAL METADATA]\n\nType: Organizational hierarchy / portfolio diagram\nTitle: Adani Portfolio: A World Class Infrastructure & Utility Portfolio\nLabels: Flagship, Infrastructure & Utility Core Portfolio, Primary Industry, Other, Energy & Utility, Transport & Logistics, Materials Metal & Mining, Specialty, AEL, AGEL, APL, AESL, ATGL, APSEZ, NQXT, ANIL, AdaniConneX, AAHL, ARTL, Ambuja Cements, ACC, Sanghi, Orient, AWL, NDTV, Copper/Aluminum, Mining Services & Com.",
+    "file": "first.txt",
+    "page": 6,
+    "type": "text"
+  },
+  {
+    "text": "Mining, PVC, Specialist Manufacturing, GCC\nLegends: Listed cos (dark background), Direct Consumer (light background); (%): Adani Family equity stake (black %); (%): AEL equity stake (blue %); (%): Ambuja equity stake (grey %)\nAxes: Not applicable\nUnits: Percentage stakes\n\n[B.",
+    "file": "first.txt",
+    "page": 6,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\nAdani Family Equity Stakes:\n\nAEL: 73.97%\nAGEL (Renewables): 62.43%\nAPL (IPP): 74.96%\nAESL (T&D): 71.19%\nATGL (Gas Discom): 37.40%\nAPSEZ (Ports & Logistics): 65.89%\nAmbuja Cements: 67.64% (\u00b3)\n\nAEL Equity Stakes in Subsidiaries:\n\nANIL (New Industries): 100%\nAdaniConneX (Data Centre): 50.00%\nAAHL (Airports): 100%\nARTL (Roads): 100%\nCopper, Aluminum: 100%\nPVC: 100%\nMining Services & Com.",
+    "file": "first.txt",
+    "page": 6,
+    "type": "text"
+  },
+  {
+    "text": "Mining: 100%\nSpecialist Manufacturing: 100%\nGCC: 100%\n\nAmbuja Equity Stakes:\n\nACC: 50.05%\nSanghi: 58.08%\nOrient: 72.66%\n\nOther:\n\nNDTV: 64.71%\nAWL (Food FMCG): 20.00%\n\n[C.",
+    "file": "first.txt",
+    "page": 6,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\n\nHierarchical corporate structure chart\nTop level: \"adani\" logo centrally at top\nSecond tier (horizontal): Flagship (AEL), Infrastructure & Utility Core Portfolio (Energy & Utility + Transport & Logistics), Primary Industry (Materials, Metal & Mining), Other (Specialty)\nThird tier (listed companies): AGEL, APL, AESL, ATGL (Energy & Utility); APSEZ (Transport & Logistics); Ambuja Cements (Primary Industry); NDTV, AWL (Other)\nFourth tier (AEL subsidiaries, shown in a bordered box): ANIL, AdaniConneX, AAHL, ARTL, Copper/Aluminum, PVC, Mining Services, Specialist Manufacturing, GCC\nAmbuja has sub-entities: ACC, Sanghi, Orient\nColor coding: Listed companies in dark navy; Direct consumer businesses in lighter shade\nArrows/lines connecting entities to show ownership hierarchy\n\n[D.",
+    "file": "first.txt",
+    "page": 6,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nAEL (73.97% Adani Family stake) is the flagship incubator with 100% stake in ANIL, AAHL, ARTL, and other subsidiaries\nAPSEZ, AGEL, APL, AESL, ATGL are directly held listed companies with varying Adani Family stakes\nAmbuja Cements (67.64% stake) is the primary industry entity with sub-holdings in ACC, Sanghi, and Orient\nAEL is positioned to incubate new businesses across energy, transport, data centers, metals, mining, and manufacturing\nNDTV (64.71%) and AWL (20%) are categorized as \"Other / Specialty / Direct Consumer\"\nThe diagram shows a multi-layered portfolio spanning infrastructure, utility, and primary industries\n\n[E.",
+    "file": "first.txt",
+    "page": 6,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nEntity | Category | Adani Family Stake | AEL Stake | Sub-entities\nAEL | Flagship/Incubator | 73.97% | \u2014 | ANIL, AdaniConneX, AAHL, ARTL, Copper/Al, PVC, Mining, Mfg, GCC\nAGEL | Energy & Utility | 62.43% | \u2014 | \u2014\nAPL | Energy & Utility | 74.96% | \u2014 | \u2014\nAESL | Energy & Utility | 71.19% | \u2014 | \u2014\nATGL | Energy & Utility | 37.40% | \u2014 | \u2014\nAPSEZ | Transport & Logistics | 65.89% | \u2014 | NQXT\nAmbuja Cements | Primary Industry | 67.64% | \u2014 | ACC (50.05%), Sanghi (58.08%), Orient (72.66%)\nNDTV | Other/Specialty | \u2014 | 64.71% | \u2014\nAWL | Other/Direct Consumer | \u2014 | 20.00% | \u2014\n\nFLOWCHARTS / DIAGRAMS:\n[FLOW REPRESENTATION]\nAdani Family \u2192 AEL (73.97%) [Flagship Incubator]\nAdani Family \u2192 AGEL (62.43%), APL (74.96%), AESL (71.19%), ATGL (37.40%) [Energy & Utility Listed]\nAdani Family \u2192 APSEZ (65.89%) [Transport & Logistics Listed]\nAdani Family \u2192 Ambuja Cements (67.64%) \u2192 ACC (50.05%), Sanghi (58.08%), Orient (72.66%)\nAEL \u2192 ANIL (100%), AdaniConneX (50%), AAHL (100%), ARTL (100%), Copper/Aluminum (100%), PVC (100%), Mining Services (100%), Specialist Manufacturing (100%), GCC (100%)\nAEL \u2192 NDTV (64.71%), AWL (20%)\nFOOTNOTES / REFERENCES:\n(Full footnotes as listed in Text Content section above)\n\n\nPromoter's holdings are as on 30th September, 2025\n\n=== PAGE 6 END ===",
+    "file": "first.txt",
+    "page": 6,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAdani Portfolio: Best-in class growth with national footprint\nPredictable, high and rising free cash flow\nNational footprint with deep coverage\nAll figures in INR cr\nEBITDA CAGR: 24%\nCAT (FFO) CAGR: 32%\nAdani's Core Infra.",
+    "file": "first.txt",
+    "page": 7,
+    "type": "text"
+  },
+  {
+    "text": "Platform \u2013 350 Mn Userbase\n\nLegend text:\n\nTax paid\nFinance cost paid\nCAT (FFO)\n\nEntities listed on map:\n\nAEL, APSEZ, AGEL, ATGL, AESL, APL, Ambuja Cement\n\nFootnote text:\nEBITDA: Earning before Interest Tax Depreciation & Amortization | EBITDA: PAT + Share of profit from JV + Tax + Deferred Tax + Depreciation + Finance Cost + Forex Loss / (Gain) + Exceptional Items | FFO: Fund Flow from Operations | FFO: EBITDA \u2013 Actual Finance cost paid (excl.",
+    "file": "first.txt",
+    "page": 7,
+    "type": "text"
+  },
+  {
+    "text": "Capitalized Interest, incl. Int. on Lease Liabilities) \u2013 Tax Paid | AEL: Adani Enterprises Limited | APSEZ: Adani Ports and Special Economic Zone Limited | AGEL: Adani Green Energy Limited | ATGL: Adani Total Gas Limited | AESL: Adani Energy Solutions Limited | APL: Adani Power Limited\n\nTABLES:\nNot found in the Documents\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A.",
+    "file": "first.txt",
+    "page": 7,
+    "type": "text"
+  },
+  {
+    "text": "RAW VISUAL METADATA]\n\nType: Area/line chart (left) + India map with dots (right)\nTitle (left): Predictable, high and rising free cash flow\nTitle (right): National footprint with deep coverage\nLabels (left): Tax paid, Finance cost paid, CAT (FFO), EBITDA values per year\nLabels (right): AEL, APSEZ, AGEL, ATGL, AESL, APL, Ambuja Cement (color-coded dots on India map)\nLegends: Tax paid (dark blue), Finance cost paid (medium blue), CAT (FFO) (light grey); colored dots for each entity\nAxes (left): X-axis = FY19 to FY25; Y-axis = INR crore values\nUnits: INR crore\n\n[B.",
+    "file": "first.txt",
+    "page": 7,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\nEBITDA values:\n\nFY19: 24,870\nFY20: Not found in the Documents (implied between FY19 and FY21 on chart)\nFY21: Not found in the Documents\nFY22: Not found in the Documents\nFY23: Not found in the Documents\nFY24: 66,527\nFY25: 89,806\n\nCAT (FFO) values (shown as percentages of EBITDA per year):\n\nFY19: 1,668 (implied from chart)\nFY20: 4,568\nFY21: 10,418\nFY22: 18,711 (21%)\nFY23: 12,784 (51%)\nFY24: 66,527 \u2014 CAT portion labeled as 18,711 (21%)\nFY25 EBITDA: 89,806; CAT (FFO): not individually labeled as a single value but % breakdowns noted\n\nPercentage labels visible on chart (FFO as % of EBITDA):\n\nFY21: (42%)\nFY22: (21%)\nFY23: (51%)\nFY24: (74%)\n\nEBITDA CAGR: 24%\nCAT (FFO) CAGR: 32%\nAdani's Core Infra.",
+    "file": "first.txt",
+    "page": 7,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\n\nLeft section: Stacked area/bar chart from FY19 to FY25 showing cumulative EBITDA growth with layered components (Tax paid, Finance cost paid, CAT/FFO)\nThe chart shows steeply rising EBITDA curve and rising FFO\nRight section: India political map with colored dots indicating geographic presence of each Adani group entity across states\nBottom right: \"350 Mn Userbase\" callout with people icon\nCAGR labels for EBITDA (24%) and CAT FFO (32%) are annotated on the chart\n\n[D.",
+    "file": "first.txt",
+    "page": 7,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nEBITDA grew from 24,870 cr (FY19) to 89,806 cr (FY25), a CAGR of 24%\nCAT (FFO) grew at a faster CAGR of 32% over the same period\nFFO as a percentage of EBITDA improved significantly: 42% in FY21, declining to 21% in FY22, rising to 51% in FY23, and 74% in FY24 \u2014 showing improving cash conversion\nThe map shows Adani group entities have operations spread across multiple states in India, indicating deep national coverage\n350 Mn userbase reflects Adani's Core Infrastructure Platform reach\n\n[E.",
+    "file": "first.txt",
+    "page": 7,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nYear | EBITDA (INR cr) | FFO as % of EBITDA\nFY19 | 24,870 | Not found in the Documents\nFY20 | Not found in the Documents | Not found in the Documents\nFY21 | Not found in the Documents | 42%\nFY22 | Not found in the Documents | 21%\nFY23 | Not found in the Documents | 51%\nFY24 | 66,527 | 74%\nFY25 | 89,806 | Not found in the Documents\nCAGR | EBITDA: 24% | CAT (FFO): 32%\nPlatform | Adani Core Infra | 350 Mn Userbase\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\n\n\nEBITDA: Earning before Interest Tax Depreciation & Amortization\nEBITDA: PAT + Share of profit from JV + Tax + Deferred Tax + Depreciation + Finance Cost + Forex Loss/(Gain) + Exceptional Items\nFFO: Fund Flow from Operations\nFFO: EBITDA \u2013 Actual Finance cost paid (excl.",
+    "file": "first.txt",
+    "page": 7,
+    "type": "text"
+  },
+  {
+    "text": "Capitalized Interest, incl. Int. on Lease Liabilities) \u2013 Tax Paid\nAEL: Adani Enterprises Limited | APSEZ: Adani Ports and Special Economic Zone Limited | AGEL: Adani Green Energy Limited | ATGL: Adani Total Gas Limited | AESL: Adani Energy Solutions Limited | APL: Adani Power Limited\n\n=== PAGE 7 END ===",
+    "file": "first.txt",
+    "page": 7,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAdani Portfolio: Repeatable, robust & proven transformative model of investment\nDEVELOPMENT\u00b9\nOPERATIONS\nCONSUMERS\n\nActivities:\n\nOrigination: Analysis & market intelligence; Viability analysis\nSite Development: Site acquisition; Concessions & regulatory agreements\nConstruction: Engineering & design; Sourcing & quality; Project Management Consultancy (PMC)\nAdani Infra (India) Limited | Cemindia Projects Ltd.",
+    "file": "first.txt",
+    "page": 8,
+    "type": "text"
+  },
+  {
+    "text": "| PSP Projects Ltd.\nOperation: Life cycle O&M planning; Asset Management plan\nOperations (AIMSL)\u00b2\nInspired Purpose & Value Creation: Delivering exceptional products & services for elevated engagement; Differentiated and many P&Ls\nNew C.E.O.",
+    "file": "first.txt",
+    "page": 8,
+    "type": "text"
+  },
+  {
+    "text": "\u2013 Consumer | Employees | Other Stakeholders\n\nPerformance examples:\n\nIndia's Largest Commercial Port (at Mundra)\nLongest Private HVDC Line in Asia (Mundra - Mohindergarh)\nWorld's largest Renewable Cluster (at Khavda)\nEnergy Network Operation Center (ENOC) \u2013 March 2016\n\nCapital Management:\n\nStrategic value Mapping\nInvestment Case Development\nGrowth Capital \u2013 Platform Infrastructure Financing Framework\nDuration Risk Matching\nRisk Management \u2013 Rate & Currency\nGovernance & Assurance\nDiversified Source of Capital\n\nEnabler:\n\nPolicy, Strategy & Risk Framework\nHuman Capital Development: Leadership Development Initiatives; Investment in Human Capital\nContinued Focus & Investment\nAI enabled Digital Transformation: Power Utility Business - ENOC; City Gas Distribution - SOUL; Transportation Business - AOCC\n\nLong Term Debt Composition (March 2025):\n\nPSU Banks: 18%\nPvt.",
+    "file": "first.txt",
+    "page": 8,
+    "type": "text"
+  },
+  {
+    "text": "Banks: 25%\nUSD Bonds: 1%\nDII: 26%\nGlobal Int. Banks: 2%\nNBFCs & FIs: 23%\nCapex LC: 5%\n\nMarch 2016 composition:\n\n55%\n31%\n14%\n\n\nTABLES:\nNot found in the Documents\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A.",
+    "file": "first.txt",
+    "page": 8,
+    "type": "text"
+  },
+  {
+    "text": "RAW VISUAL METADATA]\n\nType: Multi-layer framework diagram + two pie charts\nTitle: Adani Portfolio: Repeatable, robust & proven transformative model of investment\nLabels: Development, Operations, Consumers (column headers); Activity, Performance, Capital Management, Enabler (row headers); two pie charts for March 2016 and March 2025 debt composition\nLegends: Long Term Debt breakdown by lender type\nAxes: Not applicable\nUnits: Percentage\n\n[B.",
+    "file": "first.txt",
+    "page": 8,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\nLong Term Debt \u2013 March 2016 (pie chart):\n\n55% (category not fully labeled \u2014 implied PSU Banks based on historical context)\n31%\n14%\nNote: Exact category labels for March 2016 not explicitly labeled per segment in document text\n\nLong Term Debt \u2013 March 2025 (pie chart):\n\nPSU Banks: 18%\nPvt. Banks: 25%\nUSD Bonds: 1%\nDII: 26%\nGlobal Int.",
+    "file": "first.txt",
+    "page": 8,
+    "type": "text"
+  },
+  {
+    "text": "Banks: 2%\nNBFCs & FIs: 23%\nCapex LC: 5%\n\n[C.",
+    "file": "first.txt",
+    "page": 8,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\n\n4-row \u00d7 3-column matrix framework (Activity, Performance, Capital Management, Enabler as rows; Development, Operations, Consumers as columns)\nEach cell contains descriptive text and visual elements\nPerformance row includes photographs: India's Largest Commercial Port (Mundra), Longest Private HVDC Line (Mundra-Mohindergarh), World's largest Renewable Cluster (Khavda), Energy Network Operation Center (ENOC)\nCapital Management row includes two pie charts showing evolution of debt composition from March 2016 to March 2025\nRight arrow (>>) connecting Development \u2192 Operations \u2192 Consumers\n\n[D.",
+    "file": "first.txt",
+    "page": 8,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nThe framework illustrates Adani's end-to-end model: originate \u2192 develop sites \u2192 construct \u2192 operate \u2192 serve consumers\nThe capital management section shows significant diversification of debt sources between 2016 and 2025\nIn March 2016, debt was concentrated (55%, 31%, 14% segments \u2014 labels not individually mapped per segment in document)\nBy March 2025, debt is diversified across 7 categories: PSU Banks 18%, Pvt.",
+    "file": "first.txt",
+    "page": 8,
+    "type": "text"
+  },
+  {
+    "text": "Banks 25%, USD Bonds 1%, DII 26%, Global Int. Banks 2%, NBFCs & FIs 23%, Capex LC 5%\nAI-enabled digital transformation is highlighted as an enabler (ENOC, SOUL, AOCC platforms)\n\n[E. MACHINE-READABLE SUMMARY]\nMarch 2025 Long Term Debt:\nCategory | Percentage\nPSU Banks | 18%\nPvt. Banks | 25%\nUSD Bonds | 1%\nDII | 26%\nGlobal Int.",
+    "file": "first.txt",
+    "page": 8,
+    "type": "text"
+  },
+  {
+    "text": "Banks | 2%\nNBFCs & FIs | 23%\nCapex LC | 5%\nMarch 2016 Long Term Debt:\nSegment 1 | 55%\nSegment 2 | 31%\nSegment 3 | 14%\n(Category labels for March 2016 segments: Not found in the Documents)\n\nFLOWCHARTS / DIAGRAMS:\n[FLOW REPRESENTATION]\nDevelopment (Origination \u2192 Site Development \u2192 Construction) >> Operations (Operation / O&M) >> Consumers (New C.E.O.",
+    "file": "first.txt",
+    "page": 8,
+    "type": "text"
+  },
+  {
+    "text": "/ Value Creation)\nEnabler: Policy/Strategy/Risk \u2192 Human Capital \u2192 AI Digital Transformation\nFOOTNOTES / REFERENCES:\nNote 1: Cemindia Projects Ltd. (formerly known as ITD Cementation India Ltd.): total shareholding stands at 67.47%. PSP Projects Ltd.: total shareholding stands at 34.41%.\nNote 2: Adani Environmental Resource Management Services Ltd.",
+    "file": "first.txt",
+    "page": 8,
+    "type": "text"
+  },
+  {
+    "text": "(additional company is being proposed)\nO&M: Operations & Maintenance | HVDC: High voltage direct current | PSU: Public Sector Undertaking | GMTN: Global Medium-Term Notes | SLB: Sustainability Linked Bonds | AEML: Adani Electricity Mumbai Ltd.",
+    "file": "first.txt",
+    "page": 8,
+    "type": "text"
+  },
+  {
+    "text": "| AIMSL: Adani Infra Mgt Services Pvt Ltd | IG: Investment Grade | LC: Letter of Credit | DII: Domestic Institutional Investors | COP26: 2021 United Nations Climate Change Conference | AGEL: Adani Green Energy Ltd. | NBFC: Non-Banking Financial Company | AIIL: Adani Infra (India) Ltd. | AOCC: Airport Operations Control Center\n\n=== PAGE 8 END ===",
+    "file": "first.txt",
+    "page": 8,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nSTRICTLY CONFIDENTIAL\n02\nAEL \u2013 Largest Listed Incubator\n\n\nTABLES:\nNot found in the Documents\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A. RAW VISUAL METADATA]\n\nType: Section divider slide\nTitle: AEL \u2013 Largest Listed Incubator\nLabels: \"02\"\nLegends: Not found in the Documents\nAxes: Not found in the Documents\nUnits: Not found in the Documents\n\n[B.",
+    "file": "first.txt",
+    "page": 9,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\n\nSection number: 02\nSection title: AEL \u2013 Largest Listed Incubator\n\n[C. STRUCTURAL DESCRIPTION]\n\nPlain white background\nLarge light-grey number \"02\" lower left\nBold dark blue text \"AEL \u2013 Largest Listed Incubator\"\nAdani logo top-right corner\n\n[D. SEMANTIC DESCRIPTION]\n\nSection divider indicating Section 02: AEL \u2013 Largest Listed Incubator\n\n[E.",
+    "file": "first.txt",
+    "page": 9,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nSection Number | 02\nSection Title | AEL \u2013 Largest Listed Incubator\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\nNot found in the Documents\n\n=== PAGE 9 END ===",
+    "file": "first.txt",
+    "page": 9,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAEL: Incubation Model\nDevelopment | Operations | Sustainable value creation\n\nAttractive Incubation Record:\n\nProven incubation success record\nYear 2015 > APSEZ, APL & AESL\nYear 2018 > AGEL & ATGL\n\nGreen Hydrogen Ecosystem:\n\nIntend to set up integrated manufacturing for generating low-cost green hydrogen\nIngots, wafers, cells, modules, wind turbines & electrolysers\n\nBusiness Model:\n\nB2B Model: ANIL Ecosystem, Data Center\nB2C Model: Airports, Roads\n\nGlobal Recognition:\n\nTesting & Certification backed operations to meet global standards\ne.g.",
+    "file": "first.txt",
+    "page": 10,
+    "type": "text"
+  },
+  {
+    "text": "Largest WTG of 5.2 MW received type certification from WINDGUARD\n\nTechnology backed operations:\n\nConsistent upgradation in technology for business efficiencies\ne.g.",
+    "file": "first.txt",
+    "page": 10,
+    "type": "text"
+  },
+  {
+    "text": "TopCon technology in Modules\n\nCapacity Enhancement:\n\nScaling size in Top Line & Asset Base\nANIL Ecosystem Module & Cell - 4 GW\nANIL Ecosystem Ingot & Wafer - 2 GW\nANIL Ecosystem WTG \u2013 2.25 GW\nRoads Project @ 5500+ Lane-Kms\n\nValue to shareholders:\n\nSignificant value creation for shareholders\nCAGR @ 31% over 30 Years\nMarket Cap @ USD 32.6 Bn#\n\nEfficient Capital Management:\n\nCapital management plan in line with underlying business philosophy\nConsolidated Net Debt / Equity ratio at 0.98x in H1-26\n\nESG Governance:\n\nScored 62/100 in S&P/DJSI assessment as against industry average score of 29/100\n\nFootnotes:\nAPSEZ: Adani Ports and Special Economic Zone Ltd | APL: Adani Power Ltd | AESL: Adani Energy Solutions Ltd | AGEL: Adani Green Energy Ltd | ATGL: Adani Total Gas Ltd | B2B: Business to Business | B2C: Business to Consumer; WTG: Wind Turbine Generator | ESG: Environmental, Social, and Governance; CAGR: Compounded Annual Growth Rate;\n#Market Cap as on September 30, 2025\n\nTABLES:\nNot found in the Documents\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A.",
+    "file": "first.txt",
+    "page": 10,
+    "type": "text"
+  },
+  {
+    "text": "RAW VISUAL METADATA]\n\nType: 3x3 structured framework grid / infographic\nTitle: AEL: Incubation Model\nLabels: Development, Operations, Sustainable value creation (row labels); Attractive Incubation Record, Green Hydrogen Ecosystem, Business Model (row 1); Global Recognition, Technology backed operations, Capacity Enhancement (row 2); Value to shareholders, Efficient Capital Management, ESG Governance (row 3)\nLegends: Not found in the Documents\nAxes: Not applicable\nUnits: GW, Lane-Kms, USD Bn, x (ratio), score out of 100, CAGR %\n\n[B.",
+    "file": "first.txt",
+    "page": 10,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\n\nYear 2015: APSEZ, APL & AESL incubated\nYear 2018: AGEL & ATGL incubated\nLargest WTG: 5.2 MW (type certified by WINDGUARD)\nANIL Module & Cell: 4 GW\nANIL Ingot & Wafer: 2 GW\nANIL WTG: 2.25 GW\nRoads: 5,500+ Lane-Kms\nCAGR: 31% over 30 years\nMarket Cap: USD 32.6 Bn (as on September 30, 2025)\nNet Debt/Equity ratio: 0.98x (H1-26)\nDJSI Score: 62/100\nIndustry average DJSI score: 29/100\n\n[C.",
+    "file": "first.txt",
+    "page": 10,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\n\n3-row \u00d7 3-column grid\nLeft column labels: Development, Operations, Sustainable value creation\nEach of the 9 cells contains a dark navy header and descriptive text below\nCells: Attractive Incubation Record | Green Hydrogen Ecosystem | Business Model; Global Recognition | Technology backed operations | Capacity Enhancement; Value to shareholders | Efficient Capital Management | ESG Governance\n\n[D.",
+    "file": "first.txt",
+    "page": 10,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nAEL has a proven track record of incubating large businesses (APSEZ, APL, AESL in 2015; AGEL, ATGL in 2018)\nCurrently incubating Green H2 ecosystem (solar modules, wind turbines, electrolysers) \u2014 both B2B (ANIL, Data Center) and B2C (Airports, Roads) business models\nOperational excellence shown by largest 5.2 MW WTG certification and TopCon technology adoption\nCapacity scaling: 4 GW modules/cells, 2 GW ingots/wafers, 2.25 GW WTG, 5,500+ lane-kms roads\nShareholder value: 31% CAGR over 30 years; Market Cap USD 32.6 Bn\nFinancial discipline: Net Debt/Equity 0.98x\nESG leadership: DJSI score 62/100 vs industry average 29/100\n\n[E.",
+    "file": "first.txt",
+    "page": 10,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nAttribute | Value | Unit/Context\nANIL Module & Cell Capacity | 4 | GW\nANIL Ingot & Wafer Capacity | 2 | GW\nANIL WTG Capacity | 2.25 | GW\nRoads Portfolio | 5,500+ | Lane-Kms\nLargest WTG | 5.2 | MW (WINDGUARD certified)\nShareholder CAGR | 31% | Over 30 Years\nMarket Cap | 32.6 | USD Bn (Sep 30, 2025)\nNet Debt/Equity | 0.98x | H1-26\nDJSI Score | 62/100 | vs Industry avg 29/100\nFirst Incubation Batch | APSEZ, APL, AESL | Year 2015\nSecond Incubation Batch | AGEL, ATGL | Year 2018\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\n\n\nAPSEZ, APL, AESL, AGEL, ATGL abbreviations as noted\nWTG: Wind Turbine Generator | ESG: Environmental, Social, and Governance | CAGR: Compounded Annual Growth Rate\n#Market Cap as on September 30, 2025\n\n=== PAGE 10 END ===",
+    "file": "first.txt",
+    "page": 10,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAEL 2.0: Current incubation portfolio with long term growth potential\nAEL Business Portfolio\nInfrastructure & Utility Core Portfolio\nPrimary Industry\nOthers\nEnergy & Utility: New Industries (End to end Green H2 chain), Data Center, Water, Direct Consumer Businesses\nTransport & Logistics: Airports, Roads\nServices: Mining Services, Integrated Resource Management, Mining, Commercial Mining\nMetals: Copper, Aluminium, PVC, Industrials, Specialized Manufacturing\u00b2\nDirect to consumer: Food FMCG\u00b9\nMedia\nA multi-decade story of high growth centered around infrastructure & utility core\n\nFootnotes:\n\nFood FMCG business \u2013 AWL Agri Business Ltd.: AEL to exit Wilmar JV, diluted 13.50% through Offer For Sale (Jan'25), 10.42% stake has been diluted through Block Deal during Jul'25, agreement signed for residual 20% stake dilution\nIncludes the manufacturing of Defense and Aerospace Equipment\nH2: Hydrogen | FMCG: Fast-moving consumer goods | PVC: Poly Vinyl Chloride\nTABLES:\nNot found in the Documents\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A.",
+    "file": "first.txt",
+    "page": 11,
+    "type": "text"
+  },
+  {
+    "text": "RAW VISUAL METADATA]\n\nType: Portfolio matrix / business categorization diagram\nTitle: AEL 2.0: Current incubation portfolio with long term growth potential | AEL Business Portfolio\nLabels: Infrastructure & Utility Core Portfolio, Primary Industry, Others; Energy & Utility, Transport & Logistics, Services, Metals, Direct to consumer; New Industries, Data Center, Water, Airports, Roads, Mining Services, IRM, Mining, Commercial Mining, Copper/Aluminium, PVC, Industrials, Specialized Manufacturing, Food FMCG, Media, Direct Consumer Businesses\nLegends: Dark navy boxes = active/core businesses; Light grey boxes = exiting or other businesses\nAxes: Not applicable\nUnits: Not applicable\n\n[B.",
+    "file": "first.txt",
+    "page": 11,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\nInfrastructure & Utility Core Portfolio:\n\nEnergy & Utility: New Industries (End to end Green H2 chain), Data Center, Water, Direct Consumer Businesses\nTransport & Logistics: Airports, Roads\n\nPrimary Industry:\n\nServices: Mining Services, Integrated Resource Management, Mining, Commercial Mining\nMetals: Copper, Aluminium, PVC, Industrials, Specialized Manufacturing (incl.",
+    "file": "first.txt",
+    "page": 11,
+    "type": "text"
+  },
+  {
+    "text": "Defense and Aerospace)\n\nOthers:\n\nDirect to consumer: Food FMCG (AWL Agri Business Ltd.)\nMedia\n\n[C.",
+    "file": "first.txt",
+    "page": 11,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\n\nThree-column header: Infrastructure & Utility Core Portfolio | Primary Industry | Others\nBelow headers: sub-category boxes organized in a grid\nEnergy & Utility column: 4 boxes (New Industries, Data Center, Water, Direct Consumer Businesses)\nTransport & Logistics column: 2 boxes (Airports, Roads) \u2014 shown with border/outline indicating active incubation\nServices column: 4 boxes (Mining Services, IRM, Mining, Commercial Mining)\nMetals column: 4 boxes (Copper/Aluminium, PVC, Industrials, Specialized Manufacturing)\nOthers: Food FMCG and Media in lighter shading\nBottom banner: \"A multi-decade story of high growth centered around infrastructure & utility core\"\n\n[D.",
+    "file": "first.txt",
+    "page": 11,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nAEL's current portfolio spans infrastructure, primary industry, and other businesses\nCore incubation focus is on Green H2 chain, Airports, and Roads within infrastructure\nMining services, IRM, and metals form the primary industry backbone\nAEL is exiting Food FMCG (AWL Agri Business / Wilmar JV) \u2014 indicated by footnote about stake dilution\nSpecialized Manufacturing includes Defense and Aerospace\n\n[E.",
+    "file": "first.txt",
+    "page": 11,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nCategory | Sub-Category | Businesses\nInfrastructure & Utility | Energy & Utility | New Industries (Green H2), Data Center, Water, Direct Consumer\nInfrastructure & Utility | Transport & Logistics | Airports, Roads\nPrimary Industry | Services | Mining Services, IRM, Mining, Commercial Mining\nPrimary Industry | Metals | Copper/Aluminium, PVC, Industrials, Specialized Manufacturing\nOthers | Direct to Consumer | Food FMCG (AWL Agri)\nOthers | Media | Media\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\nFood FMCG \u2013 AWL Agri Business Ltd.: AEL to exit Wilmar JV, diluted 13.50% through OFS (Jan'25), 10.42% via Block Deal (Jul'25), agreement for residual 20% stake dilution signed\nSpecialized Manufacturing includes Defense and Aerospace Equipment\nH2: Hydrogen | FMCG: Fast-moving consumer goods | PVC: Poly Vinyl Chloride\n\n=== PAGE 11 END ===",
+    "file": "first.txt",
+    "page": 11,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nSTRICTLY CONFIDENTIAL\n03\nBusiness & Operational Highlights\n\n\nTABLES:\nNot found in the Documents\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A. RAW VISUAL METADATA]\n\nType: Section divider slide\nTitle: Business & Operational Highlights\nLabels: \"03\"\n\n[B. EXACT DATA EXTRACTION]\n\nSection number: 03\nSection title: Business & Operational Highlights\n\n[C.",
+    "file": "first.txt",
+    "page": 12,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\n\nPlain white background; large light-grey \"03\" lower left; bold dark text title; Adani logo top right\n\n[D. SEMANTIC DESCRIPTION]\n\nSection divider for Section 03: Business & Operational Highlights\n\n[E.",
+    "file": "first.txt",
+    "page": 12,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nSection Number | 03\nSection Title | Business & Operational Highlights\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\nNot found in the Documents\n\n=== PAGE 12 END ===",
+    "file": "first.txt",
+    "page": 12,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAEL: Performance Highlights\n\nAirports:\n\nGreenfield Navi Mumbai International Airport inaugurated on 08th October 2025, a major landmark in India's aviation journey; set to commence operations from Q3 FY26\nMumbai Airport received the \"Best Airport for Digitization\" award at the India Cargo Award 2025\n\nRoads:\n\nAEL bags three new projects, received LoA for:\n\nthe prestigious 12.9 KM ropeway project between Sonprayag and Kedarnath\nTwo projects connecting Munger-Sultanganj and Sultanganj-Sabour Road under HAM from BSRDCL\n\n\nAEL operationalizes its 7th Road project; received PCOD for Nanasa-Pidgaon HAM project\n\nData Center:\n\nPartnership with Google to develop India's largest AI Data Center campus in Visakhapatnam, Andhra Pradesh\n\nWater:\n\nReceived LoA for two projects in Rajasthan (RWGCL) under HAM for construction of:\n\nBrahmani Barrage across Brahmani river with its O&M for a period of 20 years\nMor Sagar Artificial Reservoir with its O&M for a period of 20 years\n\n\n\nDebt Issue:\n\nAEL raised Rs.",
+    "file": "first.txt",
+    "page": 13,
+    "type": "text"
+  },
+  {
+    "text": "1,000 crore through private placement of \"AA-\" NCDs in October, 2025\nBPRPL raised Rs.",
+    "file": "first.txt",
+    "page": 13,
+    "type": "text"
+  },
+  {
+    "text": "371 crore through private placement of \"AAA\" rated NCDs in October, 2025\n\nFootnotes:\nLoA: Letter of Award | PCOD: Provisional Commercial Operation Date | HAM: Hybrid Annuity Model | RWGCL: Rajasthan Water Grid Corporation Ltd | O&M: Operation & Maintenance | NCDs: Non-Convertible Debentures | BPRPL: Bilaspur Pathrapali Road Private Limited | BSRDCL: Bihar State Road Development Corporation Ltd\n\nTABLES:\nNot found in the Documents\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A.",
+    "file": "first.txt",
+    "page": 13,
+    "type": "text"
+  },
+  {
+    "text": "RAW VISUAL METADATA]\n\nType: Structured highlights infographic with 5 category rows\nTitle: AEL: Performance Highlights\nLabels: Airports, Roads, Data Center, Water, Debt Issue (row labels in blue boxes with arrows)\nLegends: Not found in the Documents\nAxes: Not applicable\nUnits: KM, \u20b9 crore, years\n\n[B.",
+    "file": "first.txt",
+    "page": 13,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\n\nNavi Mumbai International Airport inauguration: 08th October 2025; operations from Q3 FY26\nRopeway project: 12.9 KM (Sonprayag\u2013Kedarnath)\n7th Road project: PCOD received for Nanasa-Pidgaon HAM\nAEL NCD: Rs. 1,000 crore, \"AA-\" rated, October 2025\nBPRPL NCD: Rs. 371 crore, \"AAA\" rated, October 2025\nWater O&M period: 20 years each for both Rajasthan projects\n\n[C.",
+    "file": "first.txt",
+    "page": 13,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\n\nVertical list of 5 highlight categories (Airports, Roads, Data Center, Water, Debt Issue)\nEach category is a dark blue box with label on the left and arrow pointing right to text description\nBullet points within each description highlight key achievements/events\n\n[D.",
+    "file": "first.txt",
+    "page": 13,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nAirports: Navi Mumbai Airport inaugurated Oct 8, 2025 (to operate from Q3 FY26); Mumbai Airport won digitization award\nRoads: 3 new projects (1 ropeway + 2 HAM); 7th project operationalized\nData Center: Google partnership for AI Data Center in Visakhapatnam\nWater: 2 new HAM projects in Rajasthan \u2014 Brahmani Barrage and Mor Sagar Reservoir (20-year O&M each)\nDebt: Rs.",
+    "file": "first.txt",
+    "page": 13,
+    "type": "text"
+  },
+  {
+    "text": "1,371 crore raised via NCDs (1,000 by AEL + 371 by BPRPL)\n\n[E.",
+    "file": "first.txt",
+    "page": 13,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nCategory | Event | Key Value/Detail\nAirports | Navi Mumbai Airport Inauguration | 08-Oct-2025; Ops from Q3 FY26\nAirports | Award | Best Airport for Digitization \u2013 India Cargo Award 2025\nRoads | New Projects | 3 (1 ropeway 12.9 KM + 2 HAM Bihar)\nRoads | Operationalized | 7th Road project (Nanasa-Pidgaon HAM)\nData Center | Partnership | Google \u2013 AI Data Center \u2013 Visakhapatnam, AP\nWater | Projects | 2 in Rajasthan (HAM, 20-yr O&M each)\nDebt | AEL NCD | Rs.",
+    "file": "first.txt",
+    "page": 13,
+    "type": "text"
+  },
+  {
+    "text": "1,000 cr | AA- | Oct 2025\nDebt | BPRPL NCD | Rs.",
+    "file": "first.txt",
+    "page": 13,
+    "type": "text"
+  },
+  {
+    "text": "371 cr | AAA | Oct 2025\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\n\n\nLoA: Letter of Award | PCOD: Provisional Commercial Operation Date | HAM: Hybrid Annuity Model | RWGCL: Rajasthan Water Grid Corporation Ltd | O&M: Operation & Maintenance | NCDs: Non-Convertible Debentures | BPRPL: Bilaspur Pathrapali Road Private Limited | BSRDCL: Bihar State Road Development Corporation Ltd\n\n=== PAGE 13 END ===",
+    "file": "first.txt",
+    "page": 13,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAEL: Energy & Utility \u2013 Adani New Industries Limited (ANIL)\nIntegrated Manufacturing Solar\nIntegrated Manufacturing Wind\nRLMM: Revised List of Models & Manufacturers | RD: Rotor Diameter | HH: Hub Height | TT: Tabular Tower | HT: Hybrid Tower\nQ2-26 WTG sets supply increased 87% Y-o-Y to 28 sets\nANIL Wind division honored with \"Gold Award\" at Apex India Safety Award 2025\n\n\nTABLES:\n\n[TABLE \u2013 Solar Plant Capacity]\nPlant | Capacity | Status\nCell & Module (MonoPerc) | 2.0 GW | Operational\nCell & Module (TopCon) | 2.0 GW | Operational\nCell & Module (TopCon) | 6.0 GW | Financial Closure achieved; Under Construction\nIngot & Wafer | 2.0 GW | Operational\n[/TABLE]\n[TABLE \u2013 Wind Plant Capacity]\nPlant | Capacity | 4 Models listed in RLMM\nWind Turbine Generator | 2.25 GW | 5.2 MW 160m RD 120m HH - TT; 5.2 MW 160m RD 140m HH \u2013 HT; 3.0 MW 147m RD; 3.3 MW 164m RD\n[/TABLE]\n\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A.",
+    "file": "first.txt",
+    "page": 14,
+    "type": "text"
+  },
+  {
+    "text": "RAW VISUAL METADATA]\n\nType: Stacked bar charts (2 charts)\nTitle 1: Module sales in MW\nTitle 2: WTG sales in sets\nLabels: Q1-25, Q2-25, Q1-26, Q2-26; H1-25, H1-26; Domestic, Export; Q1, Q2\nLegends: Domestic (dark blue), Export (light grey) [for module chart]; Q1 (dark blue), Q2 (light grey) [for WTG chart]\nAxes: Y-axis = MW (module chart) / Sets (WTG chart); X-axis = quarters/half-years\nUnits: MW (modules), Sets (WTG)\n\n[B.",
+    "file": "first.txt",
+    "page": 14,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\nModule sales in MW (Domestic + Export):\n\nQ1-25: Domestic = 808, Export = 571, Total = 1,379\nQ2-25: Domestic = 511, Export = 490, Total = 1,001\nH1-25 Total: 2,380 MW\nQ1-26: Domestic = 704, Export = 646, Total = 1,350\nQ2-26: Domestic = 905, Export = 188, Total = 1,093\nH1-26 Total: 2,443 MW\n\nWTG sales in sets:\n\nH1-25: Q1 = 41, Q2 = 15, Total = 56\nH1-26: Q1 = 35, Q2 = 28, Total = 63\nQ2-26 YoY change: +87%\n\n[C.",
+    "file": "first.txt",
+    "page": 14,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\nModule chart: Stacked bar chart with 4 quarterly bars (Q1-25, Q2-25, Q1-26, Q2-26); each bar split into Domestic (dark) and Export (light); H1 totals annotated (H1-25: 2,380 MW; H1-26: 2,443 MW)\nWTG chart: Stacked bar chart with 2 half-year bars (H1-25, H1-26); each bar split into Q1 (dark) and Q2 (light); totals 56 and 63 respectively\n[D.",
+    "file": "first.txt",
+    "page": 14,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nModule sales H1-26 (2,443 MW) marginally higher than H1-25 (2,380 MW)\nQ2-26 module sales (1,093 MW) lower than Q2-25 (1,001 MW)...",
+    "file": "first.txt",
+    "page": 14,
+    "type": "text"
+  },
+  {
+    "text": "\u2014 wait: Q2-25 = 1,001 MW and Q2-26 = 1,093 MW so Q2-26 is higher than Q2-25\nExport share declined significantly in Q2-26 (188 MW) vs Q2-25 (490 MW); Domestic grew (905 vs 511)\nWTG sales grew from 56 sets (H1-25) to 63 sets (H1-26); Q2-26 specifically up 87% YoY (15\u219228 sets)\n\n[E.",
+    "file": "first.txt",
+    "page": 14,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nPeriod | Domestic (MW) | Export (MW) | Total Module (MW)\nQ1-25 | 808 | 571 | 1,379\nQ2-25 | 511 | 490 | 1,001\nH1-25 | \u2014 | \u2014 | 2,380\nQ1-26 | 704 | 646 | 1,350\nQ2-26 | 905 | 188 | 1,093\nH1-26 | \u2014 | \u2014 | 2,443\nPeriod | Q1 (sets) | Q2 (sets) | Total WTG (sets)\nH1-25 | 41 | 15 | 56\nH1-26 | 35 | 28 | 63\nYoY Q2 change | \u2014 | +87% | \u2014\nSolar Capacity:\nPlant | Capacity | Status\nCell & Module (MonoPerc) | 2.0 GW | Operational\nCell & Module (TopCon) | 2.0 GW | Operational\nCell & Module (TopCon) | 6.0 GW | Financial Closure / Under Construction\nIngot & Wafer | 2.0 GW | Operational\nWind Capacity:\nPlant | Capacity | Models\nWTG | 2.25 GW | 5.2 MW (2 variants), 3.0 MW, 3.3 MW\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\n\n\nRLMM: Revised List of Models & Manufacturers | RD: Rotor Diameter | HH: Hub Height | TT: Tabular Tower | HT: Hybrid Tower\n\n=== PAGE 14 END ===",
+    "file": "first.txt",
+    "page": 14,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAEL: Energy & Utility \u2013 Adani ConneX (ACX)\nEmpowering Digital India with a platform of Data Center Solutions with Strong Partnership\n210+ MW Tied up Capacity\n100% uptime in Chennai, Noida and Hyderabad Data Center\nTarget of 1 GW tied-up capacity powered with renewable energy by 2030\nC&S: Core & Shell | MEP: Mechanical, Electrical & Plumbing\n\n\nTABLES:\n\n[TABLE \u2013 Data Center Status]\nTotal Growth (MW) | Data Centers Location | Status | Operational Capacity (MW)\n33 | Chennai | Phase II \u2013 Under Construction | 17\n50 | Noida | 40 MW - C&S completed, MEP under progress | 10\n48 | Hyderabad | Phase II \u2013 9.6 MW C&S completed, MEP \u2013 ~96% | 9.6\n96 | Pune | Phase I 9.6 MW \u2013 Pune-I ~97% & Pune-II ~93% | (Not found in the Documents)\n30 | Navi Mumbai | Execution started | (Not found in the Documents)\n[/TABLE]\n\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A.",
+    "file": "first.txt",
+    "page": 15,
+    "type": "text"
+  },
+  {
+    "text": "RAW VISUAL METADATA]\n\nType: India map + data table\nTitle: Empowering Digital India with a platform of Data Center Solutions with Strong Partnership\nLabels: Chennai, Noida, Hyderabad, Vizag, Mumbai, Pune (location pins on map); Total Growth (MW), Data Centers Status, Operational Capacity (MW) (table columns)\nLegends: Blue location pins for data center cities\nAxes: Not applicable\nUnits: MW\n\n[B.",
+    "file": "first.txt",
+    "page": 15,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\nData Center Locations and Capacity:\n\nChennai: Total Growth = 33 MW; Phase II Under Construction; Operational = 17 MW\nNoida: Total Growth = 50 MW; 40 MW C&S completed, MEP in progress; Operational = 10 MW\nHyderabad: Total Growth = 48 MW; Phase II 9.6 MW C&S done, MEP ~96%; Operational = 9.6 MW\nPune: Total Growth = 96 MW; Phase I 9.6 MW: Pune-I ~97%, Pune-II ~93%; Operational = Not stated\nNavi Mumbai: Total Growth = 30 MW; Execution started; Operational = Not stated\n\nTotal Tied Up Capacity: 210+ MW\nTarget: 1 GW tied-up by 2030\nCities on map: Hyderabad, Noida, Vizag, Chennai, Mumbai, Pune\n[C.",
+    "file": "first.txt",
+    "page": 15,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\n\nLeft: India map with blue location pins for 6 cities\nRight: Table with 5 rows for each data center location showing total growth MW, status, and operational capacity\nBottom: Two bullet highlights (210+ MW tied up; 100% uptime in Chennai, Noida, Hyderabad)\nBottom banner: Target 1 GW by 2030\n\n[D.",
+    "file": "first.txt",
+    "page": 15,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nAdaniConneX operates/develops data centers in 6 cities with total planned capacity exceeding 210 MW\nChennai and Hyderabad have some operational capacity (17 MW and 9.6 MW) while Noida has 10 MW operational\nPune (96 MW total planned) is the largest planned site but operational capacity not yet disclosed\nNavi Mumbai (30 MW) has just started execution\nLong-term target: 1 GW tied-up capacity powered by renewable energy by 2030\n\n[E.",
+    "file": "first.txt",
+    "page": 15,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nLocation | Total Growth (MW) | Status | Operational Capacity (MW)\nChennai | 33 | Phase II Under Construction | 17\nNoida | 50 | 40 MW C&S done; MEP in progress | 10\nHyderabad | 48 | 9.6 MW C&S done; MEP ~96% | 9.6\nPune | 96 | Phase I: Pune-I ~97%; Pune-II ~93% | Not found in the Documents\nNavi Mumbai | 30 | Execution started | Not found in the Documents\nTotal Tied Up | 210+ MW | \u2014 | \u2014\nTarget (2030) | 1 GW | Renewable energy powered | \u2014\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\n\n\nC&S: Core & Shell | MEP: Mechanical, Electrical & Plumbing\n\n=== PAGE 15 END ===",
+    "file": "first.txt",
+    "page": 15,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAEL: Transport & Logistics \u2013 Adani Airport Holdings Ltd (AAHL)\nPortfolio of 8 Airports\nServing pan India presence of:\n\n~23% of total passenger base\n~22% of total air traffic movements\n~29% of total cargo volume\n\n\nAAHL powered with 300 Mn+ consumer base leveraging network effect and consumer mindset\n7 New Routes, 8 New Flights and 1 New Airline added during the quarter\nMIAL honored with \"Airport of the Year\" award by Exim India at Aviation Cargo Express (ACE) Awards, 2025\nAhmedabad airport received 5 Star Rating Award from the British Safety Council\nThiruvananthapuram airport got first prize in the Airport category at the prestigious AURA 2025 Awards\n\nAirport names on map:\n\nLucknow, Ahmedabad, Jaipur, Guwahati, Thiruvananthapuram, Mumbai + Navi Mumbai, Mangaluru\n\n\nTABLES:\nNot found in the Documents (data presented in bar charts)\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A.",
+    "file": "first.txt",
+    "page": 16,
+    "type": "text"
+  },
+  {
+    "text": "RAW VISUAL METADATA]\n\nType: India map + 3 stacked bar charts (Aero Performance metrics)\nTitle: Portfolio of 8 Airports | Aero Performance\nLabels: Pax (Mn), ATM ('000), Cargo (L-MT); H1-25, H1-26; Q1, Q2\nLegends: Q1 (dark blue), Q2 (light grey)\nAxes: Y-axis = respective metric units; X-axis = H1-25, H1-26\nUnits: Mn (passengers), '000 (ATM), L-MT (cargo)\n\n[B.",
+    "file": "first.txt",
+    "page": 16,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\nPax (Mn):\n\nH1-25: Q1 = 22.8, Q2 = 22.3, Total = 45.1\nH1-26: Q1 = 23.4, Q2 = 22.6, Total = 46.0\nYoY change: +2%\n\nATM ('000):\n\nH1-25: Q1 = 152.1, Q2 = 153.3, Total = 305.4\nH1-26: Q1 = 153.6, Q2 = 148.2, Total = 301.7\nYoY change: -1%\n\nCargo (L-MT):\n\nH1-25: Q1 = 2.7, Q2 = 2.8, Total = 5.5\nH1-26: Q1 = 2.8, Q2 = 2.9, Total = 5.7\nYoY change: +4%\n\nPan India market share:\n\n~23% total passenger base\n~22% total air traffic movements\n~29% total cargo volume\n\n[C.",
+    "file": "first.txt",
+    "page": 16,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\n\nLeft: India map with 7 airport location pins (Lucknow, Ahmedabad, Jaipur, Guwahati, Thiruvananthapuram, Mumbai + Navi Mumbai, Mangaluru)\nRight: Three stacked bar charts for Pax, ATM, Cargo; each with H1-25 and H1-26 bars split into Q1 and Q2\nYoY change indicators (% with triangle arrows) placed beside each chart\n\n[D.",
+    "file": "first.txt",
+    "page": 16,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nPassenger traffic grew 2% H1-26 vs H1-25 (45.1 \u2192 46.0 Mn)\nATM slightly declined 1% (305.4 \u2192 301.7 thousand)\nCargo grew 4% (5.5 \u2192 5.7 L-MT)\nAAHL covers ~23% of India's passenger traffic, ~22% of ATMs, and ~29% of cargo nationally\n8 airports in portfolio (7 operational shown on map + Navi Mumbai just inaugurated)\n7 new routes, 8 new flights, 1 new airline added in Q2-26\n\n[E.",
+    "file": "first.txt",
+    "page": 16,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nMetric | H1-25 Q1 | H1-25 Q2 | H1-25 Total | H1-26 Q1 | H1-26 Q2 | H1-26 Total | YoY\nPax (Mn) | 22.8 | 22.3 | 45.1 | 23.4 | 22.6 | 46.0 | +2%\nATM ('000) | 152.1 | 153.3 | 305.4 | 153.6 | 148.2 | 301.7 | -1%\nCargo (L-MT) | 2.7 | 2.8 | 5.5 | 2.8 | 2.9 | 5.7 | +4%\nPan India Share | Metric | Value\n~23% | Passenger base | Total passengers\n~22% | Air traffic movements | ATMs\n~29% | Cargo volume | Total cargo\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\nNot found in the Documents\n\n=== PAGE 16 END ===",
+    "file": "first.txt",
+    "page": 16,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAEL: Transport & Logistics \u2013 Adani Airport Holdings Ltd (AAHL)\nRevenue Mix H1-26\nRevenue Growth\nRevenue Build-up H1-26\n\nRevenue Mix details:\n\nAero (38%): Up by 22% Y-o-Y; Tariff order revision for 4 airports; Aero YPP INR 485 Up by 20% Y-o-Y\n\nYPP: Yield per pax = Aero Income / Number of Passengers\n\n\nNon-Aero (48%): Up by 36% Y-o-Y; Penetration at all time high backed by Digital and Duty-Free Initiatives; Non-Aero IPP INR 614 Up by 34% Y-o-Y\n\nIPP: Income per pax = Non-Aero Income / Number of Passengers\n\n\nCargo (6%): Up by 14% Y-o-Y; Volume up by 11% in Ahmedabad airport\nOthers (8%): Up by 98% Y-o-Y\n\n\nTABLES:\n\n[TABLE \u2013 Total Income]\nCategory | Q2-25 | Q2-26 | H1-25 | H1-26\nAero | 935 | 1,145 | 1,823 | 2,229\nNon-Aero | 1,075 | 1,424 | 2,069 | 2,823\nCargo | 174 | 200 | 336 | 382\nOthers | 92 | 398 | 226 | 448\nTotal | 2,276 | 3,167 | 4,453 | 5,882\n[/TABLE]\n\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A.",
+    "file": "first.txt",
+    "page": 17,
+    "type": "text"
+  },
+  {
+    "text": "RAW VISUAL METADATA]\n\nType 1: Donut/pie chart (Revenue Mix H1-26)\nType 2: Waterfall bar chart (Revenue Build-up H1-26)\nTitle 1: Revenue Mix H1-26\nTitle 2: Revenue Build-up H1-26\nLabels (pie): Aero 38%, Non-Aero 48%, Cargo 6%, Others 8%\nLabels (waterfall): H1-25, Aero, Non-Aero, Cargo, Others, H1-26\nLegends: Not found in the Documents (colors implied by chart)\nAxes (waterfall): Y-axis = \u20b9 crore; X-axis = revenue components\nUnits: \u20b9 crore, %\n\n[B.",
+    "file": "first.txt",
+    "page": 17,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\nRevenue Mix H1-26 (% of total):\n\nAero: 38%\nNon-Aero: 48%\nCargo: 6%\nOthers: 8%\n\nRevenue Build-up (Waterfall) H1-26 (\u20b9 crore):\n\nH1-25: 4,453\nAero increase: +407\nNon-Aero increase: +754\nCargo increase: +46\nOthers increase: +222\nH1-26 Total: 5,882\n\nYoY Growth rates:\n\nAero: +22%\nNon-Aero: +36%\nCargo: +14%\nOthers: +98%\n\nYPP (Aero Yield per Pax): INR 485 (+20% YoY)\nIPP (Non-Aero Income per Pax): INR 614 (+34% YoY)\n[C.",
+    "file": "first.txt",
+    "page": 17,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\n\nLeft: Donut/pie chart divided into 4 segments representing revenue mix with % labels\nRight top: Revenue growth table (Q2-25, Q2-26, H1-25, H1-26 for each revenue line)\nRight bottom: Waterfall chart showing incremental revenue from H1-25 to H1-26 by component (Increase = dark, Decrease = light, Total = solid blue)\n\n[D.",
+    "file": "first.txt",
+    "page": 17,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nTotal AAHL revenue grew from \u20b94,453 cr (H1-25) to \u20b95,882 cr (H1-26), a 32% growth\nNon-Aero is the largest revenue component at 48% of H1-26 mix, growing 36% YoY\nAero at 38%, grew 22% driven by tariff order revisions for 4 airports; YPP improved 20% to INR 485\nOthers grew 98% (from 226 to 448), the fastest growing segment\nCargo grew 14% (volume up 11% in Ahmedabad)\n\n[E.",
+    "file": "first.txt",
+    "page": 17,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nRevenue Line | Q2-25 (\u20b9 cr) | Q2-26 (\u20b9 cr) | H1-25 (\u20b9 cr) | H1-26 (\u20b9 cr) | H1 Mix (%)\nAero | 935 | 1,145 | 1,823 | 2,229 | 38%\nNon-Aero | 1,075 | 1,424 | 2,069 | 2,823 | 48%\nCargo | 174 | 200 | 336 | 382 | 6%\nOthers | 92 | 398 | 226 | 448 | 8%\nTotal | 2,276 | 3,167 | 4,453 | 5,882 | 100%\nMetric | Value | YoY Change\nAero YPP | INR 485 | +20%\nNon-Aero IPP | INR 614 | +34%\n\nFLOWCHARTS / DIAGRAMS:\n[FLOW REPRESENTATION \u2013 Waterfall]\nH1-25 (4,453) \u2192 +Aero (407) \u2192 +Non-Aero (754) \u2192 +Cargo (46) \u2192 +Others (222) \u2192 H1-26 (5,882)\nFOOTNOTES / REFERENCES:\n\n\nYPP: Yield per pax = Aero Income / Number of Passengers\nIPP: Income per pax = Non-Aero Income / Number of Passengers\n\n=== PAGE 17 END ===",
+    "file": "first.txt",
+    "page": 17,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAEL: Transport & Logistics \u2013 Adani Airport Holdings Ltd (AAHL)\nNon-Aero Performance\nNon-aero revenue Mix H1-26\nOperational Efficiency\n\nKPI Benchmarks:\n\nSecurity Check Queue: 95% of peak pax < 5 mins\nImmigrations: 95% of peak pax wait less than 10 minutes \u2013 Arrivals/Dep\nCar Park: 95% of drivers take less than 5 minutes\nCheck In: 95% of peak pax < 5 mins\n\nAirport codes on charts:\n\nAMD (Ahmedabad), LKO (Lucknow), IXE (Mangaluru), BOM (Mumbai), JAI (Jaipur), GAU (Guwahati), TRV (Thiruvananthapuram)\n\n\nTABLES:\n\n[TABLE \u2013 Non Aero Revenue]\nCategory | Q2-25 | Q2-26 | H1-25 | H1-26\nDuty Free | 386 | 498 | 733 | 956\nFood & Beverages (F&B) | 80 | 233 | 162 | 486\nLease & Retails | 188 | 286 | 369 | 549\nCar Park | 67 | 75 | 125 | 150\nPassenger Services & Others | 354 | 333 | 680 | 682\nTotal | 1,075 | 1,424 | 2,069 | 2,823\n[/TABLE]\n\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A.",
+    "file": "first.txt",
+    "page": 18,
+    "type": "text"
+  },
+  {
+    "text": "RAW VISUAL METADATA]\n\nType: 4 bar charts (Operational Efficiency) + 1 pie chart (Non-aero revenue Mix)\nTitle 1: Operational Efficiency (4 sub-charts: Security Check Queue, Immigrations, Car Parking, Check In)\nTitle 2: Non-aero revenue Mix H1-26 (pie chart)\nLabels: AMD, LKO, IXE, BOM, JAI, GAU, TRV (X-axis); Jul, Aug, Sep, Benchmark (legend)\nPie Labels: Duty Free 34%, F&B 19%, Lease & Retail 17%, Car Park 5%, Passenger Services & Others 24%\nLegends: Jul (dark blue), Aug (medium blue), Sep (light blue), Benchmark (red horizontal line)\nAxes: Y-axis = 92% to 100%; X-axis = Airport codes\nUnits: % compliance\n\n[B.",
+    "file": "first.txt",
+    "page": 18,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\nNon-Aero Revenue Mix H1-26:\n\nDuty Free: 34%\nF&B: 19%\nLease & Retail: 17%\nCar Park: 5%\nPassenger Services & Others: 24%\n\nOperational Efficiency (all charts show % of passengers meeting KPI benchmark):\n\nY-axis range: 92% \u2013 100%\nAirports: AMD, LKO, IXE, BOM, JAI, GAU, TRV\nMonths: Jul, Aug, Sep\nBenchmark: red horizontal line at ~94-95% range (varies per chart)\nMost bars appear to be at or above the benchmark (exact per-airport monthly values not individually stated in text, shown only in chart)\n\n[C.",
+    "file": "first.txt",
+    "page": 18,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\n\nLeft side: 4 bar charts stacked vertically (Security Check Queue, Immigrations, Car Parking, Check In); each shows 7 airports (AMD to TRV) with 3 monthly bars (Jul, Aug, Sep) and a red benchmark line\nRight side top: Non-aero revenue table (\u20b9 crore)\nRight side bottom: Donut/pie chart of Non-aero revenue mix in H1-26\n\n[D.",
+    "file": "first.txt",
+    "page": 18,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nDuty Free is the largest non-aero revenue category at 34% (H1-26: \u20b9956 cr, +30% from \u20b9733 cr)\nF&B grew significantly from \u20b9162 cr (H1-25) to \u20b9486 cr (H1-26)\nPassenger Services & Others remained flat (\u20b9680 \u2192 \u20b9682 cr)\nOperational efficiency shows most airports meeting or exceeding benchmark for security, immigration, car park, check-in KPIs across Jul\u2013Sep\n\n[E.",
+    "file": "first.txt",
+    "page": 18,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nNon-Aero Revenue | Q2-25 (\u20b9 cr) | Q2-26 (\u20b9 cr) | H1-25 (\u20b9 cr) | H1-26 (\u20b9 cr) | H1-26 Mix\nDuty Free | 386 | 498 | 733 | 956 | 34%\nF&B | 80 | 233 | 162 | 486 | 19%\nLease & Retail | 188 | 286 | 369 | 549 | 17%\nCar Park | 67 | 75 | 125 | 150 | 5%\nPassenger Services & Others | 354 | 333 | 680 | 682 | 24%\nTotal | 1,075 | 1,424 | 2,069 | 2,823 | 100%\nKPI | Benchmark\nSecurity Check Queue | 95% of peak pax < 5 mins\nImmigrations | 95% of peak pax < 10 mins\nCar Park | 95% of drivers < 5 mins\nCheck In | 95% of peak pax < 5 mins\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\nNot found in the Documents\n\n=== PAGE 18 END ===",
+    "file": "first.txt",
+    "page": 18,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAEL: Transport & Logistics \u2013 Adani Road Transport Ltd (ARTL)\nPortfolio of 17 projects\nOperational [7], Construction in progress [7], New Projects [3]\nProject Completion Status\nHAM: Hybrid Annuity Model | BOT: Build Operate Transfer | TOT: Toll Operate Transfer | TBD: To be Decided\n\nProject abbreviation key:\nBPRPL: Bilaspur Pathrapali Road Pvt Ltd | MRRPL: Mancherial Repallewada Road Pvt Ltd | SKRPL: Suryapet Khammam Road Pvt Ltd | VBPL: Vijayawada Bypass Project Ltd | NPRL: Nanasa Pidgaon Road Ltd | BKRL: Badakumari Karki Road Ltd | KKRL: Kodad Khammam Road Ltd | AVRL: Azhiyur Vengalam Road Ltd | PRSTL: PRS Tolls Ltd | PPRL: Panagarh Palsit Road Ltd | BHRL: Budaon Hardoi Road Ltd | HURL: Hardoi Unnao Road Ltd | UPRL: Unnao Prayagraj Roads Ltd | KSRL: Kagal Satara Road Ltd | SKRL: Shri Kedarnath Ropeways Ltd | SSRL: Sultanganj Sabour Road Ltd | MSRL: Munger Sultanganj Road Ltd\n\nTABLES:\n\n[TABLE \u2013 Portfolio by Model]\nModel | Nos (Operational) | Lane KMs (Operational) | Nos (Construction) | Lane KMs (Construction)\nHAM | 5 | 933 | 3 | 637\nBOT | 1 | 406 | 4 | 3176\nTOT | 1 | 198 | - | -\n[/TABLE]\n[TABLE \u2013 Construction Activity]\nActivity | Q2-25 | Q2-26 | % change | H1-25 | H1-26 | % change\nConstruction (in Lane-KM) | 180.4 | 456.1 | 153% | 910.4 | 949.3 | 4%\n[/TABLE]\n\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A.",
+    "file": "first.txt",
+    "page": 19,
+    "type": "text"
+  },
+  {
+    "text": "RAW VISUAL METADATA]\n\nType: India map + horizontal bar chart (Project Completion Status)\nTitle: Portfolio of 17 projects | Project Completion Status\nLabels: VBPL, BKRL, AVRL (HAM); KSRL, BHRL, HURL, UPRL (BOT/Ganga Expressway); NPRL, BPRPL, SKRPL, MRRPL, VBPL, AVRL, KKRL, BKRL, PPRL, KSRL, BHRL, HURL, UPRL, PRSTL (map); SSRL, MSRL, SKRL (New Projects)\nLegends: Operational (green dots), Construction in progress (blue dots), New Projects (yellow dots); Till Q1-26 (grey bar), Till Q2-26 (dark navy bar)\nAxes: X-axis = completion % (implicit); bar length = completion %\nUnits: %\n\n[B.",
+    "file": "first.txt",
+    "page": 19,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\nProject Completion Percentages (Till Q1-26 and Till Q2-26):\nHAM Projects:\n\nVBPL: Q1-26 = 94%, Q2-26 = 97%\nBKRL: Q1-26 = 93%, Q2-26 = 95%\nAVRL: Q1-26 = 67%, Q2-26 = 68%\n\nBOT Projects (Ganga Expressway):\n\nKSRL: Q1-26 = 78%, Q2-26 = 79%\nBHRL: Q1-26 = 94%, Q2-26 = 97%\nHURL: Q1-26 = 83%, Q2-26 = 87%\nUPRL: Q1-26 = 88%, Q2-26 = 93%\n\nPortfolio Summary:\n\nHAM Operational: 5 projects, 933 Lane-KMs\nHAM Construction: 3 projects, 637 Lane-KMs\nBOT Operational: 1 project, 406 Lane-KMs\nBOT Construction: 4 projects, 3,176 Lane-KMs\nTOT Operational: 1 project, 198 Lane-KMs\n\nConstruction Activity:\n\nQ2-25: 180.4 Lane-KM | Q2-26: 456.1 Lane-KM | Change: +153%\nH1-25: 910.4 Lane-KM | H1-26: 949.3 Lane-KM | Change: +4%\n\n[C.",
+    "file": "first.txt",
+    "page": 19,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\n\nLeft: India political map with color-coded dots (green = operational, blue = construction, yellow = new)\nSmall table inset on map showing portfolio by model (HAM, BOT, TOT)\nRight: Horizontal bar chart for 7 projects showing two bars per project (Till Q1-26, Till Q2-26) with percentage completions labeled\nHAM and BOT sections labeled on the chart\n\n[D.",
+    "file": "first.txt",
+    "page": 19,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nOf 17 projects: 7 operational, 7 under construction, 3 new\nGanga Expressway (BOT) is the largest sub-project group: 3,176 Lane-KMs under construction across BHRL, HURL, UPRL\nMost projects under construction advanced significantly between Q1-26 and Q2-26 (e.g., BHRL 94%\u219297%, UPRL 88%\u219293%)\nQ2-26 construction activity surged 153% YoY in Lane-KM terms\n\n[E.",
+    "file": "first.txt",
+    "page": 19,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nProject | Type | Completion Till Q1-26 | Completion Till Q2-26\nVBPL | HAM | 94% | 97%\nBKRL | HAM | 93% | 95%\nAVRL | HAM | 67% | 68%\nKSRL | BOT | 78% | 79%\nBHRL | BOT (Ganga Exp.) | 94% | 97%\nHURL | BOT (Ganga Exp.) | 83% | 87%\nUPRL | BOT (Ganga Exp.) | 88% | 93%\nActivity | Q2-25 | Q2-26 | Change | H1-25 | H1-26 | Change\nConstruction Lane-KM | 180.4 | 456.1 | +153% | 910.4 | 949.3 | +4%\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\nFull abbreviation list as noted in Text Content section above.\n\n=== PAGE 19 END ===",
+    "file": "first.txt",
+    "page": 19,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAEL: Primary Industry\nMining Services Portfolio\nTotal Peak Capacity: 140.1 MMTPA (Operational: 63.0, Under development: 77.1)\nTotal 16 Mining Service Contracts from 10 Customers across 5 states\nTotal 6 service contracts operational including 1 iron ore mine\nDispatch volume 32% of total contracted capacity\nIRM (Integrated Resource Management)\nCarmichael Mine, Australia\n\nFootnotes:\nIRM: Integrated Resource Management | PEKB: Parsa East Kente Basen | GP III: Gare Pelma III | MMT: Million Metric Tonne | RRVUNL \u2013 Rajasthan Rajya Vidyut Utpadan Nigam Ltd | CSPGCL \u2013 Chhattisgarh State Power Generation Company Ltd | NLCIL \u2013 NLC India Ltd | APMDC \u2013 Andhra Pradesh Mineral Development Corporation Ltd | OMC \u2013 Odisha Mining Corporation Ltd\n\nTABLES:\n\n[TABLE \u2013 Mining Services Dispatch Quantity (MMT)]\nOperational Service Contracts | Customer/Owner | Q2-25 | Q2-26 | % change | H1-25 | H1-26 | % change\nPEKB, Chhattisgarh | RRVUNL | 2.4 | 3.4 | 43% | 5.1 | 7.0 | 38%\nGP III, Chhattisgarh | CSPGCL | 0.9 | 1.0 | 11% | 1.9 | 2.0 | 2%\nTalabira, Odisha | NLCIL | 3.1 | 3.7 | 19% | 6.0 | 7.5 | 26%\nSuliyari, MP | APMDC | 1.4 | 1.3 | (8%) | 2.9 | 3.3 | 16%\nParsa, Chhattisgarh | RRVUNL | - | 0.7 | - | - | 1.2 | -\nKurmitar, Odisha | OMC | 0.4 | 0.4 | (6%) | 1.7 | 1.5 | (12%)\nTotal Operational | | 8.2 | 10.5 | 27% | 17.5 | 22.6 | 29%\n[/TABLE]\n[TABLE \u2013 IRM Volume]\nActivity | Q2-25 | Q2-26 | % change | H1-25 | H1-26 | % change\nVolume in MMT | 13.7 | 11.3 | (17%) | 29.1 | 24.1 | (17%)\n[/TABLE]\n[TABLE \u2013 Carmichael Mine, Australia Volume]\nActivity | Q2-25 | Q2-26 | % change | H1-25 | H1-26 | % change\nVolume in MMT | 3.8 | 3.9 | 3% | 6.6 | 6.2 | (6%)\n[/TABLE]\n\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A.",
+    "file": "first.txt",
+    "page": 20,
+    "type": "text"
+  },
+  {
+    "text": "RAW VISUAL METADATA]\n\nType: Donut/pie chart + 3 data tables\nTitle: Mining Services Portfolio | IRM | Carmichael Mine, Australia\nLabels (pie): Operational (63.0 MMTPA), Under development (77.1 MMTPA); Total: 140.1 MMTPA\nLegends: Operational (light blue), Under development (grey)\nAxes: Not applicable\nUnits: MMTPA, MMT\n\n[B.",
+    "file": "first.txt",
+    "page": 20,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\nMining Services Peak Capacity:\n\nOperational: 63.0 MMTPA\nUnder development: 77.1 MMTPA\nTotal: 140.1 MMTPA\n\n[C.",
+    "file": "first.txt",
+    "page": 20,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\n\nLeft: Text bullets + donut/pie chart showing 63.0 (operational) vs 77.1 (under development) out of 140.1 MMTPA total; below is the operational service contracts table\nUpper right: IRM table with volume data\nLower right: Carmichael Mine Australia with volume data + photo of mining truck\n\n[D.",
+    "file": "first.txt",
+    "page": 20,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nMining Services: Dispatch volumes grew 27% QoQ and 29% H1-H1 (8.2\u219210.5 MMT Q2; 17.5\u219222.6 MMT H1)\nPEKB drove strong growth (+43% Q2, +38% H1); Talabira also grew (+19% Q2, +26% H1)\nSuliyari and Kurmitar showed modest declines\nIRM: Volume declined 17% both Q2 and H1 (13.7\u219211.3 MMT Q2; 29.1\u219224.1 MMT H1)\nCarmichael (Australia): Volume slightly up Q2 (+3%; 3.8\u21923.9) but down H1 (-6%; 6.6\u21926.2 MMT)\n45% of peak capacity (63/140.1) is operational; 55% (77.1) under development\n\n[E.",
+    "file": "first.txt",
+    "page": 20,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nSegment | Q2-25 (MMT) | Q2-26 (MMT) | % change | H1-25 (MMT) | H1-26 (MMT) | % change\nMining Services Total | 8.2 | 10.5 | +27% | 17.5 | 22.6 | +29%\nIRM | 13.7 | 11.3 | (17%) | 29.1 | 24.1 | (17%)\nCarmichael (Aus) | 3.8 | 3.9 | +3% | 6.6 | 6.2 | (6%)\nMining Service Capacity | Operational: 63.0 MMTPA | Under Development: 77.1 MMTPA | Total: 140.1 MMTPA\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\n\n\nIRM: Integrated Resource Management | PEKB: Parsa East Kente Basen | GP III: Gare Pelma III | MMT: Million Metric Tonne | RRVUNL \u2013 Rajasthan Rajya Vidyut Utpadan Nigam Ltd | CSPGCL \u2013 Chhattisgarh State Power Generation Company Ltd | NLCIL \u2013 NLC India Ltd | APMDC \u2013 Andhra Pradesh Mineral Development Corporation Ltd | OMC \u2013 Odisha Mining Corporation Ltd\n\n=== PAGE 20 END ===",
+    "file": "first.txt",
+    "page": 20,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nSTRICTLY CONFIDENTIAL\n04\nFinancial Highlights\n\n\nTABLES:\nNot found in the Documents\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A. RAW VISUAL METADATA]\n\nType: Section divider slide\nTitle: Financial Highlights\nLabels: \"04\"\n\n[B. EXACT DATA EXTRACTION]\n\nSection number: 04\nSection title: Financial Highlights\n\n[C.",
+    "file": "first.txt",
+    "page": 21,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\nPlain white background; large light-grey \"04\" lower left; bold dark text \"Financial Highlights\"; Adani logo top right\n[D. SEMANTIC DESCRIPTION]\nSection divider for Section 04: Financial Highlights\n[E.",
+    "file": "first.txt",
+    "page": 21,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nSection Number | 04\nSection Title | Financial Highlights\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\nNot found in the Documents\n\n=== PAGE 21 END ===",
+    "file": "first.txt",
+    "page": 21,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAEL: Consolidated Financial Highlights H1-26 Y-o-Y\n\u20b9 crore\nConsolidated | ANIL Ecosystem | Airports | IRM | Mining Service\nTOTAL INCOME\nEBITDA\nIncrease | Decrease | Total (legend)\n\nAnnotations per segment:\n\nConsolidated Total Income: Impacted due to low export volume by 31%\nANIL Ecosystem Total Income: (5%) \u2013 Impacted due to low export volume by 31%\nAirports Total Income: 32% \u2013 Increased in line with tariff revision and non-aero growth\nIRM Total Income: (29%) \u2013 Impacted due to low volume and prices\nMining Service Total Income: 35% \u2013 Increased in line with higher volume\nConsolidated EBITDA: [decline from 8,654 to 7,688]\nANIL Ecosystem EBITDA: (14%) \u2013 Impacted due to low export and levy of tariff\nAirports EBITDA: 51% \u2013 Increased in line with revenue and tariff order revision\nIRM EBITDA: (31%) \u2013 Impacted due to low volume and prices\nMining Service EBITDA: 37% \u2013 Increased in line with higher volume\n\n\nTABLES:\nNot found in the Documents (data in bar charts)\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A.",
+    "file": "first.txt",
+    "page": 22,
+    "type": "text"
+  },
+  {
+    "text": "RAW VISUAL METADATA]\n\nType: Waterfall bar charts (2 rows \u00d7 5 columns = 10 charts)\nTitle: AEL: Consolidated Financial Highlights H1-26 Y-o-Y\nLabels: Consolidated, ANIL Ecosystem, Airports, IRM, Mining Service (columns); Total Income, EBITDA (rows)\nLegends: Increase (dark blue), Decrease (light grey), Total (solid blue)\nAxes: Y-axis = \u20b9 crore; X-axis = periods (H1-25, components, H1-26)\nUnits: \u20b9 crore\n\n[B.",
+    "file": "first.txt",
+    "page": 22,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\nTOTAL INCOME (\u20b9 crore):\n\nConsolidated: H1-25 = 49,263; Established change = (4,867); Incubating change = (115); H1-26 = 44,281\nANIL Ecosystem: H1-25 = 7,634; H1-26 = 7,233; Change = (5%)\nAirports: H1-25 = 4,453; H1-26 = 5,882; Change = +32%\nIRM: H1-25 = 20,898; H1-26 = 14,899; Change = (29%)\nMining Service: H1-25 = 1,660; H1-26 = 2,247; Change = +35%\n\nEBITDA (\u20b9 crore):\n\nConsolidated: H1-25 = 8,654; Established change = (1,203); Incubating change = +237; H1-26 = 7,688\nANIL Ecosystem: H1-25 = 2,763; H1-26 = 2,384; Change = (14%)\nAirports: H1-25 = 1,426; H1-26 = 2,157; Change = +51%\nIRM: H1-25 = 1,916; H1-26 = 1,331; Change = (31%)\nMining Service: H1-25 = 746; H1-26 = 1,019; Change = +37%\n\n[C.",
+    "file": "first.txt",
+    "page": 22,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\n\n2\u00d75 grid of waterfall/bar charts\nRow 1 (Total Income): 5 charts \u2014 Consolidated, ANIL Ecosystem, Airports, IRM, Mining Service\nRow 2 (EBITDA): Same 5 segments\nConsolidated charts show bridging bars (Established decrease + Incubating change)\nSegment charts show simple H1-25 and H1-26 bars with YoY % change indicator and direction arrow\nDirection arrows: \u25b2 (positive) or \u25bc (negative)\n\n[D.",
+    "file": "first.txt",
+    "page": 22,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nOverall consolidated: Total income fell from \u20b949,263 to \u20b944,281 cr; EBITDA from \u20b98,654 to \u20b97,688 cr\nEstablished businesses dragged both income (-4,867) and EBITDA (-1,203)\nIncubating businesses marginally declined income (-115) but grew EBITDA (+237)\nAirports: Strong performer \u2014 income +32%, EBITDA +51%\nMining Services: Good growth \u2014 income +35%, EBITDA +37%\nIRM: Weak \u2014 income -29%, EBITDA -31%\nANIL Ecosystem: Income -5% (low export volume); EBITDA -14% (low export + tariff levy)\n\n[E.",
+    "file": "first.txt",
+    "page": 22,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nSegment | H1-25 Income (\u20b9 cr) | H1-26 Income (\u20b9 cr) | YoY | H1-25 EBITDA (\u20b9 cr) | H1-26 EBITDA (\u20b9 cr) | YoY\nConsolidated | 49,263 | 44,281 | \u2014 | 8,654 | 7,688 | \u2014\nANIL Ecosystem | 7,634 | 7,233 | (5%) | 2,763 | 2,384 | (14%)\nAirports | 4,453 | 5,882 | +32% | 1,426 | 2,157 | +51%\nIRM | 20,898 | 14,899 | (29%) | 1,916 | 1,331 | (31%)\nMining Service | 1,660 | 2,247 | +35% | 746 | 1,019 | +37%\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\nNot found in the Documents\n\n=== PAGE 22 END ===",
+    "file": "first.txt",
+    "page": 22,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAEL: Consolidated Financial Highlights Q2-26 Y-o-Y\n\u20b9 crore\nConsolidated | ANIL Ecosystem | Airports | IRM | Mining Service\nTOTAL INCOME | EBITDA\nIncrease | Decrease | Total (legend)\n\nAnnotations:\n\nConsolidated Total Income: [waterfall Q2-25=23,196; Established=(1,560); Incubating=+208; Q2-26=21,844]\nANIL Ecosystem Total Income: 3% \u2013 Increased on account of higher WTG sets supply\nAirports Total Income: 39% \u2013 Increased in line with tariff revision and non-aero growth\nIRM Total Income: (29%) \u2013 Impacted due to low volume and prices\nMining Service Total Income: 35% \u2013 Increased in line with higher volume\nConsolidated EBITDA: [Q2-25=4,354; Established=(556); Incubating=+104; Q2-26=3,902]\nANIL Ecosystem EBITDA: 5% \u2013 Increase in line with revenue\nAirports EBITDA: 43% \u2013 Increased in line with revenue\nIRM EBITDA: (22%) \u2013 Impacted due to low volume and prices\nMining Service EBITDA: 34% \u2013 Increased in line with higher volume\n\n\nTABLES:\nNot found in the Documents (data in bar charts)\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A.",
+    "file": "first.txt",
+    "page": 23,
+    "type": "text"
+  },
+  {
+    "text": "RAW VISUAL METADATA]\n\nType: Waterfall bar charts (2 rows \u00d7 5 columns = 10 charts)\nTitle: AEL: Consolidated Financial Highlights Q2-26 Y-o-Y\nLabels: Consolidated, ANIL Ecosystem, Airports, IRM, Mining Service (columns); Total Income, EBITDA (rows)\nLegends: Increase (dark blue), Decrease (light grey), Total (solid blue)\nAxes: Y-axis = \u20b9 crore; X-axis = Q2-25, components, Q2-26\nUnits: \u20b9 crore\n\n[B.",
+    "file": "first.txt",
+    "page": 23,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\nTOTAL INCOME Q2 (\u20b9 crore):\n\nConsolidated: Q2-25 = 23,196; Established = (1,560); Incubating = +208; Q2-26 = 21,844\nANIL Ecosystem: Q2-25 = 3,115; Q2-26 = 3,199; Change = +3%\nAirports: Q2-25 = 2,276; Q2-26 = 3,167; Change = +39%\nIRM: Q2-25 = 9,697; Q2-26 = 6,843; Change = (29%)\nMining Service: Q2-25 = 803; Q2-26 = 1,088; Change = +35%\n\nEBITDA Q2 (\u20b9 crore):\n\nConsolidated: Q2-25 = 4,354; Established = (556); Incubating = +104; Q2-26 = 3,902\nANIL Ecosystem: Q2-25 = 1,121; Q2-26 = 1,172; Change = +5%\nAirports: Q2-25 = 744; Q2-26 = 1,062; Change = +43%\nIRM: Q2-25 = 927; Q2-26 = 726; Change = (22%)\nMining Service: Q2-25 = 400; Q2-26 = 535; Change = +34%\n\n[C.",
+    "file": "first.txt",
+    "page": 23,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\n\nSame structure as page 22 but for Q2 (quarterly) data\n2\u00d75 grid of bar/waterfall charts\nConsolidated charts show bridging bars (Established change + Incubating change)\nIndividual segment charts show Q2-25 and Q2-26 bars with % change indicators\n\n[D.",
+    "file": "first.txt",
+    "page": 23,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nQ2-26 consolidated total income declined from \u20b923,196 to \u20b921,844 cr\nQ2-26 consolidated EBITDA declined from \u20b94,354 to \u20b93,902 cr\nAirports: Strong Q2 growth (+39% income, +43% EBITDA)\nANIL Ecosystem: Modest growth (+3% income, +5% EBITDA) driven by higher WTG sets supply\nIRM: Declined (-29% income, -22% EBITDA) due to low volume and prices\nMining Services: Grew (+35% income, +34% EBITDA) driven by higher volume\n\n[E.",
+    "file": "first.txt",
+    "page": 23,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nSegment | Q2-25 Income (\u20b9 cr) | Q2-26 Income (\u20b9 cr) | YoY | Q2-25 EBITDA (\u20b9 cr) | Q2-26 EBITDA (\u20b9 cr) | YoY\nConsolidated | 23,196 | 21,844 | \u2014 | 4,354 | 3,902 | \u2014\nANIL Ecosystem | 3,115 | 3,199 | +3% | 1,121 | 1,172 | +5%\nAirports | 2,276 | 3,167 | +39% | 744 | 1,062 | +43%\nIRM | 9,697 | 6,843 | (29%) | 927 | 726 | (22%)\nMining Service | 803 | 1,088 | +35% | 400 | 535 | +34%\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\nNot found in the Documents\n\n=== PAGE 23 END ===",
+    "file": "first.txt",
+    "page": 23,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nSTRICTLY CONFIDENTIAL\n05\nDebt Profile\n\n\nTABLES:\nNot found in the Documents\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A. RAW VISUAL METADATA]\n\nType: Section divider slide\nTitle: Debt Profile\nLabels: \"05\"\n\n[B. EXACT DATA EXTRACTION]\n\nSection number: 05\nSection title: Debt Profile\n\n[C.",
+    "file": "first.txt",
+    "page": 24,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\nPlain white background; large light-grey \"05\"; bold dark text \"Debt Profile\"; Adani logo top right\n[D. SEMANTIC DESCRIPTION]\nSection divider for Section 05: Debt Profile\n[E. MACHINE-READABLE SUMMARY]\nSection Number | 05\nSection Title | Debt Profile\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\nNot found in the Documents\n\n=== PAGE 24 END ===",
+    "file": "first.txt",
+    "page": 24,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAEL: Consolidated Debt Movement H1-26 vis-\u00e0-vis March-2024\n\u20b9 crore\nExternal debt from Mar-24: Rs.",
+    "file": "first.txt",
+    "page": 25,
+    "type": "text"
+  },
+  {
+    "text": "31,064 cr accounted for yet to unlock\n\nSegments of debt increase:\n\n35% in AAHL Airports: Construction of Navi Mumbai Airport; PPRA Payment of Three Airports; Construction of New Terminals; Capex expenditure for Non-aero activities \u2192 Navi Mumbai Airport in FY26\n23% in ARTL Roads: Construction of Ganga Expressway project; Construction of other projects \u2192 Ganga Expressway in FY26\n21% in KCL Copper: Construction of Copper plant 500 KTPA; Working capital requirements \u2192 Copper Plant fully by FY26\n18% in MPL PVC: Construction of PVC plant 1 MMTPA \u2192 PVC Plant by FY28\n\nCredit Metrics:\nInterest coverage ratio: FY21=2.8, FY22=2.4, FY23=3.1, FY24=3.6, FY25=3.4, H1-26=2.5\nDebt Service coverage ratio: FY21=1.7, FY22=1.8, FY23=2.5, FY24=2.5, FY25=2.6, H1-26=1.8\nNet External Debt/EBITDA: FY21=3.0, FY22=5.2, FY23=2.2, FY24=2.3, FY25=2.9, H1-26=3.9\n\nTABLES:\n\n[TABLE \u2013 Debt Increase Allocation]\nSegment | % of Rs.",
+    "file": "first.txt",
+    "page": 25,
+    "type": "text"
+  },
+  {
+    "text": "31,064 cr increase | Key Uses | EBITDA Unlock\nAAHL Airports | 35% | Navi Mumbai Airport, PPRA, New Terminals, Non-aero capex | FY26\nARTL Roads | 23% | Ganga Expressway, other projects | FY26\nKCL Copper | 21% | Copper plant 500 KTPA, Working capital | FY26\nMPL PVC | 18% | PVC plant 1 MMTPA | FY28\n[/TABLE]\n\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A.",
+    "file": "first.txt",
+    "page": 25,
+    "type": "text"
+  },
+  {
+    "text": "RAW VISUAL METADATA]\n\nType: 3 line charts (credit ratios) + structured debt allocation table with arrows\nTitle: AEL: Consolidated Debt Movement H1-26 vis-\u00e0-vis March-2024\nLabels: Interest coverage ratio, Debt Service coverage ratio, Net External Debt/EBITDA; FY21\u2013H1-26\nLegends: Not found in the Documents\nAxes: X-axis = FY21, FY22, FY23, FY24, FY25, H1-26; Y-axis = ratio values\nUnits: x (ratio) for coverage ratios; times for Debt/EBITDA\n\n[B.",
+    "file": "first.txt",
+    "page": 25,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\nInterest Coverage Ratio:\nFY21=2.8, FY22=2.4, FY23=3.1, FY24=3.6, FY25=3.4, H1-26=2.5\nDebt Service Coverage Ratio:\nFY21=1.7, FY22=1.8, FY23=2.5, FY24=2.5, FY25=2.6, H1-26=1.8\nNet External Debt/EBITDA:\nFY21=3.0, FY22=5.2, FY23=2.2, FY24=2.3, FY25=2.9, H1-26=3.9\nTotal external debt increase from Mar-24: Rs. 31,064 crore\n[C.",
+    "file": "first.txt",
+    "page": 25,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\n\nLeft column: 3 line charts stacked vertically (Interest coverage, Debt Service coverage, Net External Debt/EBITDA); each shows 6 data points FY21\u2013H1-26 with values labeled\nRight columns: Structured table showing 4 debt allocation segments with % share, key uses, and expected EBITDA unlock timeline\nArrows connect each segment to its EBITDA unlock expectation (FY26 or FY28)\n\n[D.",
+    "file": "first.txt",
+    "page": 25,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nExternal debt increased by Rs.",
+    "file": "first.txt",
+    "page": 25,
+    "type": "text"
+  },
+  {
+    "text": "31,064 cr since Mar-24; majority deployed in AAHL Airports (35%) and ARTL Roads (23%) \u2014 both expected to unlock EBITDA in FY26\nKCL Copper (21%) to fully commission by FY26; PVC (18%) by FY28\nCredit metrics: Interest coverage declined to 2.5x in H1-26 (from 3.4x in FY25), driven by debt buildup ahead of EBITDA unlock\nDebt service coverage at 1.8x in H1-26 (vs 2.6x in FY25)\nNet External Debt/EBITDA rose to 3.9x in H1-26 (from 2.9x in FY25), expected to normalize as large infra assets commission\n\n[E.",
+    "file": "first.txt",
+    "page": 25,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nMetric | FY21 | FY22 | FY23 | FY24 | FY25 | H1-26\nInterest Coverage | 2.8 | 2.4 | 3.1 | 3.6 | 3.4 | 2.5\nDebt Service Coverage | 1.7 | 1.8 | 2.5 | 2.5 | 2.6 | 1.8\nNet Ext Debt/EBITDA | 3.0 | 5.2 | 2.2 | 2.3 | 2.9 | 3.9\nDebt Allocation | Segment | % | Unlock\n35% | AAHL Airports | 35% | FY26\n23% | ARTL Roads | 23% | FY26\n21% | KCL Copper | 21% | FY26\n18% | MPL PVC | 18% | FY28\n\nFLOWCHARTS / DIAGRAMS:\n[FLOW REPRESENTATION]\nDebt increase (Rs.",
+    "file": "first.txt",
+    "page": 25,
+    "type": "text"
+  },
+  {
+    "text": "31,064 cr) from Mar-24 \u2192 35% AAHL Airports \u2192 EBITDA unlock FY26\n\u2192 23% ARTL Roads \u2192 EBITDA unlock FY26\n\u2192 21% KCL Copper \u2192 EBITDA unlock FY26\n\u2192 18% MPL PVC \u2192 EBITDA unlock FY28\nFOOTNOTES / REFERENCES:\nNot found in the Documents\n\n=== PAGE 25 END ===",
+    "file": "first.txt",
+    "page": 25,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAEL: Consolidated Debt Details\n\u20b9 crore\nIncrease in external debt during the half-year deployed in incubating infra-assets\n\n\nTABLES:\n\n[TABLE \u2013 Consolidated Debt Details (\u20b9 crore)]\nSegment | As at Mar-24 Total | As at Mar-25 Long-Term Debt | As at Mar-25 Working Capital Debt | As at Mar-25 Total | As at Sep-25 Long-Term Debt | As at Sep-25 Working Capital Debt | As at Sep-25 Total\nANIL Ecosystem | 4,010 | 2,997 | 546 | 3,543 | 2,996 | 970 | 3,966\nAirport | 19,206 | 27,714 | 143 | 27,857 | 29,891 | 162 | 30,053\nRoad | 8,038 | 14,588 | - | 14,588 | 15,172 | - | 15,172\nCopper | 3,578 | 5,411 | 1,530 | 6,942 | 5,371 | 4,638 | 10,009\nIRM | 1,249 | 106 | 890 | 996 | 113 | 994 | 1,107\nMining Services | 978 | 965 | 364 | 1,330 | 962 | 227 | 1,189\nAustralia Project | 6,882 | 7,886 | 929 | 8,815 | 8,216 | 1,148 | 9,364\nDefence | 415 | 265 | 487 | 752 | 333 | 854 | 1,187\nPVC | - | 1,759 | - | 1,759 | 4,236 | - | 4,236\nCorporate & Others | 5,768 | 8,761 | 894 | 9,655 | 14,505 | 1,278 | 15,783\nGross Debt | 50,124 | 70,452 | 5,784 | 76,236 | 81,795 | 10,270 | 92,065\nLess: Shareholder's Loan | 12,090 | 19,928 | 39 | 19,968 | 22,926 | 41 | 22,967\nExternal Debt | 38,035 | 50,524 | 5,745 | 56,269 | 58,869 | 10,229 | 69,098\nLess: Cash & Bank Balances | 7,068 | \u2014 | \u2014 | 6,962 | \u2014 | \u2014 | 9,028\nNet External Debt | 30,966 | \u2014 | \u2014 | 49,306 | \u2014 | \u2014 | 60,070\n[/TABLE]\n\nIMAGES / INFOGRAPHICS / CHARTS:\nNot found in the Documents\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\n\n\nIncrease in external debt during the half-year deployed in incubating infra-assets\n\n=== PAGE 26 END ===",
+    "file": "first.txt",
+    "page": 26,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nSTRICTLY CONFIDENTIAL\n06\nESG Highlights\n\n\nTABLES:\nNot found in the Documents\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A. RAW VISUAL METADATA]\n\nType: Section divider slide\nTitle: ESG Highlights\nLabels: \"06\"\n\n[B. EXACT DATA EXTRACTION]\n\nSection number: 06\nSection title: ESG Highlights\n\n[C.",
+    "file": "first.txt",
+    "page": 27,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\nPlain white background; large light-grey \"06\"; bold dark text \"ESG Highlights\"; Adani logo top right\n[D. SEMANTIC DESCRIPTION]\nSection divider for Section 06: ESG Highlights\n[E.",
+    "file": "first.txt",
+    "page": 27,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nSection Number | 06\nSection Title | ESG Highlights\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\nNot found in the Documents\n\n=== PAGE 27 END ===",
+    "file": "first.txt",
+    "page": 27,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAEL: ESG Rating & Performance Highlights\nRatings | Performance Highlights\nAchieved in H1-26 against H1-25\n1: Per million pax | 2: Per ton of copper production | 3: Per ton of ROM (coal + iron ore)\n\nESG Ratings:\n\nDJSI CSA (2025): 62 \u2013 Ranked among the top 5 companies in its sector globally and placed in the 97th percentile\nCDP \u2013 CC (2024): A- \u2013 Denotes \"Leadership Category\" indicating AEL dedication and commitment to lowering GHG emissions and their overall environmental impact\nCDP Supply Chain (2024): A \u2013 Denotes \"Leadership Category\" indicating climate action, demonstrating excellence in climate governance\nSustainalytics: 25.9 \u2013 Denotes \"Medium Risk\", Improvement from previous rating of 28 score\nIn the latest assessment by Sustainalytics, AEL score has further improved to 25.9 \"Medium Risk\".",
+    "file": "first.txt",
+    "page": 28,
+    "type": "text"
+  },
+  {
+    "text": "This reflects our consistent strategic efforts to strengthen governance, enhance transparency, and embed sustainability into our core operations.\nCRISIL: 51 \u2013 Denotes \"Adequate\", Increase from previous score of 50 (a SEBI registered ESG rating agency)\nTPI: Level 3 \u2013 Denotes \"Integrating climate change into operational decision making\"\nESG Risk Assessment & Insight: 67.5 \u2013 Categorized as 'Strong' for its ESG performance by ESG Risk.ai (a SEBI registered agency)\n\nPerformance Highlights by Business Unit:\nANIL Ecosystem:\n\n19% renewable energy in electricity mix\n100% water withdrawal from non-competing sources\n\nData Center:\n\n26% renewable energy in electricity mix\n3 Operational sites achieved Zero Liquid Discharge (ZLD) status\n\nAirports:\n\n51% renewable energy in electricity mix\n26% reduction\u00b9 in scope 1 emission intensity\n\nMining Services:\n\n27% reduction in scope 2\u00b3 emission intensity\n12% reduction in water consumption\u00b3 intensity\n\nOverall:\n\n2,81,678 trees planted in H1-26\n99% of waste managed through reuse, recycle and other recovery operations\n\n\nTABLES:\n\n[TABLE \u2013 ESG Ratings]\nRating Agency | Rating/Score | Description\nDJSI CSA (2025) | 62 | Top 5 in sector globally; 97th percentile\nCDP \u2013 CC (2024) | A- | Leadership Category; GHG reduction commitment\nCDP Supply Chain (2024) | A | Leadership Category; Climate governance\nSustainalytics | 25.9 | Medium Risk; improved from 28\nCRISIL | 51 | Adequate; improved from 50 (SEBI registered)\nTPI | Level 3 | Integrating climate change into operations\nESG Risk Assessment & Insight | 67.5 | 'Strong' ESG performance (SEBI registered)\n[/TABLE]\n\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A.",
+    "file": "first.txt",
+    "page": 28,
+    "type": "text"
+  },
+  {
+    "text": "RAW VISUAL METADATA]\n\nType: Structured ratings table + icon-based performance highlights\nTitle: AEL: ESG Rating & Performance Highlights\nLabels: Rating agencies (DJSI, CDP, Sustainalytics, CRISIL, TPI, ESG Risk), business units (ANIL, Data Center, Airports, Mining Services), performance metrics (renewable energy %, ZLD, emission reduction, water reduction, trees planted, waste management %)\nLegends: Not found in the Documents\nAxes: Not applicable\nUnits: %, score, level, count\n\n[B.",
+    "file": "first.txt",
+    "page": 28,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\n(All values as extracted above in text content and table sections)\n[C. STRUCTURAL DESCRIPTION]\n\nLeft: Vertical list of ESG rating agencies with logos, scores, and descriptions\nRight: Grid of business units with icons and key H1-26 performance metrics\nRatings section: 7 agencies with score, rating grade/level, and descriptive text\n\n[D.",
+    "file": "first.txt",
+    "page": 28,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nAEL has achieved strong ESG ratings across multiple international and domestic agencies\nDJSI score of 62 is well above industry average of 29 (mentioned on page 10)\nCDP received A- and A ratings indicating leadership in climate action\nSustainalytics improved from 28 to 25.9 (lower is better in this scale \u2014 lower risk)\nRenewable energy mix: Airports (51%) > Data Center (26%) > ANIL (19%)\nMining Services showing improvement in emission intensity and water consumption\n2,81,678 trees planted; 99% waste recycled/reused\n\n[E.",
+    "file": "first.txt",
+    "page": 28,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nRating Agency | Score/Grade | Interpretation\nDJSI CSA 2025 | 62 | Top 5 in sector globally; 97th percentile\nCDP CC 2024 | A- | Leadership Category\nCDP Supply Chain 2024 | A | Leadership Category\nSustainalytics | 25.9 | Medium Risk (improved from 28)\nCRISIL | 51 | Adequate (improved from 50)\nTPI | Level 3 | Integrating climate into operations\nESG Risk.ai | 67.5 | Strong\nBusiness Unit | Metric | Value\nANIL Ecosystem | Renewable energy % | 19%\nANIL Ecosystem | Water from non-competing sources | 100%\nData Center | Renewable energy % | 26%\nData Center | ZLD sites | 3\nAirports | Renewable energy % | 51%\nAirports | Scope 1 emission intensity reduction | 26%\nMining Services | Scope 2 emission intensity reduction | 27%\nMining Services | Water consumption intensity reduction | 12%\nOverall | Trees planted H1-26 | 2,81,678\nOverall | Waste managed through recovery | 99%\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\n\n\nAchieved in H1-26 against H1-25\n1: Per million pax | 2: Per ton of copper production | 3: Per ton of ROM (coal + iron ore)\n\n=== PAGE 28 END ===",
+    "file": "first.txt",
+    "page": 28,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nThank You\nadani (logo)\nV20- credit metrices threshold change after Robbie sir's comment\n\n\nTABLES:\nNot found in the Documents\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A. RAW VISUAL METADATA]\n\nType: Thank You / closing slide with illustration\nTitle: Thank You\nLabels: adani (logo)\nLegends: Not found in the Documents\nAxes: Not found in the Documents\nUnits: Not found in the Documents\n\n[B.",
+    "file": "first.txt",
+    "page": 29,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\n\nText: \"Thank You\"\nLogo: adani\nDraft note: \"V20- credit metrices threshold change after Robbie sir's comment\"\n\n[C.",
+    "file": "first.txt",
+    "page": 29,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\n\nTop left: Adani logo\nCenter: \"Thank You\" text\nBottom portion: Illustrated panoramic scene featuring Adani's diverse businesses \u2014 ports with container ship, wind turbines, transmission towers, mining equipment, people (farmers, workers, engineers), colorful cargo containers, lush greenery\nThe illustration depicts a diverse, multi-sector economy with people at the forefront\n\n[D.",
+    "file": "first.txt",
+    "page": 29,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nClosing slide of the presentation\nIllustration represents Adani's pan-India business ecosystem \u2014 maritime, energy, mining, agriculture, infrastructure\nDraft note visible: \"V20- credit metrices threshold change after Robbie sir's comment\" \u2014 this appears to be an internal version/editing note inadvertently left visible\n\n[E.",
+    "file": "first.txt",
+    "page": 29,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nSlide Type | Thank You / Closing\nCompany | Adani Enterprises Limited\nDraft Note | V20 - credit metrices threshold change after Robbie sir's comment\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\n\n\nV20- credit metrices threshold change after Robbie sir's comment (internal draft note)\n\n=== PAGE 29 END ===",
+    "file": "first.txt",
+    "page": 29,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nSTRICTLY CONFIDENTIAL\nAppendix\n\n\nTABLES:\nNot found in the Documents\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A. RAW VISUAL METADATA]\n\nType: Section divider slide\nTitle: Appendix\n\n[B. EXACT DATA EXTRACTION]\n\nSection title: Appendix\n\n[C. STRUCTURAL DESCRIPTION]\nPlain white background; bold dark text \"Appendix\" lower left; Adani logo top right\n[D.",
+    "file": "first.txt",
+    "page": 30,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\nSection divider for Appendix section\n[E. MACHINE-READABLE SUMMARY]\nSection Title | Appendix\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\nNot found in the Documents\n\n=== PAGE 30 END ===",
+    "file": "first.txt",
+    "page": 30,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAEL: Energy & Utility \u2013 Water\nLoA: Letter of Award | COD \u2013 Commercial Operation Date | MLD \u2013 Million Liters Per Day | Ha \u2013 Hectare | MCM \u2013 Million Cubic Meter\nOperational (legend)\n\n\nTABLES:\n\n[TABLE \u2013 Water Projects]\nProject Model | Project / Location | Capacity | Project Status | Concession Period (In Yrs) (Const.",
+    "file": "first.txt",
+    "page": 31,
+    "type": "text"
+  },
+  {
+    "text": "+ O&M)\nHAM | Prayagraj Water Pvt Ltd (PWPL) / Uttar Pradesh | 326 MLD | COD Achieved | 2 + 15\nHAM | Bhagalpur Waste Water Ltd (BWWL) / Bihar | 45 MLD | Completion > ~95% | 2 + 15\nHAM | Morsagar Bisalpur Water Ltd (MBWL) / Rajasthan | 200 MCM | LoA issued on 24-Sep-25 | 2.75 + 20\nHAM | Brahmani Barrage Water Ltd (BBWL) / Rajasthan | 55 MCM | LoA issued on 24-Sep-25 | 2.75 + 20\nEPC | Shakkar Pench Micro Lift Irrigation Project / Madhya Pradesh | 95,000 Ha | Dam & Pipelaying execution agencies finalization are in advance stage | 6 + 5\n[/TABLE]\n\nIMAGES / INFOGRAPHICS / CHARTS:\nNot found in the Documents\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\n\n\nLoA: Letter of Award | COD \u2013 Commercial Operation Date | MLD \u2013 Million Liters Per Day | Ha \u2013 Hectare | MCM \u2013 Million Cubic Meter\nOperational: Prayagraj Water Pvt Ltd (PWPL)\n\n=== PAGE 31 END ===",
+    "file": "first.txt",
+    "page": 31,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAEL: Transport & Logistics \u2013 AAHL (Airports)\nVolume Details\nATM \u2013 Air Traffic Movement\n\n\nTABLES:\n\n[TABLE \u2013 Airport Volume Details]\nAirport | Passengers Q2-25 (Mn) | Passengers Q2-26 (Mn) | Passengers H1-25 (Mn) | Passengers H1-26 (Mn) | ATM Q2-25 ('000) | ATM Q2-26 ('000) | ATM H1-25 ('000) | ATM H1-26 ('000) | Cargo Q2-25 (L-MT) | Cargo Q2-26 (L-MT) | Cargo H1-25 (L-MT) | Cargo H1-26 (L-MT)\nAhmedabad | 3.0 | 3.1 | 6.2 | 6.6 | 23.4 | 23.6 | 47.2 | 50.2 | 0.3 | 0.3 | 0.5 | 0.6\nLucknow | 1.5 | 1.4 | 3.0 | 2.9 | 12.5 | 9.6 | 25.3 | 19.9 | 0.1 | 0.1 | 0.1 | 0.1\nMangaluru | 0.6 | 0.6 | 1.1 | 1.2 | 4.0 | 4.4 | 7.9 | 9.2 | 0.0 | 0.0 | 0.0 | 0.0\nJaipur | 1.4 | 1.2 | 2.7 | 2.4 | 11.3 | 9.7 | 22.6 | 19.1 | 0.1 | 0.1 | 0.1 | 0.1\nGuwahati | 1.4 | 1.8 | 2.9 | 3.5 | 11.1 | 11.7 | 22.2 | 24.2 | 0.1 | 0.1 | 0.1 | 0.1\nThiruvananthapuram | 1.2 | 1.2 | 2.5 | 2.4 | 8.2 | 7.4 | 16.2 | 15.2 | 0.1 | 0.1 | 0.1 | 0.1\nMumbai | 13.2 | 13.3 | 26.7 | 26.9 | 82.7 | 81.7 | 164.0 | 164.1 | 2.3 | 2.3 | 4.5 | 4.6\nTotal | 22.3 | 22.6 | 45.1 | 46.0 | 153.3 | 148.2 | 305.4 | 301.7 | 2.8 | 2.9 | 5.5 | 5.7\n[/TABLE]\n\nIMAGES / INFOGRAPHICS / CHARTS:\nNot found in the Documents\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\n\n\nATM \u2013 Air Traffic Movement\n\n=== PAGE 32 END ===",
+    "file": "first.txt",
+    "page": 32,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAEL: Transport & Logistics \u2013 ARTL (Roads)\nHAM: Hybrid Annuity Model | TOT: Toll Operate Transfer | TBD: To be Decided\nOperational (legend)\n\n\nTABLES:\n\n[TABLE \u2013 HAM Projects]\nProject Model | Project SPV / Location | Length (KMs) | Financial Closure | Project Completion Status | Concession Period (in Yrs) (Const.",
+    "file": "first.txt",
+    "page": 33,
+    "type": "text"
+  },
+  {
+    "text": "+ O&M)\nHAM | Bilaspur Pathrapali Road Pvt Ltd (BPRPL) / Chhattisgarh | 53.3 | Secured | Operational | 2 + 15\nHAM | Suryapet Khammam Road Pvt Ltd (SKRPL) / Telangana | 58.6 | Secured | Operational | 2.5 + 15\nHAM | Mancherial Repallewada Road Pvt Ltd (MRRPL) / Telangana | 42.0 | Secured | Operational | 2 + 15\nHAM | Vijayawada Bypass Project Ltd (VBPL) / Andhra Pradesh | 17.9 | Secured | 97.0% | 2.5 + 15\nHAM | Nanasa Pidgaon Road Ltd (NPRL) / Madhya Pradesh | 47.4 | Secured | Operational | 2 + 15\nHAM | Azhiyur Vengalam Road Ltd (AVRL) / Kerala | 40.8 | Secured | 68.0% | 2.5 + 15\nHAM | Kodad Khammam Road Ltd (KKRL) / Telangana | 31.8 | Secured | Operational | 2 + 15\nHAM | Badakumari Karki Road Ltd (BKRL) / Odisha | 47.5 | Secured | 95.0% | 2.5 + 15\nHAM | Munger Sultanganj Road Ltd (MSRL) / Bihar | 41.8 | TBD | New Project | 4 + 15\nHAM | Sultanganj Sabour Road Ltd (SSRL) / Bihar | 41.1 | TBD | New Project | 4 + 15\nRopeway | Shri Kedarnath Ropeways Ltd (SKRL) / Uttarakhand | 12.9 | TBD | New Project | 6 + 29\nTOT | PRS Tolls Pvt Ltd / Gujarat | 49.5 | Secured | Operational | 0 + 20\n[/TABLE]\n\nIMAGES / INFOGRAPHICS / CHARTS:\nNot found in the Documents\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\n\n\nHAM: Hybrid Annuity Model | TOT: Toll Operate Transfer | TBD: To be Decided\nOperational indicator noted\n\n=== PAGE 33 END ===",
+    "file": "first.txt",
+    "page": 33,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAEL: Transport & Logistics \u2013 ARTL (Roads)\nBOT: Build Operate Transfer | BCP: Border Check Post | COD \u2013 Commercial Operation Date\nOperational (legend)\n\n\nTABLES:\n\n[TABLE \u2013 BOT Projects]\nProject Model | Project SPV / Location | Length (KMs) | Financial Closure | Project Completion Status | Concession Period (in Yrs) (Const.",
+    "file": "first.txt",
+    "page": 34,
+    "type": "text"
+  },
+  {
+    "text": "+ O&M)\nBOT | Panagarh Palsit Road Pvt Ltd (PPRPL) / West Bengal | 67.8 | Secured | Operational | 2.5 + 18\nBOT | Kagal Satara Road Pvt Ltd (KSRPL) / Maharashtra | 65.1 | Secured | 78.5% | 2 + 16\nBOT | Maharashtra Border Check Post Network Ltd (MBCPNL) / Maharashtra | 24 BCPs | Secured | 21 BCPs Operation; 2 COD Achieved | 1.5 + 23\nBOT | Ganga Expressway, Uttar Pradesh | 464.2 (total) | \u2014 | \u2014 | \u2014\nBOT | \u2014 Budaun Hardoi Road Pvt Ltd (BHRPL) | 151.7 | Secured | 97.1% | 3 + 27\nBOT | \u2014 Hardoi Unnao Road Pvt Ltd (HURPL) | 155.7 | Secured | 87.3% | 3 + 27\nBOT | \u2014 Unnao Prayagraj Road Pvt Ltd (UPRPL) | 156.8 | Secured | 93.0% | 3 + 27\n[/TABLE]\n\nIMAGES / INFOGRAPHICS / CHARTS:\nNot found in the Documents\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\n\n\nBOT: Build Operate Transfer | BCP: Border Check Post | COD \u2013 Commercial Operation Date\nOperational indicator noted\n\n=== PAGE 34 END ===",
+    "file": "first.txt",
+    "page": 34,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAEL: Primary Industries \u2013 Mining Services\nOperational (legend)\n\nFootnotes:\nPEKB: Parsa East Kente Basen | RRVUNL: Rajasthan Rajya Vidyut Utpadan Nigam Ltd | CSPGCL: Chhattisgarh State Power Generation Company Ltd | NLCIL: NLC India Ltd | APMDC: Andhra Pradesh Mineral Development Corporation Ltd | SECL: South Eastern Coalfields Ltd | ACL: Ambuja Cements Ltd | MEL: Mahan Energen Ltd | OMC: Odisha Mining Corporation Ltd | SAIL: Steel Authority of India Ltd\n\nTABLES:\n\n[TABLE \u2013 Mining Services Contracts]\nMine Service Contracts | Name of Mine & State | Peak Capacity | Customer (Owner) | SPV Name\nCoal Mine Service Contracts | PEKB, Chhattisgarh | 18.0 MMT | RRVUNL | Parsa Kente Collieries Ltd\nCoal Mine Service Contracts | Gare Pelma III, Chhattisgarh | 5.0 MMT | CSPGCL | Gare Pelma III Collieries Pvt.",
+    "file": "first.txt",
+    "page": 35,
+    "type": "text"
+  },
+  {
+    "text": "Ltd\nCoal Mine Service Contracts | Talabira II & III, Odisha | 23.0 MMT | NLCIL | Talabira (Odisha) Mining Pvt Ltd\nCoal Mine Service Contracts | Suliyari, Madhya Pradesh | 6.0 MMT | APMDC | Adani Enterprises Ltd\nCoal Mine Service Contracts | Parsa, Chhattisgarh | 5.0 MMT | RRVUNL | Rajasthan Collieries Ltd\nCoal Mine Service Contracts | Kente Extension, Chhattisgarh | 9.0 MMT | RRUVNL | Rajasthan Collieries Ltd\nCoal Mine Service Contracts | Gare Pelma II, Chhattisgarh | 23.6 MMT | MAHAGENCO | Gare Pelma II Collieries Pvt.",
+    "file": "first.txt",
+    "page": 35,
+    "type": "text"
+  },
+  {
+    "text": "Ltd\nCoal Mine Service Contracts | Pelma, Chhattisgarh | 15.0 MMT | SECL | Pelma Collieries Ltd\nCoal Mine Service Contracts | Dahegaon Gowari, Maharashtra | 1.0 MMT | ACL | Adani Mining Ltd\nCoal Mine Service Contracts | Dhirauli, Madhya Pradesh | 6.5 MMT | MEL | Adani Mining Ltd\nCoal Mine Service Contracts | Gondkhari, Maharashtra | 2.0 MMT | MEL | Adani Mining Ltd\nCoal Mine Service Contracts | Mara II Mahan, Madhya Pradesh | TBD | MEL | Adani Mining Ltd\nCoal Mine Service Contracts | GBU East, Madhya Pradesh | 3.0 MMT | MEL | Adani Mining Ltd\nOther Mine Service Contracts | Kurmitar, Odisha | 6.0 MMT | OMC | Kurmitar Iron Ore Mining Pvt Ltd\nOther Mine Service Contracts | Taldih, Odisha | 7.0 MMT | SAIL | Adani Enterprises Ltd\nOther Mine Service Contracts | Srikurmam (South), Andhra Pradesh | 10 MMT | APMDC | Alluvial Heavy Minerals Ltd\n[/TABLE]\n\nIMAGES / INFOGRAPHICS / CHARTS:\nNot found in the Documents\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\n\n\nFull abbreviation list as noted in text content above\n\n=== PAGE 35 END ===",
+    "file": "first.txt",
+    "page": 35,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAEL: Primary Industries \u2013 Commercial Mining\n\n\nTABLES:\n\n[TABLE \u2013 Commercial Mining Contracts]\nMine Contracts | Name of Mine & State | Peak Capacity | SPV Name\nDomestic Commercial Mining Contracts | Gondulpura, Jharkhand | 4.0 MMT | Adani Enterprises Ltd\nDomestic Commercial Mining Contracts | Bijahan, Odisha | 5.3 MMT | Mahanadi Mines and Minerals Pvt Ltd\nDomestic Commercial Mining Contracts | Madheri (Northwest), Maharashtra | TBD | MH Natural Resources Pvt Ltd\nDomestic Commercial Mining Contracts | Gondbahera Ujheni, Madhya Pradesh | 4.1 MMT | MP Natural Resources Pvt Ltd\nDomestic Commercial Mining Contracts | Jhigador, Chhattisgarh | TBD | CG Natural Resources Pvt Ltd\nDomestic Commercial Mining Contracts | Khargaon, Chhattisgarh | TBD | CG Natural Resources Pvt Ltd\nDomestic Commercial Mining Contracts | Rampia & Dip side of Rampia, Odisha | 15.0 MMT | Jhar Mineral Resources Pvt Ltd\n[/TABLE]\n\nIMAGES / INFOGRAPHICS / CHARTS:\nNot found in the Documents\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\nNot found in the Documents\n\n=== PAGE 36 END ===",
+    "file": "first.txt",
+    "page": 36,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nSTRICTLY CONFIDENTIAL\nESG Framework\n\n\nTABLES:\nNot found in the Documents\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A. RAW VISUAL METADATA]\n\nType: Section divider slide\nTitle: ESG Framework\n\n[B. EXACT DATA EXTRACTION]\n\nSection title: ESG Framework\n\n[C. STRUCTURAL DESCRIPTION]\nPlain white background; bold dark text \"ESG Framework\"; Adani logo top right\n[D.",
+    "file": "first.txt",
+    "page": 37,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\nSection divider for ESG Framework subsection within Appendix\n[E. MACHINE-READABLE SUMMARY]\nSection Title | ESG Framework\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\nNot found in the Documents\n\n=== PAGE 37 END ===",
+    "file": "first.txt",
+    "page": 37,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAEL: ESG backed by Assurance\nPolicy and ESG Alignment framework backed by robust assurance program\nVision: To be a world class leader in businesses that enrich lives and contribute to nations in building infrastructure through sustainable value creation.\n\nGuiding principles: UNGC, SDG, SBTi, GRI Standard, BRSR, DJSI, TCFD, IBBI/TNFD, CDP\nOur Key ESG Commitments:\n\nAim to achieve No-Net Loss to biodiversity and align with IBBI/TNFD principles\nBecoming a net water positive company\nBecome a signatory to UN Global Compact (UNGC)\nAirport and data center businesses to become operational net zero by 2029 and 2030 respectively\nCreating shared value for communities through integrated and sustainable development\nAchieve 'zero harm' through institutionalizing systems, controls and standards\n\nPolicy structure:\nE (Environmental): Climate Change Policy, Environment Policy, Energy and Emission Policy, Water Stewardship Policy, Biodiversity Policy\nS (Social): Human Rights, Corporate Social Responsibility Policy, Occupational Health and Safety Policy\nG (Governance): Board Diversity, Anti-corruption and anti-bribery, Related Party Transaction Policy\nFocus Area:\n\nClimate Action\nAffordable and clean energy\nClean water and sanitation\nResponsible consumption\nBiodiversity conservation\nNo poverty\nZero hunger\nGood health and well being\nQuality education\nDecent work and economic growth\nIndustry, innovation & infrastructure\n\nFootnotes:\nESG - Environmental, Social & Governance | UNGC - United Nations Global Compact | SDG - Sustainable Development Goals | SBTi - Science Based Targets initiative | GRI - Global Reporting Initiative | BRSR - Business Responsibility and Sustainability Reporting | DJSI - Dow Jones Sustainability Indices | TCFD - Task Force on Climate-Related Financial Disclosures | IBBI - India Business & Biodiversity Initiative | TNFD - Task Force for Nature Related Financial Disclosure | CDP - Carbon Disclosure Project\n\nTABLES:\n\n[TABLE \u2013 ESG Policy Structure]\nPillar | Policies\nE | Climate Change Policy; Environment Policy; Energy and Emission Policy; Water Stewardship Policy; Biodiversity Policy\nS | Human Rights; Corporate Social Responsibility Policy; Occupational Health and Safety Policy\nG | Board Diversity; Anti-corruption and anti-bribery; Related Party Transaction Policy\n[/TABLE]\n\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A.",
+    "file": "first.txt",
+    "page": 38,
+    "type": "text"
+  },
+  {
+    "text": "RAW VISUAL METADATA]\n\nType: Hexagonal diagram + structured grid framework\nTitle: AEL: ESG backed by Assurance\nLabels: Policies, Guiding principle, ESG (center), Commitment, Assurance (hexagonal elements); Our Key ESG Commitments; Guiding principles (UNGC, SDG, SBTi, GRI, BRSR, DJSI, TCFD, IBBI/TNFD, CDP); Policy structure (E, S, G); Focus Area\nLegends: Not found in the Documents\nAxes: Not applicable\nUnits: Not applicable\n\n[B.",
+    "file": "first.txt",
+    "page": 38,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\n\nGuiding principles listed: UNGC, SDG, SBTi, GRI Standard, BRSR, DJSI, TCFD, IBBI/TNFD, CDP (9 frameworks)\nESG Commitments: 6 listed\nPolicy categories: E (5 policies), S (3 policies), G (3 policies)\nFocus areas: 11 listed (Climate Action through Industry, innovation & infrastructure)\n\n[C.",
+    "file": "first.txt",
+    "page": 38,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\n\nLeft: Hexagonal cluster with 5 hexagons: center = ESG; surrounding = Policies, Guiding principle, Commitment, Assurance; below = Vision text\nRight: Two-column layout \u2014 left column = Guiding principles grid (3\u00d73 boxes) + Policy structure (E/S/G); right column = Key ESG Commitments (6 bullets) + Focus Area (11 items)\n\n[D.",
+    "file": "first.txt",
+    "page": 38,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nAEL's ESG framework is structured around 4 pillars: Policies, Guiding principles, Commitment, Assurance\nFramework aligns to 9 international ESG standards/frameworks\nEnvironmental policies cover climate, energy, water, and biodiversity\nKey net-zero targets: Airports by 2029; Data centers by 2030\nFocus areas align with UN SDGs\n\n[E.",
+    "file": "first.txt",
+    "page": 38,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nESG Pillar | Frameworks/Content\nGuiding Principles | UNGC, SDG, SBTi, GRI, BRSR, DJSI, TCFD, IBBI/TNFD, CDP\nE Policies | Climate Change, Environment, Energy & Emission, Water Stewardship, Biodiversity\nS Policies | Human Rights, CSR, OHS\nG Policies | Board Diversity, Anti-corruption, RPT Policy\nNet Zero Targets | Airports: 2029 | Data Centers: 2030\n\nFLOWCHARTS / DIAGRAMS:\n[FLOW REPRESENTATION]\nPolicies + Guiding Principles + Commitment + Assurance \u2192 ESG (center) \u2192 Vision (world class leader in infrastructure via sustainable value creation)\nFOOTNOTES / REFERENCES:\n\n\nFull abbreviation list as noted in text content above\n\n=== PAGE 38 END ===",
+    "file": "first.txt",
+    "page": 38,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAEL: Adopted UN Sustainable Development Goals\nSocial philosophy drives initiatives that are aligned with UN Sustainable Development Goals\nUnited Nations Sustainable Development Goals 2030\nUNSDG \u2013 United Nations Sustainable Development Goals\n\nInitiatives:\nWomen's Education (SDGs 1, 2, 4):\n\nLocation: Multiple Locations\nOwn schools, digitalization and up gradation of Govt.",
+    "file": "first.txt",
+    "page": 39,
+    "type": "text"
+  },
+  {
+    "text": "school to provide cost free education to the needy.\nProject Suposhan undertaken by Adani Wilmar is successfully continuing its operation.\n\nWomen's Health (SDG 3):\n\nLocation: Sarguja\nPartnered with self help group to educate and provide sanitary pads for safe menstrual hygiene to ensure better health.\n\nWomen's Empowerment (SDGs 2, 5, 8):\n\nLocation: Sarguja & Tamnar\nVarious projects undertaken by Gauri Self help groups for collection and marketing of Non-Timber Forest Produce\n\nEcology (SDGs 7, 13, 14, 15):\n\nLocation: Mundra\nConservation of mangroves in coordination with GUIDE\n\nLocal & Rural Infra Development (SDGs 9, 11):\n\nLocation: Sarguja\nOrganic Farming and Integrated Multi purpose business model\n\nWater Secure Nation (SDG 6):\n\nLocation: Multiple Locations\nDeepening of ponds and tanks, Rooftop Rainwater Harvesting, Recharging Bore wells\n\n\nTABLES:\n\n[TABLE \u2013 UNSDG Initiatives]\nCategory | SDGs | Location | Key Activity\nWomen's Education | 1, 2, 4 | Multiple Locations | Cost-free education, govt school upgradation, Project Suposhan\nWomen's Health | 3 | Sarguja | Sanitary pad distribution, menstrual hygiene\nWomen's Empowerment | 2, 5, 8 | Sarguja & Tamnar | Gauri SHG \u2013 Non-Timber Forest Produce\nEcology | 7, 13, 14, 15 | Mundra | Mangrove conservation with GUIDE\nLocal & Rural Infra Development | 9, 11 | Sarguja | Organic Farming, Integrated Multi-purpose business\nWater Secure Nation | 6 | Multiple Locations | Pond deepening, Rooftop RWH, Bore well recharging\n[/TABLE]\n\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A.",
+    "file": "first.txt",
+    "page": 39,
+    "type": "text"
+  },
+  {
+    "text": "RAW VISUAL METADATA]\n\nType: Infographic with UN SDG icon grid + structured initiative table\nTitle: AEL: Adopted UN Sustainable Development Goals\nLabels: 17 SDG icons (visual), 6 initiative categories with SDG linkages\nLegends: Not found in the Documents\nAxes: Not applicable\nUnits: Not applicable\n\n[B.",
+    "file": "first.txt",
+    "page": 39,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\nSDGs covered: 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 13, 14, 15 (13 of 17 SDGs addressed)\nLocations: Multiple Locations, Sarguja, Tamnar, Mundra\n[C. STRUCTURAL DESCRIPTION]\n\nLeft: Official UN SDG icon grid showing all 17 goals\nRight: 6 initiative rows with category name, SDG numbers, location, and key activity description\n\n[D.",
+    "file": "first.txt",
+    "page": 39,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nAEL maps its CSR and community initiatives to 13 UN SDGs\nFocus areas: education, health, women's empowerment, ecology, rural infrastructure, water security\nGeographic presence: Sarguja (CG/coal mining area), Tamnar, Mundra (Gujarat), and multiple pan-India locations\n\n[E.",
+    "file": "first.txt",
+    "page": 39,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nInitiative | SDGs | Location | Activity\nWomen's Education | 1,2,4 | Multiple | Cost-free education, Project Suposhan\nWomen's Health | 3 | Sarguja | Menstrual hygiene, sanitary pads\nWomen's Empowerment | 2,5,8 | Sarguja & Tamnar | Gauri SHG NTFP marketing\nEcology | 7,13,14,15 | Mundra | Mangrove conservation\nLocal Infra | 9,11 | Sarguja | Organic farming, integrated business\nWater | 6 | Multiple | RWH, pond deepening, bore well recharge\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\n\n\nUNSDG \u2013 United Nations Sustainable Development Goals\n\n=== PAGE 39 END ===",
+    "file": "first.txt",
+    "page": 39,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nAEL: Strong Governance Framework\nKey Governance Areas | Key Highlights\nESG Governance Structure\n\nESG Governance Structure:\n\nBoard of Directors\n\nCSR Committee\nCRC Committee\nRMC Committee\nStakeholder Relationship Committee\nESG Head AEL Corporate\nESG Heads AEL BUs\n\n\n\nRoles & Responsibilities of AEL Corp ESG Function:\n\nDefining and setting ESG priorities for AEL.\nDevelopment of ESG related policies, and procedures\nSupport AEL BUs for developing transition plan to become operational net zero\nCapacity Building on ESG for businesses including training\nSubmit response to key ESG rating agencies such as DJSI and CDP and develop ESG & BRSR Report.\nESG target setting and monitoring performance\n\nRoles & Responsibilities of BU ESG Team:\n\nCreate business-level ESG strategy, implementation and monitoring plan.\nDevelop decarbonization strategy with an objective to become a Net Zero business\nManage ESG related compliance obligations.\nBusiness specific ESG disclosures\n\n\nTABLES:\n\n[TABLE \u2013 Governance Framework]\nKey Governance Area | Key Highlights\nBoard Independence & Diversity | 50% Independent Directors; 12.5% Women Directors\nCorporate Responsibility, CSR & Nomination & Remuneration | CRC with 100% Independent Directors; CSR Committee with 67% Independent Directors; Nomination & Remuneration Committee with 100% Independent Directors\nAudit Oversight | Audit Committee: 100% Independent Directors (non-promoter/non-executive); Statutory Auditors: M/s.",
+    "file": "first.txt",
+    "page": 40,
+    "type": "text"
+  },
+  {
+    "text": "LLP\nRisk Management | Risk Management Committee: 50% Independent Directors; Sub-Committees with 67% independent directors: M&A, Legal/Regulatory/Tax, Commodity Price Risk, Reputation Risk\nRelated Party Transactions | Detailed Policy for RPT (arm's length basis); All RPTs reviewed by Audit Committee and disclosed in annual report; RPTs beyond thresholds require shareholder approval by ordinary resolution\nStakeholders Relationship | Stakeholders Relationship Committee: 75% Independent Directors\nAnti Corruption and Anti Bribery & Code of Conduct | Anti Corruption and Anti Bribery policy; Zero tolerance for Bribery and Corruption; Code of Conduct for Board and Senior Management; Insider Trading Code in place\n[/TABLE]\n\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A.",
+    "file": "first.txt",
+    "page": 40,
+    "type": "text"
+  },
+  {
+    "text": "RAW VISUAL METADATA]\n\nType: Organizational hierarchy diagram (ESG Governance Structure) + governance table\nTitle: AEL: Strong Governance Framework\nLabels: Board of Directors, CSR Committee, CRC Committee, RMC Committee, Stakeholder Relationship Committee, ESG Head AEL Corporate, ESG Heads AEL BUs\nLegends: Not found in the Documents\nAxes: Not applicable\nUnits: % (board composition)\n\n[B.",
+    "file": "first.txt",
+    "page": 40,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\nBoard Composition:\n\nIndependent Directors: 50%\nWomen Directors: 12.5%\n\nCommittee Independence:\n\nCRC: 100% Independent\nCSR: 67% Independent\nNomination & Remuneration: 100% Independent\nAudit Committee: 100% Independent (non-promoter/non-executive)\nRisk Management: 50% Independent; Sub-committees: 67% Independent\nStakeholders Relationship: 75% Independent\n\n[C.",
+    "file": "first.txt",
+    "page": 40,
+    "type": "text"
+  },
+  {
+    "text": "STRUCTURAL DESCRIPTION]\n\nLeft: Two-column governance table with 7 governance areas and detailed highlights\nRight top: ESG Governance Structure org chart: Board of Directors \u2192 4 committees (CSR, CRC, RMC, Stakeholder Relationship) \u2192 ESG Head AEL Corporate \u2192 ESG Heads AEL BUs\nRight bottom: Two text boxes for ESG Corporate Function and BU ESG Team roles\n\n[D.",
+    "file": "first.txt",
+    "page": 40,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nAEL's board has majority independence (50%) with women representation at 12.5%\nAll key oversight committees maintain high independence ratios (67-100%)\nStatutory Auditor is M/s. Shah Dhandharia & Co. LLP\nESG governance cascades from Board \u2192 Corporate ESG Head \u2192 Business Unit ESG Heads\nBU ESG teams are responsible for decarbonization strategies and net-zero pathways\n\n[E.",
+    "file": "first.txt",
+    "page": 40,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nCommittee | Independence %\nCRC | 100%\nCSR | 67%\nNomination & Remuneration | 100%\nAudit | 100%\nRisk Management | 50%\nSub-Committees (Risk) | 67%\nStakeholders Relationship | 75%\nBoard: 50% Independent; 12.5% Women\nStatutory Auditor: M/s. Shah Dhandharia & Co.",
+    "file": "first.txt",
+    "page": 40,
+    "type": "text"
+  },
+  {
+    "text": "LLP\nESG Governance Flow:\nBoard \u2192 CSR/CRC/RMC/Stakeholder Committees \u2192 ESG Head AEL Corporate \u2192 ESG Heads AEL BUs\n\nFLOWCHARTS / DIAGRAMS:\n[FLOW REPRESENTATION]\nBoard of Directors\n\u2192 CSR Committee\n\u2192 CRC Committee\n\u2192 RMC Committee\n\u2192 Stakeholder Relationship Committee\n\u2192 ESG Head AEL Corporate\n\u2192 ESG Heads AEL BUs (business unit level)\nFOOTNOTES / REFERENCES:\nNot found in the Documents\n\n=== PAGE 40 END ===",
+    "file": "first.txt",
+    "page": 40,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT:\n\n\nThank You\nadani (logo)\nV20- credit metrices threshold change after Robbie sir's comment\n\n\nTABLES:\nNot found in the Documents\nIMAGES / INFOGRAPHICS / CHARTS:\n\n[A. RAW VISUAL METADATA]\n\nType: Thank You / closing slide with illustration (duplicate of page 29)\nTitle: Thank You\nLabels: adani (logo)\n\n[B.",
+    "file": "first.txt",
+    "page": 41,
+    "type": "text"
+  },
+  {
+    "text": "EXACT DATA EXTRACTION]\n\nText: \"Thank You\"\nLogo: adani\nDraft note: \"V20- credit metrices threshold change after Robbie sir's comment\"\n\n[C. STRUCTURAL DESCRIPTION]\n\nIdentical to page 29: Adani logo top left; \"Thank You\" center; panoramic illustration at bottom depicting Adani's multi-sector business ecosystem (ports, wind energy, transmission, mining, agriculture, logistics)\n\n[D.",
+    "file": "first.txt",
+    "page": 41,
+    "type": "text"
+  },
+  {
+    "text": "SEMANTIC DESCRIPTION]\n\nFinal closing slide of the presentation\nDuplicate of page 29\nInternal draft note visible: \"V20- credit metrices threshold change after Robbie sir's comment\"\n\n[E.",
+    "file": "first.txt",
+    "page": 41,
+    "type": "text"
+  },
+  {
+    "text": "MACHINE-READABLE SUMMARY]\nSlide Type | Thank You / Closing (Duplicate)\nCompany | Adani Enterprises Limited\nDraft Note | V20 - credit metrices threshold change after Robbie sir's comment\n\nFLOWCHARTS / DIAGRAMS:\nNot found in the Documents\nFOOTNOTES / REFERENCES:\n\n\nV20- credit metrices threshold change after Robbie sir's comment (internal draft note)\n\n=== PAGE 41 END ===",
+    "file": "first.txt",
+    "page": 41,
+    "type": "text"
+  },
+  {
+    "text": "=================================",
+    "file": "second.txt",
+    "page": 1,
+    "type": "text"
+  },
+  {
+    "text": "1. TEXT CONTENT: [p1]\n\nadani (logo \u2014 top left)\n\nMedia Release\nAdani Enterprises Ltd announces\nH1 FY26 results\nConsolidated EBITDA at Rs. 7,688 cr\nConsolidated PBT at Rs. 2,281 cr\nAEL Board approves Rights Issue of Rs.25,000 cr\n\nEditor's Synopsis\nConsolidated financial highlights H1 FY26 (YoY)\n\nRevenue at Rs. 44,281 cr\nEBITDA at Rs. 7,688 cr\nPBT at Rs. 2,281 cr excluding exceptional gain of Rs.",
+    "file": "second.txt",
+    "page": 2,
+    "type": "text"
+  },
+  {
+    "text": "Rs. 3,583 cr\nAAHL Airports EBITDA increased by 51% YoY to Rs. 2,157 cr; with Airports business now tracking at quarterly run-rate of Rs.",
+    "file": "second.txt",
+    "page": 2,
+    "type": "text"
+  },
+  {
+    "text": "1,000+ crore\n\nInvestment highlights\nAsset Completed\n\nGreenfield Navi Mumbai International Airport inaugurated on 08th October 2025, set to commence operations from Q3 FY26\nReceived PCOD for Nanasa-Pidgaon project; AEL now has 7 operational road assets\n\nNew Investments\n\nReceived LoA for three projects in Roads and two projects in Water business with cumulative order book of Rs.",
+    "file": "second.txt",
+    "page": 2,
+    "type": "text"
+  },
+  {
+    "text": "19,982 cr\nAdaniConnex partners with Google to develop India's largest AI Data Center campus in Visakhapatnam\n\nCapital management\n\nAEL Board approves partly paid-up Rights Issue of Rs.25,000 cr for strengthening its balance sheet further to support next phase of incubation\n\n\nAhmedabad, November 04, 2025: Adani Enterprises Ltd (AEL), the flagship company of the Adani Group, announced its results today for the quarter and half year ended September 30, 2025.\nAEL has validated its core strength of timely execution of large-scale projects during the quarter.",
+    "file": "second.txt",
+    "page": 2,
+    "type": "text"
+  },
+  {
+    "text": "The inauguration of greenfield Navi Mumbai airport and completion of its 7th road project reflects AEL's fundamental focus on incubation at scale and execution. Each of these new milestones strengthens our diversified model and reaffirms our commitment to deliver infrastructure of national importance. The emerging core infra businesses have recorded half-yearly EBITDA of Rs.",
+    "file": "second.txt",
+    "page": 2,
+    "type": "text"
+  },
+  {
+    "text": "5,470 crore with an increase of 5% on year-on-year basis and now contributes 71% to total EBITDA.\n\nFOOTNOTES / REFERENCES: [p1]\nAdani Enterprises Ltd (CIN No: L51100GJ1993PLC019067)\nRegistered Office: \"Adani Corporate House\", Shantigram, Near Vaishno Devi Circle, S.G.",
+    "file": "second.txt",
+    "page": 2,
+    "type": "text"
+  },
+  {
+    "text": "Highway, Khodiyar, Ahmedabad 382 421\nPhone: 079-26565555 ; Fax: 079-26565500 ; Email: info@adani.com ; Website: www.adanienterprises.com",
+    "file": "second.txt",
+    "page": 2,
+    "type": "text"
+  },
+  {
+    "text": "Table data: Q2 FY25Q2 FY26% change Y-o-YH1 FY25H1 FY26% change Y-o-YTotal Income23,19621,844(6%)49,26344,281(10%)EBITDA4,3543,902(10%)8,6547,688(11%)Exceptional Gain-3,583--3,583-Profit Before Tax2,4094,39883%4,6445,86426%Profit After Tax\u00b91,7423,19984%3,1963,93323%",
+    "file": "second.txt",
+    "page": 3,
+    "type": "table",
+    "table_id": 0
+  },
+  {
+    "text": "Table data: Q2 FY25Q2 FY26% change Y-o-YH1 FY25H1 FY26% change Y-o-YANIL EcosystemTotal Income3,1153,1993%7,6347,233(5%)EBITDA1,1211,1725%2,7632,384(14%)PBT916876(4%)2,3411,836(22%)AirportsTotal Income2,2763,16739%4,4535,88232%EBITDA7441,06243%1,4262,15751%PBT(148)99-(237)303-",
+    "file": "second.txt",
+    "page": 3,
+    "type": "table",
+    "table_id": 1
+  },
+  {
+    "text": "Table data: Q2 FY25Q2 FY26% change Y-o-YH1 FY25H1 FY26% change Y-o-YANIL EcosystemModule Sales (MW)100110939%238024433%WTG (Sets)152887%566313%AirportsPax movement (Mn)22.322.61%45.146.02%ATMs ('000)153.3148.2(3%)305.4301.7(1%)Cargo (Lacs MT)2.82.93%5.55.74%RoadsConstruction (L-KM)180.4456.1153%910.4949.34%Mining ServicesDispatch (MMT)8.210.527%17.522.629%IRM",
+    "file": "second.txt",
+    "page": 3,
+    "type": "table",
+    "table_id": 2
+  },
+  {
+    "text": "Table data: (MMT)13.711.3(17%)29.124.1(17%)",
+    "file": "second.txt",
+    "page": 3,
+    "type": "table",
+    "table_id": 2
+  },
+  {
+    "text": "1. TEXT CONTENT: [p2]\n\nadani (logo \u2014 top left)\n\n\"With disciplined execution and strategic diversification, Adani Enterprises Ltd continues to strengthen its position as India's leading incubator of transformative infrastructure and energy businesses,\" said Mr Gautam Adani, Chairman of the Adani Group.",
+    "file": "second.txt",
+    "page": 3,
+    "type": "text"
+  },
+  {
+    "text": "\"The inauguration of the Navi Mumbai International Airport marks a defining moment in India's infrastructure story and reinforces AEL's role as a national growth catalyst. Our strong performance across airports, data centers and roads underscore the momentum of our core infrastructure portfolio.",
+    "file": "second.txt",
+    "page": 3,
+    "type": "text"
+  },
+  {
+    "text": "With partnerships such as the one with Google for India's largest AI data center and rapid progress in our green energy ecosystem, AEL is accelerating India's transition toward a sustainable, technology-driven future. We remain committed to building globally competitive businesses that create enduring value for our stakeholders and strengthen the foundation of a self-reliant India.\"\n\n2.",
+    "file": "second.txt",
+    "page": 3,
+    "type": "text"
+  },
+  {
+    "text": "TABLES: [p2]\nConsolidated Financial Highlights\n(Rs. in crore)\n\nNote: 1. PAT attributable to owners\n\nIncubating Businesses Financial Highlights\n\n\nOperational Highlights\n\n\nFOOTNOTES / REFERENCES: [p2]\nAdani Enterprises Ltd (CIN No: L51100GJ1993PLC019067)\nRegistered Office: \"Adani Corporate House\", Shantigram, Near Vaishno Devi Circle, S.G.",
+    "file": "second.txt",
+    "page": 3,
+    "type": "text"
+  },
+  {
+    "text": "Highway, Khodiyar, Ahmedabad 382 421\nPhone: 079-26565555 ; Fax: 079-26565500 ; Email: info@adani.com ; Website: www.adanienterprises.com",
+    "file": "second.txt",
+    "page": 3,
+    "type": "text"
+  },
+  {
+    "text": "TEXT CONTENT: [p3]\n\nadani (logo \u2014 top left)\n\nBusiness Updates\n\nAdani New Industries (ANIL - Green Hydrogen Ecosystem)\n\nModule sales continue to track to 1 GW per quarter, domestic sale increased by 43% during H1 FY26 on YoY basis\nConstruction for additional 6 GW cell and module lines progressing as per schedule\nANIL Wind division honored with \"Gold Award\" at Apex India Safety Award 2025\n\n\nAdaniConnex Pvt Ltd (ACX - Data Center)\n\nPartners with Google to develop India's largest AI Data Center campus in Visakhapatnam, Andhra Pradesh\nHyderabad data center phase II MEP works ~96% completed\nPune data center phase I & II works crosses ~90%\n\nMEP: Mechanical, Electrical & Plumbing\n\nAdani Water Ltd (AWL - Water)\n\nLetter of Award received for two new projects;\n\nBuild and manage Brahmani Barrage across Brahmani River\nBuild and manage Mor Sagar Artificial Reservoir\n\n\n\n\nAdani Airports Holdings Ltd (AAHL - Airports)\n\nGreenfield Navi Mumbai International Airport inaugurated on 08th October 2025, a major landmark in India's aviation journey; set to commence operations from Q3 FY26\nDuring the quarter 7 new routes, 8 new flights and 1 new airline added\nMumbai Airport received the \"Best Airport for Digitization\" award at the India Cargo Award 2025\n\n\nAdani Road Transport Ltd (ARTL - Roads)\n\nProvisional COD received for HAM project \"Nanasa-Pidgaon\" in the state of Madhya Pradesh; making it 7th operational project\nLetter of Award received for three new projects;\n\nRopeway project between Sonprayag and Kedarnath of 12.9 KM length\nTwo HAM Road projects connecting Munger-Sultanganj and Sultanganj-Sabour Road\n\n\n\n\nESG Highlights\n\nAEL has been recognized as the 'Great Indian ESG Organization of the Year 2025' at the Transformance ESG Awards for its unwavering commitment to sustainability\nANIL honored with the 'Outstanding Contribution to Circular Economy' Award by Indian Chamber of Commerce for spearheading India's first off-grid Green Hydrogen pilot project\nAdani Natural Resources won the prestigious 'Leadership in Climate Action' Award by Indian Chamber of Commerce for its pioneering hydrogen truck initiative, advancing sustainable mining logistics\n\n\nFOOTNOTES / REFERENCES: [p3]\nAdani Enterprises Ltd (CIN No: L51100GJ1993PLC019067)\nRegistered Office: \"Adani Corporate House\", Shantigram, Near Vaishno Devi Circle, S.G.",
+    "file": "second.txt",
+    "page": 4,
+    "type": "text"
+  },
+  {
+    "text": "Highway, Khodiyar, Ahmedabad 382 421\nPhone: 079-26565555 ; Fax: 079-26565500 ; Email: info@adani.com ; Website: www.adanienterprises.com",
+    "file": "second.txt",
+    "page": 4,
+    "type": "text"
+  },
+  {
+    "text": "Table data: Mitul ThakkarManan VakhariaAdani GroupAdani Enterprises LtdCorporate CommunicationsInvestor RelationsTel: +91-79-25550539Tel: +91-79-25556140mitul.thakkar@adani.commananj.vakharia@adani.com",
+    "file": "second.txt",
+    "page": 5,
+    "type": "table",
+    "table_id": 0
+  },
+  {
+    "text": "1. TEXT CONTENT: [p4]\n\nadani (logo \u2014 top left)\n\nAbout Adani Enterprises Ltd\nAdani Enterprises Limited (AEL) is the flagship company of Adani Group, one of India's largest business organisations. Over the years, Adani Enterprises has focused on building emerging infrastructure businesses, contributing to nation-building and divesting them into separate listed entities.",
+    "file": "second.txt",
+    "page": 5,
+    "type": "text"
+  },
+  {
+    "text": "Having successfully built sizeable and scalable businesses like Adani Ports & SEZ, Adani Energy Solutions, Adani Power, Adani Green Energy, Adani Total Gas and Adani Wilmar, the company has contributed to make India self-reliant with our robust businesses.",
+    "file": "second.txt",
+    "page": 5,
+    "type": "text"
+  },
+  {
+    "text": "This has also led to significant returns to our shareholders for three decades.\nThe next generation of its strategic business investments are centered around green hydrogen ecosystem, airport management, data center, roads and primary industries like copper and petrochem - all of which have significant scope for value unlocking.\nFor more information, please visit www.adanienterprises.com\nFor more information please contact:\n\n\nFOOTNOTES / REFERENCES: [p4]\nAdani Enterprises Ltd (CIN No: L51100GJ1993PLC019067)\nRegistered Office: \"Adani Corporate House\", Shantigram, Near Vaishno Devi Circle, S.G.",
+    "file": "second.txt",
+    "page": 5,
+    "type": "text"
+  },
+  {
+    "text": "Highway, Khodiyar, Ahmedabad 382 421\nPhone: 079-26565555 ; Fax: 079-26565500 ; Email: info@adani.com ; Website: www.adanienterprises.com",
+    "file": "second.txt",
+    "page": 5,
+    "type": "text"
+  }
+]

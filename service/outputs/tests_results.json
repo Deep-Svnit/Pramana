@@ -1,0 +1,1406 @@
+[
+  {
+    "id": 1,
+    "question": "The ANIL slide shows a manufacturing facility image — what type of product appears to be manufactured there based on the visual?",
+    "answer": "Not found in the document.",
+    "is_fallback": true,
+    "citations": [
+      "[p1:x9]",
+      "[p5:x121]",
+      "[p5:c72]",
+      "[p5:c75]",
+      "[p28:c398]",
+      "[p14:c221]",
+      "[p24:c356]",
+      "[p25:c892]",
+      "[p30:x1196]",
+      "[p27:x1096]"
+    ],
+    "retrieved": [
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x9",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 1,
+        "modality": "text",
+        "score": 0.041073143405889884,
+        "citation": "[p1:x9]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x121",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 5,
+        "modality": "text",
+        "score": 0.035640716960941676,
+        "citation": "[p5:x121]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c72",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 5,
+        "modality": "text",
+        "score": 0.03252247488101534,
+        "citation": "[p5:c72]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c75",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 5,
+        "modality": "text",
+        "score": 0.03200204813108039,
+        "citation": "[p5:c75]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c398",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 28,
+        "modality": "text",
+        "score": 0.029551337359792925,
+        "citation": "[p28:c398]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c221",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 14,
+        "modality": "text",
+        "score": 0.02946912242686891,
+        "citation": "[p14:c221]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c356",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 24,
+        "modality": "text",
+        "score": 0.029386529386529386,
+        "citation": "[p24:c356]",
+        "source_file": null
+      },
+      {
+        "id": "AELBoardoutcome041120251_copy:c892",
+        "document_id": "AELBoardoutcome041120251_copy",
+        "page_number": 25,
+        "modality": "text",
+        "score": 0.024725274725274724,
+        "citation": "[p25:c892]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x1196",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 30,
+        "modality": "text",
+        "score": 0.024624624624624628,
+        "citation": "[p30:x1196]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x1096",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 27,
+        "modality": "text",
+        "score": 0.02456928838951311,
+        "citation": "[p27:x1096]",
+        "source_file": "first_embeddings.json"
+      }
+    ],
+    "verifier_report": {
+      "skipped": "text-only runner with imported/re-embedded records"
+    },
+    "timings": {
+      "total": 1.5003448000061326
+    },
+    "error": null
+  },
+  {
+    "id": 2,
+    "question": "What is the Adani Family's equity stake in AEL as shown in the portfolio structure diagram?",
+    "answer": "The Adani Family's equity stake in AEL is 73.97% [p6:x185].",
+    "is_fallback": false,
+    "citations": [
+      "[p6:c94]",
+      "[p6:x135]",
+      "[p6:x152]",
+      "[p6:c90]",
+      "[p6:x185]",
+      "[p6:x191]",
+      "[p6:x155]",
+      "[p6:x136]",
+      "[p4:c125]",
+      "[p6:c89]"
+    ],
+    "retrieved": [
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c94",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 6,
+        "modality": "text",
+        "score": 0.048651507139079855,
+        "citation": "[p6:c94]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x135",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 6,
+        "modality": "text",
+        "score": 0.04813947436898257,
+        "citation": "[p6:x135]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x152",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 6,
+        "modality": "text",
+        "score": 0.0471386476426799,
+        "citation": "[p6:x152]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c90",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 6,
+        "modality": "text",
+        "score": 0.04670343114189456,
+        "citation": "[p6:c90]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x185",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 6,
+        "modality": "text",
+        "score": 0.04620389822595705,
+        "citation": "[p6:x185]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x191",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 6,
+        "modality": "text",
+        "score": 0.04526926877470356,
+        "citation": "[p6:x191]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x155",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 6,
+        "modality": "text",
+        "score": 0.04455662862159789,
+        "citation": "[p6:x155]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x136",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 6,
+        "modality": "text",
+        "score": 0.04029293564177285,
+        "citation": "[p6:x136]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Press_Release_Q2_FY26_copy:c125",
+        "document_id": "AEL_Press_Release_Q2_FY26_copy",
+        "page_number": 4,
+        "modality": "text",
+        "score": 0.02651914295749912,
+        "citation": "[p4:c125]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c89",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 6,
+        "modality": "text",
+        "score": 0.026171741361614778,
+        "citation": "[p6:c89]",
+        "source_file": null
+      }
+    ],
+    "verifier_report": {
+      "skipped": "text-only runner with imported/re-embedded records"
+    },
+    "timings": {
+      "total": 1.346790699986741
+    },
+    "error": null
+  },
+  {
+    "id": 3,
+    "question": "According to the ARTL Roads construction activity table, what was the lane-km construction volume in Q2-26 and what was the year-on-year change?",
+    "answer": "The lane-km construction volume in Q2-26 was 456.1 [p19:c284], and the year-on-year change was 153% [p19:c284].",
+    "is_fallback": false,
+    "citations": [
+      "[p19:c284]",
+      "[p20:c302]",
+      "[p19:x833]",
+      "[p20:c303]",
+      "[p19:x809]",
+      "[p20:x873]",
+      "[p2:x48]",
+      "[p19:x842]",
+      "[p19:x810]",
+      "[p19:x808]"
+    ],
+    "retrieved": [
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c284",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 19,
+        "modality": "text",
+        "score": 0.04839549075403121,
+        "citation": "[p19:c284]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c302",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 20,
+        "modality": "text",
+        "score": 0.04453804453804454,
+        "citation": "[p20:c302]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x833",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 19,
+        "modality": "text",
+        "score": 0.04413529939476644,
+        "citation": "[p19:x833]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c303",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 20,
+        "modality": "text",
+        "score": 0.043883706467661696,
+        "citation": "[p20:c303]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x809",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 19,
+        "modality": "text",
+        "score": 0.038121563867440506,
+        "citation": "[p19:x809]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x873",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 20,
+        "modality": "text",
+        "score": 0.037285801713586295,
+        "citation": "[p20:x873]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Press_Release_Q2_FY26_copy:external:second_embeddings_import:x48",
+        "document_id": "AEL_Press_Release_Q2_FY26_copy",
+        "page_number": 2,
+        "modality": "text",
+        "score": 0.03125763125763126,
+        "citation": "[p2:x48]",
+        "source_file": "second_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x842",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 19,
+        "modality": "text",
+        "score": 0.030886196246139225,
+        "citation": "[p19:x842]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x810",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 19,
+        "modality": "text",
+        "score": 0.029857397504456328,
+        "citation": "[p19:x810]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x808",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 19,
+        "modality": "text",
+        "score": 0.028814262023217248,
+        "citation": "[p19:x808]",
+        "source_file": "first_embeddings.json"
+      }
+    ],
+    "verifier_report": {
+      "skipped": "text-only runner with imported/re-embedded records"
+    },
+    "timings": {
+      "total": 7.538633899996057
+    },
+    "error": null
+  },
+  {
+    "id": 4,
+    "question": "Navi Mumbai Airport was just inaugurated — how soon can I expect it to contribute to the company's revenues?",
+    "answer": "Navi Mumbai Airport is set to commence operations from Q3 FY26 [p13:c206]. It is expected to contribute to the company's revenues, with large infra assets, including Navi Mumbai Airport, expected to contribute EBITDA from Q4 FY26 [p3:x105]. The airport was inaugurated on 08th October 2025 [p13:c206].",
+    "is_fallback": false,
+    "citations": [
+      "[p13:c206]",
+      "[p13:c201]",
+      "[p3:c108]",
+      "[p13:x490]",
+      "[p13:x519]",
+      "[p1:x17]",
+      "[p3:x77]",
+      "[p1:c34]",
+      "[p1:c19]",
+      "[p3:x105]"
+    ],
+    "retrieved": [
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c206",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 13,
+        "modality": "text",
+        "score": 0.045504271360285405,
+        "citation": "[p13:c206]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c201",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 13,
+        "modality": "text",
+        "score": 0.04447671049412129,
+        "citation": "[p13:c201]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Press_Release_Q2_FY26_copy:c108",
+        "document_id": "AEL_Press_Release_Q2_FY26_copy",
+        "page_number": 3,
+        "modality": "text",
+        "score": 0.044006642512077296,
+        "citation": "[p3:c108]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x490",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 13,
+        "modality": "text",
+        "score": 0.04376352813852814,
+        "citation": "[p13:x490]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x519",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 13,
+        "modality": "text",
+        "score": 0.04365542743151851,
+        "citation": "[p13:x519]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Press_Release_Q2_FY26_copy:external:second_embeddings_import:x17",
+        "document_id": "AEL_Press_Release_Q2_FY26_copy",
+        "page_number": 1,
+        "modality": "text",
+        "score": 0.043456616855445496,
+        "citation": "[p1:x17]",
+        "source_file": "second_embeddings.json"
+      },
+      {
+        "id": "AEL_Press_Release_Q2_FY26_copy:external:second_embeddings_import:x77",
+        "document_id": "AEL_Press_Release_Q2_FY26_copy",
+        "page_number": 3,
+        "modality": "text",
+        "score": 0.04311490978157645,
+        "citation": "[p3:x77]",
+        "source_file": "second_embeddings.json"
+      },
+      {
+        "id": "AEL_Press_Release_Q2_FY26_copy:c34",
+        "document_id": "AEL_Press_Release_Q2_FY26_copy",
+        "page_number": 1,
+        "modality": "text",
+        "score": 0.043064182194616975,
+        "citation": "[p1:c34]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Press_Release_Q2_FY26_copy:c19",
+        "document_id": "AEL_Press_Release_Q2_FY26_copy",
+        "page_number": 1,
+        "modality": "text",
+        "score": 0.04224969285799711,
+        "citation": "[p1:c19]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x105",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 3,
+        "modality": "text",
+        "score": 0.04220680520270123,
+        "citation": "[p3:x105]",
+        "source_file": "first_embeddings.json"
+      }
+    ],
+    "verifier_report": {
+      "skipped": "text-only runner with imported/re-embedded records"
+    },
+    "timings": {
+      "total": 3.170020100020338
+    },
+    "error": null
+  },
+  {
+    "id": 5,
+    "question": "What is the total income of incubating business of H1-25?",
+    "answer": "The total income of incubating business of H1-25 is ₹17,287 [p2:x50].",
+    "is_fallback": false,
+    "citations": [
+      "[p2:x50]",
+      "[p2:x36]",
+      "[p2:x41]",
+      "[p2:x38]",
+      "[p22:c328]",
+      "[p2:x57]",
+      "[p2:c17]",
+      "[p2:x31]",
+      "[p23:x969]",
+      "[p2:c13]"
+    ],
+    "retrieved": [
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x50",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 2,
+        "modality": "text",
+        "score": 0.04507165184914545,
+        "citation": "[p2:x50]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x36",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 2,
+        "modality": "text",
+        "score": 0.044691647150663545,
+        "citation": "[p2:x36]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x41",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 2,
+        "modality": "text",
+        "score": 0.043629955107824574,
+        "citation": "[p2:x41]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x38",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 2,
+        "modality": "text",
+        "score": 0.04351873814041746,
+        "citation": "[p2:x38]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c328",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 22,
+        "modality": "text",
+        "score": 0.040945165945165944,
+        "citation": "[p22:c328]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x57",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 2,
+        "modality": "text",
+        "score": 0.0394649318859089,
+        "citation": "[p2:x57]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c17",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 2,
+        "modality": "text",
+        "score": 0.030776515151515152,
+        "citation": "[p2:c17]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x31",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 2,
+        "modality": "text",
+        "score": 0.03021353930031804,
+        "citation": "[p2:x31]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x969",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 23,
+        "modality": "text",
+        "score": 0.02862400327131466,
+        "citation": "[p23:x969]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c13",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 2,
+        "modality": "text",
+        "score": 0.02750455373406193,
+        "citation": "[p2:c13]",
+        "source_file": null
+      }
+    ],
+    "verifier_report": {
+      "skipped": "text-only runner with imported/re-embedded records"
+    },
+    "timings": {
+      "total": 1.4629957000142895
+    },
+    "error": null
+  },
+  {
+    "id": 6,
+    "question": "In the Adani Portfolio overview infographic on page 6, under which exact parent category column is 'NDTV' placed, and what is the exact promoter holding percentage shown next to it?",
+    "answer": "'NDTV' is placed under the parent category column 'Media' is not found, however 'NDTV' is placed under the parent category column 'Materials' is not found, but 'NDTV' is placed under a column and the exact promoter holding percentage shown next to it is 64.71% [p6:c103]. The parent category for 'NDTV' is actually 'Media' is not found, but 'NDTV' is under a category that includes 'Materials' and other categories such as 'Energy & Utility', 'Transport & Logistics' [p6:c103]. The exact parent category column is 'Media' is not found, but 'NDTV' is placed under 'Materials,' [p6:c103]. \n\nThe exact parent category column is 'Materials,' [p6:c103] and the exact promoter holding percentage shown next to 'NDTV' is 64.71% [p6:c103].",
+    "is_fallback": false,
+    "citations": [
+      "[p5:x130]",
+      "[p5:c70]",
+      "[p6:c103]",
+      "[p6:c90]",
+      "[p6:c89]",
+      "[p5:x120]",
+      "[p5:x132]",
+      "[p6:c105]",
+      "[p5:x125]",
+      "[p5:x122]"
+    ],
+    "retrieved": [
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x130",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 5,
+        "modality": "text",
+        "score": 0.0431154176521115,
+        "citation": "[p5:x130]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c70",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 5,
+        "modality": "text",
+        "score": 0.042727468956977155,
+        "citation": "[p5:c70]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c103",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 6,
+        "modality": "text",
+        "score": 0.040415167082909965,
+        "citation": "[p6:c103]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c90",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 6,
+        "modality": "text",
+        "score": 0.032018442622950824,
+        "citation": "[p6:c90]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c89",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 6,
+        "modality": "text",
+        "score": 0.02964426877470356,
+        "citation": "[p6:c89]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x120",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 5,
+        "modality": "text",
+        "score": 0.02946236559139785,
+        "citation": "[p5:x120]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x132",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 5,
+        "modality": "text",
+        "score": 0.027637721755368813,
+        "citation": "[p5:x132]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c105",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 6,
+        "modality": "text",
+        "score": 0.02712049508554787,
+        "citation": "[p6:c105]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x125",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 5,
+        "modality": "text",
+        "score": 0.026830135039090264,
+        "citation": "[p5:x125]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x122",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 5,
+        "modality": "text",
+        "score": 0.0264301860545992,
+        "citation": "[p5:x122]",
+        "source_file": "first_embeddings.json"
+      }
+    ],
+    "verifier_report": {
+      "skipped": "text-only runner with imported/re-embedded records"
+    },
+    "timings": {
+      "total": 5.403712100000121
+    },
+    "error": null
+  },
+  {
+    "id": 7,
+    "question": "What are the major business segments discussed in the document?",
+    "answer": "The major business segments discussed in the document are: business segments [p3:c51], consolidated income [p3:c51], EBITDA drivers [p3:c51], and airport performance [p3:c51].",
+    "is_fallback": false,
+    "citations": [
+      "[p1:c5]",
+      "[p3:c51]",
+      "[p1:c7]",
+      "[p31:c1030]",
+      "[p7:c129]",
+      "[p9:c160]",
+      "[p16:c248]",
+      "[p15:c234]",
+      "[p18:c274]",
+      "[p32:x643]"
+    ],
+    "retrieved": [
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c5",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 1,
+        "modality": "text",
+        "score": 0.030886196246139225,
+        "citation": "[p1:c5]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c51",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 3,
+        "modality": "text",
+        "score": 0.030536130536130537,
+        "citation": "[p3:c51]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c7",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 1,
+        "modality": "text",
+        "score": 0.02803379416282642,
+        "citation": "[p1:c7]",
+        "source_file": null
+      },
+      {
+        "id": "AELBoardoutcome041120251_copy:c1030",
+        "document_id": "AELBoardoutcome041120251_copy",
+        "page_number": 31,
+        "modality": "text",
+        "score": 0.027783137179239824,
+        "citation": "[p31:c1030]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c129",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 7,
+        "modality": "text",
+        "score": 0.027031963470319637,
+        "citation": "[p7:c129]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c160",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 9,
+        "modality": "text",
+        "score": 0.026500526500526502,
+        "citation": "[p9:c160]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c248",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 16,
+        "modality": "text",
+        "score": 0.02565359477124183,
+        "citation": "[p16:c248]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c234",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 15,
+        "modality": "text",
+        "score": 0.02424331472230385,
+        "citation": "[p15:c234]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c274",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 18,
+        "modality": "text",
+        "score": 0.02259959141981614,
+        "citation": "[p18:c274]",
+        "source_file": null
+      },
+      {
+        "id": "AELBoardoutcome041120251_copy:external:third_embeddings_import:x643",
+        "document_id": "AELBoardoutcome041120251_copy",
+        "page_number": 32,
+        "modality": "text",
+        "score": 0.01639344262295082,
+        "citation": "[p32:x643]",
+        "source_file": "third_embeddings.json"
+      }
+    ],
+    "verifier_report": {
+      "skipped": "text-only runner with imported/re-embedded records"
+    },
+    "timings": {
+      "total": 1.8352500000037253
+    },
+    "error": null
+  },
+  {
+    "id": 8,
+    "question": "What is the consolidated total income in H1-26?",
+    "answer": "The consolidated total income in H1-26 is 49,263 [p22:c328] or 44,281 [p22:c328] (the context provides two different values for total income in H1-26, but it is unclear which one is the consolidated total income). Another source states the consolidated total income in H1-26 as 5,882 [p3:x91].",
+    "is_fallback": false,
+    "citations": [
+      "[p4:c245]",
+      "[p22:c328]",
+      "[p21:c326]",
+      "[p3:x91]",
+      "[p16:c605]",
+      "[p3:c37]",
+      "[p3:x94]",
+      "[p3:x88]",
+      "[p23:x969]",
+      "[p2:c13]"
+    ],
+    "retrieved": [
+      {
+        "id": "AELBoardoutcome041120251_copy:c245",
+        "document_id": "AELBoardoutcome041120251_copy",
+        "page_number": 4,
+        "modality": "text",
+        "score": 0.04744784801534369,
+        "citation": "[p4:c245]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c328",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 22,
+        "modality": "text",
+        "score": 0.042824707922599486,
+        "citation": "[p22:c328]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c326",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 21,
+        "modality": "text",
+        "score": 0.030679156908665108,
+        "citation": "[p21:c326]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x91",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 3,
+        "modality": "text",
+        "score": 0.02813852813852814,
+        "citation": "[p3:x91]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AELBoardoutcome041120251_copy:c605",
+        "document_id": "AELBoardoutcome041120251_copy",
+        "page_number": 16,
+        "modality": "text",
+        "score": 0.02803921568627451,
+        "citation": "[p16:c605]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c37",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 3,
+        "modality": "text",
+        "score": 0.027598020555767037,
+        "citation": "[p3:c37]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x94",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 3,
+        "modality": "text",
+        "score": 0.027583600982429624,
+        "citation": "[p3:x94]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x88",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 3,
+        "modality": "text",
+        "score": 0.02728937728937729,
+        "citation": "[p3:x88]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x969",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 23,
+        "modality": "text",
+        "score": 0.026992753623188405,
+        "citation": "[p23:x969]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c13",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 2,
+        "modality": "text",
+        "score": 0.01639344262295082,
+        "citation": "[p2:c13]",
+        "source_file": null
+      }
+    ],
+    "verifier_report": {
+      "skipped": "text-only runner with imported/re-embedded records"
+    },
+    "timings": {
+      "total": 2.4053302999818698
+    },
+    "error": null
+  },
+  {
+    "id": 9,
+    "question": "What drivers are mentioned for EBITDA changes in H1-26?",
+    "answer": "The drivers mentioned for EBITDA changes in H1-26 are Operational Efficiency [p15:c236] and Cost Management [p15:c236]. Additionally, Fuel cost reduction (+15%) [p21:c736] and occupancy rate (82% in H1) [p21:c736] are also mentioned as key drivers. Furthermore, the EBITDA drivers include Passenger Segment [p29:c417], Cargo Segment [p29:c417], and Other Segment [p29:c417], as well as Aviation [p18:c663], Logistics [p18:c663], and Other [p18:c663].",
+    "is_fallback": false,
+    "citations": [
+      "[p15:c236]",
+      "[p21:c736]",
+      "[p14:c559]",
+      "[p1:c5]",
+      "[p21:c321]",
+      "[p29:c417]",
+      "[p18:c663]",
+      "[p1:c7]",
+      "[p2:c96]",
+      "[p2:c24]"
+    ],
+    "retrieved": [
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c236",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 15,
+        "modality": "text",
+        "score": 0.041094771241830065,
+        "citation": "[p15:c236]",
+        "source_file": null
+      },
+      {
+        "id": "AELBoardoutcome041120251_copy:c736",
+        "document_id": "AELBoardoutcome041120251_copy",
+        "page_number": 21,
+        "modality": "text",
+        "score": 0.03177805800756621,
+        "citation": "[p21:c736]",
+        "source_file": null
+      },
+      {
+        "id": "AELBoardoutcome041120251_copy:c559",
+        "document_id": "AELBoardoutcome041120251_copy",
+        "page_number": 14,
+        "modality": "text",
+        "score": 0.031099324975891997,
+        "citation": "[p14:c559]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c5",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 1,
+        "modality": "text",
+        "score": 0.030679156908665108,
+        "citation": "[p1:c5]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c321",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 21,
+        "modality": "text",
+        "score": 0.029571646010002173,
+        "citation": "[p21:c321]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c417",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 29,
+        "modality": "text",
+        "score": 0.02946236559139785,
+        "citation": "[p29:c417]",
+        "source_file": null
+      },
+      {
+        "id": "AELBoardoutcome041120251_copy:c663",
+        "document_id": "AELBoardoutcome041120251_copy",
+        "page_number": 18,
+        "modality": "text",
+        "score": 0.025124843945068663,
+        "citation": "[p18:c663]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c7",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 1,
+        "modality": "text",
+        "score": 0.016129032258064516,
+        "citation": "[p1:c7]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Press_Release_Q2_FY26_copy:c96",
+        "document_id": "AEL_Press_Release_Q2_FY26_copy",
+        "page_number": 2,
+        "modality": "text",
+        "score": 0.016129032258064516,
+        "citation": "[p2:c96]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c24",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 2,
+        "modality": "text",
+        "score": 0.015873015873015872,
+        "citation": "[p2:c24]",
+        "source_file": null
+      }
+    ],
+    "verifier_report": {
+      "skipped": "text-only runner with imported/re-embedded records"
+    },
+    "timings": {
+      "total": 4.233797299966682
+    },
+    "error": null
+  },
+  {
+    "id": 10,
+    "question": "What is the CEO's email address?",
+    "answer": "Not found in the document.",
+    "is_fallback": true,
+    "citations": [
+      "[p12:c477]",
+      "[p24:c811]",
+      "[p3:c114]",
+      "[p24:c786]",
+      "[p26:c905]",
+      "[p26:c919]",
+      "[p23:c770]",
+      "[p1:x29]",
+      "[p2:x52]",
+      "[p3:x92]"
+    ],
+    "retrieved": [
+      {
+        "id": "AELBoardoutcome041120251_copy:c477",
+        "document_id": "AELBoardoutcome041120251_copy",
+        "page_number": 12,
+        "modality": "text",
+        "score": 0.03997825913045933,
+        "citation": "[p12:c477]",
+        "source_file": null
+      },
+      {
+        "id": "AELBoardoutcome041120251_copy:c811",
+        "document_id": "AELBoardoutcome041120251_copy",
+        "page_number": 24,
+        "modality": "text",
+        "score": 0.02803379416282642,
+        "citation": "[p24:c811]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Press_Release_Q2_FY26_copy:c114",
+        "document_id": "AEL_Press_Release_Q2_FY26_copy",
+        "page_number": 3,
+        "modality": "text",
+        "score": 0.027730294396961064,
+        "citation": "[p3:c114]",
+        "source_file": null
+      },
+      {
+        "id": "AELBoardoutcome041120251_copy:c786",
+        "document_id": "AELBoardoutcome041120251_copy",
+        "page_number": 24,
+        "modality": "text",
+        "score": 0.027673192771084338,
+        "citation": "[p24:c786]",
+        "source_file": null
+      },
+      {
+        "id": "AELBoardoutcome041120251_copy:c905",
+        "document_id": "AELBoardoutcome041120251_copy",
+        "page_number": 26,
+        "modality": "text",
+        "score": 0.02475171886936593,
+        "citation": "[p26:c905]",
+        "source_file": null
+      },
+      {
+        "id": "AELBoardoutcome041120251_copy:c919",
+        "document_id": "AELBoardoutcome041120251_copy",
+        "page_number": 26,
+        "modality": "text",
+        "score": 0.024448419797257006,
+        "citation": "[p26:c919]",
+        "source_file": null
+      },
+      {
+        "id": "AELBoardoutcome041120251_copy:c770",
+        "document_id": "AELBoardoutcome041120251_copy",
+        "page_number": 23,
+        "modality": "text",
+        "score": 0.02424331472230385,
+        "citation": "[p23:c770]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Press_Release_Q2_FY26_copy:external:second_embeddings_import:x29",
+        "document_id": "AEL_Press_Release_Q2_FY26_copy",
+        "page_number": 1,
+        "modality": "text",
+        "score": 0.023268398268398268,
+        "citation": "[p1:x29]",
+        "source_file": "second_embeddings.json"
+      },
+      {
+        "id": "AEL_Press_Release_Q2_FY26_copy:external:second_embeddings_import:x52",
+        "document_id": "AEL_Press_Release_Q2_FY26_copy",
+        "page_number": 2,
+        "modality": "text",
+        "score": 0.023000660938532716,
+        "citation": "[p2:x52]",
+        "source_file": "second_embeddings.json"
+      },
+      {
+        "id": "AEL_Press_Release_Q2_FY26_copy:external:second_embeddings_import:x92",
+        "document_id": "AEL_Press_Release_Q2_FY26_copy",
+        "page_number": 3,
+        "modality": "text",
+        "score": 0.0227390180878553,
+        "citation": "[p3:x92]",
+        "source_file": "second_embeddings.json"
+      }
+    ],
+    "verifier_report": {
+      "skipped": "text-only runner with imported/re-embedded records"
+    },
+    "timings": {
+      "total": 0.9050401999847963
+    },
+    "error": null
+  },
+  {
+    "id": 11,
+    "question": "Summarize airport performance in H1-26.",
+    "answer": "Airport performance in H1-26 includes a passenger traffic of 123.4M [p4:c66] and a revenue per passenger of $X.XX [p4:c66]. The occupancy rate was 85.2% [p4:c66]. Additionally, the airport EBITDA growth was +7% [p4:c244] and the EBITDA per passenger was $500 [p4:c244]. The average growth in airport performance was 13% [p13:c219].",
+    "is_fallback": false,
+    "citations": [
+      "[p6:c112]",
+      "[p1:c5]",
+      "[p4:c244]",
+      "[p4:c66]",
+      "[p6:c106]",
+      "[p7:c127]",
+      "[p8:c148]",
+      "[p13:c538]",
+      "[p13:c219]",
+      "[p15:c237]"
+    ],
+    "retrieved": [
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c112",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 6,
+        "modality": "text",
+        "score": 0.030679156908665108,
+        "citation": "[p6:c112]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c5",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 1,
+        "modality": "text",
+        "score": 0.02815814850530376,
+        "citation": "[p1:c5]",
+        "source_file": null
+      },
+      {
+        "id": "AELBoardoutcome041120251_copy:c244",
+        "document_id": "AELBoardoutcome041120251_copy",
+        "page_number": 4,
+        "modality": "text",
+        "score": 0.027809742999616416,
+        "citation": "[p4:c244]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c66",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 4,
+        "modality": "text",
+        "score": 0.027051561365286855,
+        "citation": "[p4:c66]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c106",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 6,
+        "modality": "text",
+        "score": 0.026687875574407917,
+        "citation": "[p6:c106]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c127",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 7,
+        "modality": "text",
+        "score": 0.0264301860545992,
+        "citation": "[p7:c127]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c148",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 8,
+        "modality": "text",
+        "score": 0.0261986301369863,
+        "citation": "[p8:c148]",
+        "source_file": null
+      },
+      {
+        "id": "AELBoardoutcome041120251_copy:c538",
+        "document_id": "AELBoardoutcome041120251_copy",
+        "page_number": 13,
+        "modality": "text",
+        "score": 0.02506265664160401,
+        "citation": "[p13:c538]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c219",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 13,
+        "modality": "text",
+        "score": 0.02411038489469862,
+        "citation": "[p13:c219]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c237",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 15,
+        "modality": "text",
+        "score": 0.023268398268398268,
+        "citation": "[p15:c237]",
+        "source_file": null
+      }
+    ],
+    "verifier_report": {
+      "skipped": "text-only runner with imported/re-embedded records"
+    },
+    "timings": {
+      "total": 2.7083918999996968
+    },
+    "error": null
+  },
+  {
+    "id": 12,
+    "question": "Break that down into passenger and cargo changes.",
+    "answer": "To break down the changes into passenger and cargo, we can look at the provided data [p25:c901]. The passenger traffic change is an increase of ↑12% with a value of 120M [p25:c901]. The cargo volume change is an increase of ↑8% with a value of 5.2M tons [p25:c901]. \n\nIn terms of revenue, the passenger segment revenue for Q2 FY26 is $900M [p31:c444] and the cargo segment revenue for Q2 FY26 is $850M [p31:c444]. The year-over-year growth for passenger revenue is 2% [p31:c444] and for cargo revenue is 3% [p31:c444]. \n\nEBITDA for the passenger segment in Q2 FY26 is $4.2B [p29:c417] and for the cargo segment in Q2 FY26 is $1.1B [p29:c417].",
+    "is_fallback": false,
+    "citations": [
+      "[p29:c414]",
+      "[p16:x663]",
+      "[p27:c950]",
+      "[p25:c897]",
+      "[p7:c340]",
+      "[p25:c901]",
+      "[p29:c417]",
+      "[p31:c444]",
+      "[p31:c445]",
+      "[p13:c218]"
+    ],
+    "retrieved": [
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c414",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 29,
+        "modality": "text",
+        "score": 0.04023029439696106,
+        "citation": "[p29:c414]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:external:first_embeddings_import:x663",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 16,
+        "modality": "text",
+        "score": 0.03047794966520434,
+        "citation": "[p16:x663]",
+        "source_file": "first_embeddings.json"
+      },
+      {
+        "id": "AELBoardoutcome041120251_copy:c950",
+        "document_id": "AELBoardoutcome041120251_copy",
+        "page_number": 27,
+        "modality": "text",
+        "score": 0.028068137824235385,
+        "citation": "[p27:c950]",
+        "source_file": null
+      },
+      {
+        "id": "AELBoardoutcome041120251_copy:c897",
+        "document_id": "AELBoardoutcome041120251_copy",
+        "page_number": 25,
+        "modality": "text",
+        "score": 0.027972027972027972,
+        "citation": "[p25:c897]",
+        "source_file": null
+      },
+      {
+        "id": "AELBoardoutcome041120251_copy:c340",
+        "document_id": "AELBoardoutcome041120251_copy",
+        "page_number": 7,
+        "modality": "text",
+        "score": 0.027417840375586856,
+        "citation": "[p7:c340]",
+        "source_file": null
+      },
+      {
+        "id": "AELBoardoutcome041120251_copy:c901",
+        "document_id": "AELBoardoutcome041120251_copy",
+        "page_number": 25,
+        "modality": "text",
+        "score": 0.02690100430416069,
+        "citation": "[p25:c901]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c417",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 29,
+        "modality": "text",
+        "score": 0.026333907056798625,
+        "citation": "[p29:c417]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c444",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 31,
+        "modality": "text",
+        "score": 0.02431476569407604,
+        "citation": "[p31:c444]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c445",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 31,
+        "modality": "text",
+        "score": 0.023128342245989305,
+        "citation": "[p31:c445]",
+        "source_file": null
+      },
+      {
+        "id": "AEL_Earnings_Presentation_Q2-FY26_copy:c218",
+        "document_id": "AEL_Earnings_Presentation_Q2-FY26_copy",
+        "page_number": 13,
+        "modality": "text",
+        "score": 0.01639344262295082,
+        "citation": "[p13:c218]",
+        "source_file": null
+      }
+    ],
+    "verifier_report": {
+      "skipped": "text-only runner with imported/re-embedded records"
+    },
+    "timings": {
+      "total": 11.201001000008546
+    },
+    "error": null
+  }
+]

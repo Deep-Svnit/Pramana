@@ -1,65 +1,39 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextRequest, NextResponse } from 'next/server'
 
-const BACKEND_URL = "http://localhost:8001";
-
-let sessionId: string | null = null;
-
+/**
+ * Sample POST endpoint for chat messages
+ * Replace with your actual RAG implementation
+ */
 export async function POST(request: NextRequest) {
   try {
-    const { message } = await request.json();
+    const { message } = await request.json()
 
     if (!message) {
       return NextResponse.json(
-        { error: "Message is required" },
+        { error: 'Message is required' },
         { status: 400 }
-      );
+      )
     }
 
-    //  STEP 1: Create session if not exists
-    if (!sessionId) {
-      const sessionRes = await fetch(`${BACKEND_URL}/chat/sessions`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          title: "New Chat",
-        }),
-      });
+    // TODO: Replace with your actual RAG logic
+    // This would typically:
+    // 1. Retrieve relevant documents from your vector database
+    // 2. Send them along with the user message to an LLM
+    // 3. Return the generated response
 
-      const sessionData = await sessionRes.json();
-      sessionId = sessionData.id;
-    }
-
-    //  STEP 2: Send message to backend
-    const res = await fetch(
-      `${BACKEND_URL}/chat/sessions/${sessionId}/messages`,
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          content: message,
-        }),
-      }
-    );
-
-    const data = await res.json();
-
-    //  STEP 3: Return formatted response to frontend
-    return NextResponse.json({
-      message: data.assistant_message.content,
-      sources: data.assistant_message.meta?.sources || [],
+    // Placeholder response
+    const response = {
+      message: `This is a simulated response to: "${message}". Connect this endpoint to your RAG system to generate actual responses.`,
+      sources: [],
       timestamp: new Date().toISOString(),
-    });
+    }
 
+    return NextResponse.json(response)
   } catch (error) {
-    console.error("Chat API error:", error);
-
+    console.error('Chat API error:', error)
     return NextResponse.json(
-      { error: "Backend connection failed" },
+      { error: 'Internal server error' },
       { status: 500 }
-    );
+    )
   }
 }

@@ -69,8 +69,13 @@ class IngestedFile(Base):
     id: Mapped[str] = mapped_column(String(36), primary_key=True, default=_uuid)
     original_filename: Mapped[str] = mapped_column(String(512), nullable=False)
     stored_path: Mapped[str] = mapped_column(String(1024), nullable=False)
-    document_id: Mapped[str | None] = mapped_column(String(512), nullable=True)
+    # v1 pipeline metadata (kept for backward-compat with existing DB schema)
+    doc_type: Mapped[str] = mapped_column(String(128), nullable=False, default="document")
+    section: Mapped[str] = mapped_column(String(256), nullable=False, default="general")
+    context: Mapped[str] = mapped_column(Text, nullable=False, default="")
+    document_id: Mapped[str | None] = mapped_column(String(256), nullable=True)
     # pending | completed | failed
     status: Mapped[str] = mapped_column(String(16), default="pending")
     error: Mapped[str | None] = mapped_column(Text, nullable=True)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=_now)
+

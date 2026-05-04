@@ -23,6 +23,8 @@ src/powermind_rag/schema.py
 src/powermind_rag/text_index.py
 src/powermind_rag/verifier.py
 src/powermind_rag/visual_index.py
+src/powermind_rag/visual_understanding.py
 tests/test_device.py
+tests/test_relevance.py
 tests/test_rrf.py
 tests/test_verifier.py
