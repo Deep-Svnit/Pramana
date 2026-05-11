@@ -2,3 +2,7 @@ Qwen/
 .env
 E5_Small/
 Qwen_VL/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/

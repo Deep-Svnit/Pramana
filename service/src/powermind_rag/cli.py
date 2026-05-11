@@ -20,7 +20,7 @@ DEFAULT_QUESTIONS = [
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="PowerMind multimodal RAG")
+    parser = argparse.ArgumentParser(description="Pramana multimodal RAG")
     sub = parser.add_subparsers(dest="command", required=True)
 
     ingest = sub.add_parser("ingest")
@@ -37,7 +37,7 @@ def main() -> None:
 
     embed_data = sub.add_parser(
         "embed-data",
-        help="Generate visual, Mistral OCR, proposition, and E5 proposition embedding records for every PDF in a folder.",
+        help="Generate Mistral OCR, VLM page analysis, proposition, and NVIDIA embedding records for every PDF in a folder.",
     )
     embed_data.add_argument("folder", type=Path)
 
@@ -76,12 +76,12 @@ def main() -> None:
         if args.show_timings:
             print(_format_timing_summary(answer.timings))
     elif args.command == "ask-batch":
-        print("Loading RAG pipeline for batch questions...", flush=True)
+        print("Loading Pramana RAG pipeline for batch questions...", flush=True)
         pipeline = MultimodalRAGPipeline(RAGConfig.from_env())
         print("Loading stored records...", flush=True)
         args.output.parent.mkdir(parents=True, exist_ok=True)
         args.json_output.parent.mkdir(parents=True, exist_ok=True)
-        args.output.write_text("# PowerMind RAG Question Results\n\nStarting batch run...\n", encoding="utf-8")
+        args.output.write_text("# Pramana RAG Question Results\n\nStarting batch run...\n", encoding="utf-8")
         args.json_output.write_text("[]", encoding="utf-8")
         results: list[dict] = []
         try:
@@ -89,7 +89,7 @@ def main() -> None:
         except Exception as exc:
             error_text = f"Batch run failed before questions could be asked: {exc}"
             args.output.write_text(
-                f"# PowerMind RAG Question Results\n\n{error_text}\n",
+                f"# Pramana RAG Question Results\n\n{error_text}\n",
                 encoding="utf-8",
             )
             args.json_output.write_text(json.dumps({"error": error_text}, indent=2), encoding="utf-8")
@@ -169,7 +169,7 @@ def _print_ingest_report(report: dict[str, object]) -> None:
 
 
 def _format_markdown(results: list[dict]) -> str:
-    lines = ["# PowerMind RAG Question Results", ""]
+    lines = ["# Pramana RAG Question Results", ""]
     for item in results:
         lines.extend(
             [

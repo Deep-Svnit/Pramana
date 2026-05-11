@@ -1,7 +1,7 @@
 [project]
-name = "powermind-multimodal-rag"
-version = "0.1.0"
-description = "Production-grade API-first multimodal RAG with NVIDIA embeddings, Mistral OCR, Gemini/NVIDIA VLM, hybrid retrieval, RRF, and CRAG."
+name = "pramana-rag"
+version = "1.0.0"
+description = "Pramana: production-grade API-first multimodal RAG with NVIDIA embeddings, Mistral OCR, Gemini/NVIDIA VLM, hybrid retrieval, RRF, and CRAG."
 requires-python = ">=3.10"
 dependencies = [
   "faiss-cpu>=1.8.0",
@@ -18,6 +18,7 @@ dependencies = [
 ]
 
 [project.scripts]
+pramana-rag = "powermind_rag.cli:main"
 powermind-rag = "powermind_rag.cli:main"
 
 [build-system]
